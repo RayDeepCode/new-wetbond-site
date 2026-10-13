@@ -1620,6 +1620,1177 @@
       "after": "",
       "count": 2,
       "authority": "H1 consequence: dangling link to the removed #track-record section. Melan ruling 7aab06ec; Zola confirmation b782475e (two occurrences); recorded as H1a in the next revision; Maat checks it with Kaya result"
+    },
+    {
+      "row": "E1-1",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "Warranty"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"Lifetime bond warranty. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"mn\"><span class=\"st\"><span class=\"l1 big\">Lifetime</span><span class=\"l2 big\">Bond warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg4\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg4)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Won’t peel, lift or lose its bond</span></a>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-1",
+      "section": "§E",
+      "pages": [
+        "CrawlSpaces",
+        "Floors",
+        "WetSpaces"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"Lifetime bond warranty. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"mn\"><span class=\"st\"><span class=\"l1 big\">Lifetime</span><span class=\"l2 big\">Bond warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg3\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg3)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Won’t peel, lift or lose its bond</span></a>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-1",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"Lifetime bond warranty. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"mn\"><span class=\"st\"><span class=\"l1 big\">Lifetime</span><span class=\"l2 big\">Bond warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg2\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg2)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Won’t peel, lift or lose its bond</span></a>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-2",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "CrawlSpaces",
+        "Floors",
+        "WetSpaces"
+      ],
+      "before": " Every treated surface also carries a lifetime bond warranty: for as long as the treated concrete or masonry is in place, it won’t peel, lift or lose its bond.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-3",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": " Every treated surface carries a lifetime bond warranty, and coverage transfers to the next owner if you sell.",
+      "after": " Coverage transfers to the next owner if you sell.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-4",
+      "section": "§E",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<tr><td data-label=\"Coverage\"><strong>Lifetime Bond Warranty</strong></td><td data-label=\"Term\">For as long as the treated concrete or masonry is in place</td><td data-label=\"Available on\">Every registered job: treated surfaces won’t peel, lift, flake off or lose their bond</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-4",
+      "section": "§E",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<section class=\"{{acc.s3}}\" id=\"lifetime\"><div class=\"wrap narrow\"><h2>Why we can warrant the bond for life</h2><div class=\"cb\"><p class=\"lead\"><strong>Coatings stick to concrete. WetBond bonds into the concrete.</strong></p><p>Paints, epoxies and membranes hold on mechanically: they grip the surface texture of the concrete. Moisture keeps arriving behind them, and vapor pressure and crystallizing minerals push that grip apart over time. That’s why coatings carry short warranties.</p><p>WetBond works differently. It travels into the concrete and reacts there, forming chemical bonds with the concrete itself.</p><p>So the bond lasts as long as the concrete does. That’s how we define lifetime.</p></div><div class=\"tw\"><table><thead><tr><th></th><th>Mechanical bond (coatings)</th><th>Chemical bond (WetBond)</th></tr></thead><tbody><tr><td><strong>Where it holds</strong></td><td data-label=\"Mechanical bond (coatings)\">On the surface</td><td data-label=\"Chemical bond (WetBond)\">Inside the concrete</td></tr><tr><td><strong>How it holds</strong></td><td data-label=\"Mechanical bond (coatings)\">Grips surface texture</td><td data-label=\"Chemical bond (WetBond)\">Reacts and bonds with the concrete</td></tr><tr><td><strong>What breaks it</strong></td><td data-label=\"Mechanical bond (coatings)\">Vapor pressure and salts working behind the film</td><td data-label=\"Chemical bond (WetBond)\">Only the concrete itself failing</td></tr><tr><td><strong>Warranty we give</strong></td><td data-label=\"Mechanical bond (coatings)\">—</td><td data-label=\"Chemical bond (WetBond)\">Lifetime bond warranty</td></tr></tbody></table></div><p class=\"plain\"><em>What “lifetime” means:</em> for as long as the treated concrete or masonry is in place. The bond warranty covers treated surfaces peeling, lifting, flaking off or losing their bond. It doesn’t cover the concrete itself failing, such as new cracks from structural movement, impact, or removal and replacement. Full terms are provided before you sign.</p><button type=\"button\" class=\"more\" onClick=\"{{tg.s3}}\" aria-expanded=\"{{ax.s3}}\">{{lbl.s3}}</button><figure class=\"vf\"><picture><source media=\"(max-width:760px)\" srcset=\"assets/638962894f94ecee35290df1a619080b.webp\"><img src=\"assets/80c4261cb5540d124101aaaf5e76b93b.webp\" width=\"1203\" height=\"862\" alt=\"Cross-sections: paint on the surface, epoxy, WetBond into the concrete.\" loading=\"lazy\" decoding=\"async\" style=\"aspect-ratio:auto;object-fit:contain\"></picture><figcaption>Illustration.</figcaption></figure></div></section>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-5",
+      "section": "§E",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<p><strong>Is there a lifetime warranty?</strong> Yes, on the bond. For as long as the treated concrete or masonry is in place, your treated surfaces won’t peel, lift or lose their bond. Because WetBond bonds chemically inside the concrete, the bond can’t let go unless the concrete itself does.</p>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1-5",
+      "section": "§E",
+      "pages": [
+        "FAQ"
+      ],
+      "before": ", {\"@type\": \"Question\", \"name\": \"What does the lifetime bond warranty cover?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"For as long as the treated concrete or masonry is in place, treated surfaces won’t peel, lift or lose their bond.\"}}",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1b-2",
+      "section": "§E",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": " or the treatment lifting",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1b-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1b-2",
+      "section": "§E",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": ", plus 2 years on any floor finish",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1b-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1b-3",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": " Upgrade to a full basement treatment within 12 months and your repair cost is credited toward it.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1b-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1b-3",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "<p>Every crack, joint or penetration a Certified Dealer repairs carries a 10-year limited warranty on that repair. ",
+      "after": "<p>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E1b-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-1",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "WetBond is designed to be semi-permeable, targeting about 1.1 perms (outside-lab ASTM E96 verification under way): tight enough",
+      "after": "WetBond is designed to let vapor pass: tight enough",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-2",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "\n<p style=\"margin: 10px 0 0; font-size: clamp(48px, 5.4vw, 72px); font-weight: 800; font-stretch: 116%; line-height: 1; letter-spacing: -0.02em; color: #FFFFFF;\">~1.1 perms</p>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-2",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": " A perm measures how much vapor passes through: around 1 means the wall breathes slowly without letting water or damp through.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-3",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "<p>Vapor permeance is measured in perms. WetBond is designed to about 1.1 perms, which would make it Class III, semi-permeable; an outside lab is verifying it by ASTM E96 (codes rate Class I at 0.1 perm or less, Class II above 0.1 to 1.0, Class III above 1.0 to 10). Because the chemistry is tunable, that openness can be set in formulation.</p>",
+      "after": "<p>WetBond is designed to let vapor pass.</p>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-4",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "\n<tr><td data-label=\"Claim\">Semi-permeable to vapor</td><td data-label=\"Evidence\">Designed to about 1.1 perms; ASTM E96 outside-lab verification under way</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-4",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<tr>\n<td data-label=\"Property\">Water vapor permeance</td>\n<td data-label=\"Result\">~1.1 perms (design target)</td>\n<td data-label=\"Method\">ASTM E96, outside-lab verification under way</td>\n</tr>\n",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-4",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Property\">Water vapor permeance</td><td data-label=\"Result\">~1.1 perms (design target)</td><td data-label=\"Method / status\">ASTM E96; outside-lab verification under way</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-4",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Document\">ASTM E96 outside-lab report</td><td data-label=\"Status\">Pending; published on completion</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-4a",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<tr>\n<td data-label=\"Property\">Vapor retarder class</td>\n<td data-label=\"Result\">Class III (semi-permeable) at target</td>\n<td data-label=\"Method\">Per building code classification</td>\n</tr>\n",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-4a; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-4a",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Property\">Vapor retarder class</td><td data-label=\"Result\">Class III (semi-permeable) at target</td><td data-label=\"Method / status\">Code classification at target permeance</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-4a; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-5",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": " Where outside-lab verification is still under way, we say so.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-6",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": " Testing currently under way includes performance against water pressure from the outside of the wall and results in flooring-industry moisture test terms. We'll add them here as they're completed.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E2-7",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<g><rect x=\"254.0\" y=\"19\" width=\"208.0\" height=\"22\" rx=\"11\" fill=\"#1B2730\" stroke=\"#2E3B45\"></rect><circle cx=\"266.0\" cy=\"30\" r=\"4\" fill=\"#7C8389\"></circle><text x=\"275.0\" y=\"33.6\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\".08em\" fill=\"#E6EAEC\">SEALED, STILL BREATHABLE</text></g>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E2-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-1",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "<p class=\"mg-d\">It follows water into the concrete and reacts there.</p>",
+      "after": "<p class=\"mg-d\">It drives into the concrete and reacts there.</p>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "WetBond follows that water into the concrete and reacts there.",
+      "after": "WetBond drives into the concrete and reacts there.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "the material follows the water in.",
+      "after": "the material drives in.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-4",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "reacts, and follows it in.",
+      "after": "reacts, and drives in.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-5",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "WetBond starts on the surface and follows the water into the nearest pores.",
+      "after": "WetBond starts on the surface and drives into the concrete.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-6",
+      "section": "§E",
+      "pages": [
+        "HowItWorks",
+        "Main"
+      ],
+      "before": "It follows moisture into the material and reacts with it, bonding into the concrete itself.",
+      "after": "It drives into the concrete, reacting with the water inside the concrete and bonding into the concrete itself.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-7",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond is engineered to follow water into concrete and masonry and react with it.",
+      "after": "WetBond is engineered to go after water in concrete and masonry and react with it.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-8",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "Applied to concrete that's been pre-wetted, it's drawn into the capillaries with the water, follows them in and pushes the water deeper ahead of it.",
+      "after": "Applied to concrete that's been pre-wetted, it drives into the concrete.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-8; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E3-9",
+      "section": "§E",
+      "pages": [
+        "ProductsPenetrating"
+      ],
+      "before": "WetBond’s embedded treatments follow water into concrete and masonry and react with it.",
+      "after": "WetBond’s embedded treatments are engineered to go after water in concrete and masonry and react with it.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E3-9; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-2a",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<tr>\n<td data-label=\"Property\">Solids content</td>\n<td data-label=\"Result\">100%</td>\n<td data-label=\"Method\">Manufacturer formulation data</td>\n</tr>\n",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-2a; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-2a",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<tr>\n<td data-label=\"Property\">VOC</td>\n<td data-label=\"Result\">Zero</td>\n<td data-label=\"Method\">Manufacturer formulation data</td>\n</tr>\n",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-2a; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-2b",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Property\">Solids</td><td data-label=\"Result\">100%</td><td data-label=\"Method / status\">Manufacturer formulation data</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-2b; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-2b",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Property\">VOC</td><td data-label=\"Result\">Zero; no solvents, no water carrier</td><td data-label=\"Method / status\">Manufacturer formulation data</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-2b; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-2c",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "\n<tr><td data-label=\"Claim\">No solvents, nothing evaporates off</td><td data-label=\"Evidence\">100% solids, zero VOC</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-2c; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-3",
+      "section": "§E",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "WetBond contains no solvents and zero VOCs. Your dealer follows the Safety Data Sheet during application.",
+      "after": "Your dealer follows the Safety Data Sheet during application.",
+      "count": 3,
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-4",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "Zero VOCs, no solvents; applied under the Safety Data Sheet",
+      "after": "Applied under the Safety Data Sheet",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-5",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": " It’s 100% solids and zero VOC: nothing evaporates, so what goes on the wall stays in it.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-6",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "WetBond is a two-part, water-reactive, 100% solids treatment",
+      "after": "WetBond is a two-part, water-reactive treatment",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-7",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<tr><td data-label=\"Choice\">Chemistry on site</td><td data-label=\"The usual way\">Solvent-based coatings that off-gas as they cure</td><td data-label=\"The WetBond way\">Zero VOC, 100% solids: no solvents, no water carrier</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-7",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<li>Published today: zero VOC, 100% solids, no excavation, no wall liners, made in the USA.</li>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E4-8",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "\n<div><dt style=\"font-weight: 800; font-size: 20px;\">100% solids</dt><dd style=\"margin: 4px 0 0; color: #33414B; max-width: 68ch;\">Nothing in the material evaporates as it cures. What goes on the wall is what stays in it.</dd></div>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E4-8; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E6-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<b>$27,405 opening order</b>",
+      "after": "<b>An opening product order in the $25–30K range</b>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E6-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E6-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<b>$27,405</b>",
+      "after": "<b>$25–30K range</b>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E6-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-3",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "Contractors",
+        "CrawlSpaces",
+        "Main",
+        "Warranty"
+      ],
+      "before": "aria-label=\"10-Year Limited Dry Warranty, manufacturer-backed. See the warranty.\"",
+      "after": "aria-label=\"10-Year Limited Warranty, manufacturer-backed. See the warranty.\"",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-1",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "Contractors",
+        "CrawlSpaces",
+        "Main",
+        "Warranty"
+      ],
+      "before": "<span class=\"l2\">Dry warranty</span>",
+      "after": "<span class=\"l2\">Limited warranty</span>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-2",
+      "section": "§E",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<strong>Limited Dry Warranty</strong>",
+      "after": "<strong>Limited Warranty</strong>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-4",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "Illustration: plastic traps moisture; a treated wall stays dry",
+      "after": "Illustration: plastic traps moisture",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-5",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "and the water stops at it. The basement stays dry.",
+      "after": "and the water stops at it.",
+      "count": 2,
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-6",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "<foreignObject x=\"716\" y=\"284\" width=\"170\" height=\"50\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Archivo,Helvetica,sans-serif;font-size:12px;line-height:1.35;color:#A9B4BB\">The room-side face stays dry.</div></foreignObject>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-6",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "<foreignObject x=\"716\" y=\"134\" width=\"170\" height=\"50\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"font-family:Archivo,Helvetica,sans-serif;font-size:12px;line-height:1.35;color:#A9B4BB\">The room-side face stays dry.</div></foreignObject>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-6",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "<text x=\"0\" y=\"706.4363636363637\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"24\" font-weight=\"500\" fill=\"#A9B4BB\">The room-side face stays dry.</text>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-6",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "<text x=\"0\" y=\"362.21818181818185\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"24\" font-weight=\"500\" fill=\"#A9B4BB\">The room-side face stays dry.</text>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E7-7",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<text x=\"387.0\" y=\"174.0\" text-anchor=\"middle\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"10\" font-weight=\"700\" letter-spacing=\".08em\" fill=\"#C9D1D6\">DRY ON THE ROOM SIDE</text>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E7-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E8-7",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "Contractors",
+        "CrawlSpaces",
+        "Warranty"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"Extend to 15 years, optional upgrade. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"pre\">EXTEND TO</span><span class=\"mn\"><b class=\"nm\">15</b><span class=\"st\"><span class=\"l1\">Years</span><span class=\"l2\">Optional upgrade</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg2\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg2)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Basements and crawl spaces</span></a>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E8-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-1",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "Contractors",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "<span style=\"margin-left:8px;display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #3A4852;border-radius:999px;font-size:13px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#E6EAEC\"><svg viewBox=\"0 0 28 18\" width=\"24\" height=\"16\" aria-hidden=\"true\"><rect width=\"28\" height=\"18\" rx=\"2\" fill=\"#B22234\"></rect><g fill=\"#FFFFFF\"><rect y=\"2.8\" width=\"28\" height=\"1.4\"></rect><rect y=\"5.6\" width=\"28\" height=\"1.4\"></rect><rect y=\"8.4\" width=\"28\" height=\"1.4\"></rect><rect y=\"11.2\" width=\"28\" height=\"1.4\"></rect><rect y=\"14\" width=\"28\" height=\"1.4\"></rect></g><rect width=\"12\" height=\"9.8\" fill=\"#3C3B6E\"></rect></svg>Made in the USA</span>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-1",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<tr><td data-label=\"Choice\">Supply chain</td><td data-label=\"The usual way\">Varies by product</td><td data-label=\"The WetBond way\">Made in the USA</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-2",
+      "section": "§E",
+      "pages": [
+        "About"
+      ],
+      "before": "Certified Dealers. Made in the USA.\"",
+      "after": "Certified Dealers.\"",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-3",
+      "section": "§E",
+      "pages": [
+        "About"
+      ],
+      "before": "WetBond is made in the USA and installed only by",
+      "after": "WetBond is installed only by",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<b>Made in the USA</b>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "manufactures WetBond in the USA and runs",
+      "after": "manufactures WetBond and runs",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-5",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "WetBond Systems manufactures in the USA, what it does",
+      "after": "WetBond Systems manufactures, what it does",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E9-5",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "Made in the USA by WetBond Systems, the manufacturer.",
+      "after": "Made by WetBond Systems, the manufacturer.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E9-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-1",
+      "section": "§E",
+      "pages": [
+        "About"
+      ],
+      "before": "<p>The chemistry behind WetBond has more than a decade of use on two continents, in infrastructure, industrial, municipal, commercial and residential work. We manufacture",
+      "after": "<p>We manufacture",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-2",
+      "section": "§E",
+      "pages": [
+        "Book"
+      ],
+      "before": "\n<li><strong>What changed.</strong> Reactive chemistry with more than a decade of field use on two continents, now available for homes.</li>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-3",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "And it isn’t experimental. The chemistry has more than a decade of use on two continents, in infrastructure, industrial, municipal, commercial and residential work.",
+      "after": "It never made it into the residential basement trade. That's the opening.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "\n<div><span class=\"ti\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18\"></path><path d=\"M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z\"></path></svg></span><b>Proven chemistry</b>More than a decade of use on two continents</div>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>The chemistry behind WetBond has more than a decade of use on two continents, in infrastructure, industrial, municipal and commercial work, including state DOT research on bridge parapet walls. Until now it has mostly stayed in that world.</p>",
+      "after": "<p>It never made it into the residential basement trade. That's the opening.</p>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-6",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>A water-reactive chemistry family with more than a decade of commercial and industrial use and state DOT research, now brought to residential work through Certified Dealers.</p>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-7",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "a method your competitors haven’t seen, backed by a track record you can point to.",
+      "after": "a method your competitors haven’t seen.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-8",
+      "section": "§E",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "WetBond is built on reactive chemistry with more than a decade of use on two continents, in infrastructure, industrial, municipal, commercial and residential work. What’s new",
+      "after": "It never made it into the residential basement trade. What’s new",
+      "count": 3,
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-8; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-9",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "\n<h3 style=\"margin: 0; flex: 1 1 340px; font-size: clamp(30px, 3.6vw, 44px); line-height: 1.04; font-weight: 800; font-stretch: 114%; color: #FFFFFF;\">Proven in the field. Now built for homes.</h3>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-9; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-10",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "\n<p style=\"margin: 16px 0 0;\">The chemistry behind it has more than a decade of use on two continents, from infrastructure to homes. What’s new is bringing it to homeowners, one Certified Dealer at a time.</p>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-10; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E10-11",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "\n<tr><td data-label=\"Claim\">Proven outside the lab</td><td data-label=\"Evidence\">More than a decade of field use on two continents: infrastructure, industrial, municipal, commercial and residential</td></tr>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E10-11; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div><i class=\"k\">WetBond material</i><b>≈ {{c.gal}} gal</b></div>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div><i class=\"k\">Material cost</i><b>≈ ${{c.cost}}</b></div>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div><i class=\"k\">Application</i><b>{{c.days}}</b></div>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "\n<p>Material only, at about $1.12 per sq ft (about 200 sq ft per gallon); exact pricing on your call. Labor, prep and repairs are yours to price. This is a material estimate, not an earnings claim.</p>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " const gal=Math.ceil(area/200);",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " const cost=Math.round(area*1.12);",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " const days=area<=2600?\"Usually 1 day\":area<=5200?\"About 2 days\":\"Multi-day\";",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ",gal:fmt(gal)",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ",cost:fmt(cost)",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E11-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ",days, setP:",
+      "after": ", setP:",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E11-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-1",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "so water stops before it reaches the room. No trench, no jackhammer, and it goes on in a single day.",
+      "after": "so water stops before it reaches the room.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-2",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "<b>No trench, no jackhammer</b>",
+      "after": "<b>Applied from the inside</b>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-2; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-3",
+      "section": "§E",
+      "pages": [
+        "Compare"
+      ],
+      "before": " No trench, no pit, and WetBond goes on in a day.",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-3; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-17",
+      "section": "§E",
+      "pages": [
+        "Compare"
+      ],
+      "before": "WetBond stops water within the wall, so there's nothing to catch and nothing to pump.",
+      "after": "WetBond stops water within the wall.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-17; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-4",
+      "section": "§E",
+      "pages": [
+        "Compare"
+      ],
+      "before": "It works from the inside, with no digging, and stops water",
+      "after": "It works from the inside and stops water",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-4; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-5",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "applied in a day, without a trench, a jackhammer or a sump pit, and backed by",
+      "after": "applied in a day, and backed by",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-5; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-6",
+      "section": "§E",
+      "pages": [
+        "DealerApply"
+      ],
+      "before": "WetBond adds a one-day option with no trench.",
+      "after": "WetBond adds a one-day option.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-6; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-7",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "Waterproof basements and floors from the inside, with no trench and no pump.",
+      "after": "Waterproof basements and floors from the inside.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-7; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-8",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span>Applied in a day, no excavation</span>",
+      "after": "<span>Applied in a day</span>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-8; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-9",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span>No trench, no sump pit, no excavation</span>",
+      "after": "<span>Applied from the inside</span>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-9; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-10",
+      "section": "§E",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "No. WetBond is applied from the inside. There's no excavation and no trench.",
+      "after": "WetBond is applied from the inside.",
+      "count": 3,
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-10; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-11",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "No trench, no jackhammer, no digging up the yard. WetBond goes on",
+      "after": "WetBond goes on",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-11; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-12",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "Applied from the inside. No trench, no jackhammer, no excavation of walks, parking or landscaping.",
+      "after": "Applied from the inside.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-12; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-13",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": ">No trench. No jackhammer. No dug-up yard.</h2>",
+      "after": ">Applied from the inside.</h2>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-13; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-14",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "react with it. Nothing to pump or dig.</p>",
+      "after": "react with it.</p>",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-14; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-15",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<figure class=\"au-fig\"><img srcset=\"assets/d37d146b7b4c720a6f9bfb0e6071a774.webp 960w, assets/9e0657062a900f8fe1cdd39ff3ab1e56.webp 1920w\" sizes=\"(max-width: 900px) 100vw, 760px\" decoding=\"async\" src=\"assets/9e0657062a900f8fe1cdd39ff3ab1e56.webp\" width=\"1920\" height=\"1086\" alt=\"Exterior waterproofing excavation at a suburban house: a trench dug to the footing, soil piled on the torn-up lawn, an excavator and a dump truck.\" loading=\"lazy\"><figcaption>What “no excavation” avoids. Photo illustration</figcaption></figure>",
+      "after": "",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-15; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-16",
+      "section": "§E",
+      "pages": [
+        "CityPittsburgh"
+      ],
+      "before": "Most basements are done in a day, with nothing dug up.",
+      "after": "Most basements are done in a day.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-16; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E12-18",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "WetBond bonds into the concrete. No pump to service.",
+      "after": "WetBond bonds into the concrete.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E12-18; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E15-1",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "The kind of bond that holds molecules together, much stronger than surface adhesion.",
+      "after": "The kind of bond that holds molecules together.",
+      "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E15-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
     }
   ],
   "allowedMetadataDeltas": [
