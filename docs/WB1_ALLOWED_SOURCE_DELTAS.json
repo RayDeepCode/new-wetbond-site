@@ -3806,6 +3806,76 @@
       "before": "<span class=\"eyb dk\"><b class=\"chn\">01</b> See the difference</span>",
       "after": "<span class=\"eyb dk\"><b class=\"chn\">01</b></span>",
       "authority": "Zola §E r1.13 34ee4bc3 row E23-1; Maat 73505b22; Melan 8438dd59"
+    },
+    {
+      "row": "E24-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"hd\"><span class=\"eyb\">The path to exclusivity</span><h2 style=\"margin-top:10px\">Exclusivity is earned, never sold.</h2><p>No one can buy your market out from under you, and you never pay for territory. You earn it by doing the work.</p></div>\n",
+      "after": "",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-1 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<li>Gallons count toward Certified within 60 days</li>",
+      "after": "",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-2 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"ls\"><span class=\"li\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21s-7-6.4-7-12a7 7 0 0 1 14 0c0 5.6-7 12-7 12z\"></path><circle cx=\"12\" cy=\"9\" r=\"2.5\"></circle></svg></span><span class=\"k\">Step 3</span><h3>Master Dealer</h3><p>Reach the volume threshold and your area becomes exclusive: we stop appointing new dealers there.</p><ul><li>500,000-person area</li><li>Kept by volume, with notice and a cure period</li></ul></div>\n",
+      "after": "",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-3 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"exv\">\n<svg viewBox=\"0 0 560 300\" role=\"img\" aria-label=\"Monthly gallons needed to earn and keep Master Dealer exclusivity: 100 in year 1, 125 in year 2, 150 from year 3.\"><rect width=\"560\" height=\"300\" rx=\"16\" fill=\"#0E161C\"></rect><text x=\"28\" y=\"44\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#9CC0EA\" letter-spacing=\"1\">GALLONS PER MONTH TO EARN AND KEEP MASTER DEALER</text><text x=\"28\" y=\"66\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"14\" fill=\"#A9B4BB\">Standard 500,000-person area. Slab and floor gallons count.</text><g font-family=\"Archivo, Helvetica, sans-serif\"><rect x=\"60\" y=\"167\" width=\"110\" height=\"93\" rx=\"6\" fill=\"#2F74C8\"></rect><text x=\"115\" y=\"155\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"800\" fill=\"#FFFFFF\">100</text><text x=\"115\" y=\"284\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#A9B4BB\">YEAR 1</text><rect x=\"225\" y=\"144\" width=\"110\" height=\"116\" rx=\"6\" fill=\"#2F74C8\"></rect><text x=\"280\" y=\"132\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"800\" fill=\"#FFFFFF\">125</text><text x=\"280\" y=\"284\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#A9B4BB\">YEAR 2</text><rect x=\"390\" y=\"121\" width=\"110\" height=\"139\" rx=\"6\" fill=\"#2F74C8\"></rect><text x=\"445\" y=\"109\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"800\" fill=\"#FFFFFF\">150</text><text x=\"445\" y=\"284\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#A9B4BB\">YEAR 3+</text><line x1=\"40\" y1=\"260\" x2=\"530\" y2=\"260\" stroke=\"#2E3B45\" stroke-width=\"2\"></line></g></svg>\n<div class=\"exl\">\n<div><span class=\"xi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 21s-7-6.4-7-12a7 7 0 0 1 14 0c0 5.6-7 12-7 12z\"></path><circle cx=\"12\" cy=\"9\" r=\"2.5\"></circle></svg></span><b>No new WetBond dealers in your area</b><span>Once you've earned it, we stop appointing dealers into your Exclusive Area.</span></div>\n<div><span class=\"xi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 11l9-7 9 7\"></path><path d=\"M5.5 9.5V20h13V9.5\"></path><path d=\"M10 20v-5h4v5\"></path></svg></span><b>About ten average basements a month</b><span>That's what 100 gallons covers. Smaller markets get a proportionally smaller threshold.</span></div>\n<div><span class=\"xi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 17l6-6 4 4 8-8\"></path><path d=\"M15 7h6v6\"></path></svg></span><b>Your best pricing comes with it</b><span>Volume pricing bands open at 500 and 1,200 gallons a year, to any dealer who reaches them.</span></div>\n<div><span class=\"xi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3l8.5 4.5v9L12 21l-8.5-4.5v-9z\"></path><path d=\"M3.5 7.5L12 12l8.5-4.5M12 12v9\"></path></svg></span><b>You never lose access to product</b><span>Miss the threshold and there's a notice and cure period first. Your right to buy and install stays.</span></div>\n</div>\n</div>\n",
+      "after": "",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-4 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>Yes. Slab and floor dealers can certify too, and slab and floor gallons count toward your exclusivity threshold.</p>",
+      "after": "<p>Yes. Slab and floor dealers can certify too.</p>",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-5 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-6",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "        { q: 'Is there a territory?', a: 'No territory is sold at any level. High-volume dealers can earn exclusive areas over time, and we can walk you through how on the call.' },\n",
+      "after": "",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-6 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-7",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "a: 'You keep buying and installing. Volume affects your pricing band and any exclusive area, never your right to buy the product.' }",
+      "after": "a: 'You keep buying and installing.' }",
+      "authority": "Zola §E r1.13 34ee4bc3 row E24-7 with Maat corrected selectors c99be947; Melan 848772da"
     }
   ],
   "allowedMetadataDeltas": [
