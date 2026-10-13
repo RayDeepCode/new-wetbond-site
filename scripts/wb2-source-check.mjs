@@ -13,11 +13,14 @@ const deltas=[
  {row:'WB-2 approved transfer Cost',pages:['Warranty'],before:'Free when registered within 60 days of closing. After 60 days, a $95 re-registration and a free condition check by a Certified Dealer',after:'There is no fee and no deadline.'},
  {row:'WB-2 approved transfer How',pages:['Warranty'],before:'Register the new owner with WetBond online or by phone',after:'This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands.'}
 ];
+// Approved claims-debt rows (Zola r2.1 ae1a2249, Maat SHIP 62252bd3), enumerated in docs/WB1_ALLOWED_SOURCE_DELTAS.json and applied after the rows above.
+const claimsDebt=JSON.parse(await readFile(root+'/docs/WB1_ALLOWED_SOURCE_DELTAS.json','utf8')).allowedClaimsDebtDeltas??[];
+deltas.push(...claimsDebt);
 let socials=0;const evidence=[];
 for(const file of pages){
  const name=file.replace('.dc.html','');let expected=execFileSync('git',['show',baseline+':wbsite/'+file],{cwd:root,encoding:'utf8'});
  expected=expected.replace(/<a\b(?=[^>]*\bhref="#")(?=[^>]*\bdata-social=)[^>]*>[\s\S]*?<\/a>/g,()=>{socials++;return '';});
- for(const d of deltas.filter(d=>d.pages.includes(name))){assert.equal(expected.split(d.before).length-1,1,d.row+' '+name);expected=expected.replace(d.before,d.after);evidence.push({page:name,...d});}
+ for(const d of deltas.filter(d=>d.pages.includes(name))){assert.equal(expected.split(d.before).length-1,d.count??1,d.row+' '+name);expected=expected.split(d.before).join(d.after);if(!claimsDebt.includes(d))evidence.push({page:name,...d});}
  const actual=await readFile(root+'/wbsite/'+file,'utf8');
  if(name!=='DealerApply')assert.equal(actual,expected,name+' has an unapproved source delta');
 }
@@ -31,5 +34,5 @@ for(let trade=0;trade<7;trade++)for(let crew=0;crew<4;crew++)for(let vol=0;vol<5
 }
 for(const step of [4,5]){const c=new Component({});c.state={step,a:{crew:0,rev:0,cap:0,time:0},apps:[0]};const v=c.renderVals();v.next();assert.equal(c.state.step,step,'Old revenue/capital state must not satisfy new answers');}
 await mkdir(root+'/reports',{recursive:true});
-await writeFile(root+'/reports/WB1_ALLOWED_SOURCE_DELTAS.json',JSON.stringify({baseline,socialsRemoved:socials,nonDealerApplySources:'byte-exact after enumerated authorized replacements',allowedTransferDeltas:evidence,allowedMetadataDeltas:[{page:'ProductsPenetrating',change:'meta description removed, held claim WB-C10'},{page:'ProductsRepair',change:'meta description trimmed to last full sentence; no new words'},{pages:['ProductsPenetrating','Technical','Contractors','Warranty'],change:'No og:description or twitter:description emitted; Zola/Nova ruling 145539bc/c32a3e7b/9f5eae7f'}],dealerApply:{authorization:'B4/B5 Maat a0439e9b',routingCases:cases,staleAnswerChecks:2}},null,2)+'\n');
-console.log({pages:pages.length,socialsRemoved:socials,routingCases:cases,unapprovedSourceChanges:0});
+await writeFile(root+'/reports/WB1_ALLOWED_SOURCE_DELTAS.json',JSON.stringify({baseline,socialsRemoved:socials,nonDealerApplySources:'byte-exact after enumerated authorized replacements',allowedTransferDeltas:evidence,allowedClaimsDebtDeltas:claimsDebt,allowedMetadataDeltas:[{page:'ProductsPenetrating',change:'meta description removed, held claim WB-C10'},{page:'ProductsRepair',change:'meta description trimmed to last full sentence; no new words'},{pages:['ProductsPenetrating','Technical','Contractors','Warranty'],change:'No og:description or twitter:description emitted; Zola/Nova ruling 145539bc/c32a3e7b/9f5eae7f'}],dealerApply:{authorization:'B4/B5 Maat a0439e9b',routingCases:cases,staleAnswerChecks:2}},null,2)+'\n');
+console.log({pages:pages.length,socialsRemoved:socials,routingCases:cases,claimsDebtRows:new Set(claimsDebt.map(d=>d.row)).size,unapprovedSourceChanges:0});

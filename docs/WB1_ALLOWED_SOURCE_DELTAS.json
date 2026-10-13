@@ -84,6 +84,7 @@
       "after": "This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands."
     }
   ],
+  "allowedClaimsDebtDeltas": [],
   "allowedMetadataDeltas": [
     {
       "page": "ProductsPenetrating",
