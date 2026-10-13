@@ -3076,6 +3076,396 @@
       "before": "<div style=\"background: #162028; padding: 32px;\">\n<p style=\"margin: 0; font-size: 16px; color: #A9B4BB;\">Vapor permeance, target</p>\n<p style=\"margin: 14px 0 0; color: #A9B4BB;\">Stops water and wicking moisture. Lets vapor pass slowly.</p>\n</div>\n",
       "after": "",
       "authority": "Melan c17ad00a empty-container ruling (Maat standing condition); logged as E20 in Zola r1.7 f0ab5691"
+    },
+    {
+      "row": "E19-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"hd\"><span class=\"eyb dk\">The contractor’s dilemma</span><h2 style=\"margin-top:10px\">Cutting edge, with a decade in the field. That almost never happens.</h2><p>Every contractor knows the trap. The products homeowners and inspectors trust are the old ones, and they’re old for a reason: proving something in the field takes years. The genuinely new products haven’t had those years yet, so you’re the one taking the risk on someone’s basement. Usually you get one or the other.</p></div><div class=\"dq\"><div class=\"dq-y\">More field history →</div><div class=\"dq-x\">More innovation →</div><div class=\"dq-g\"><div class=\"dqc\"><b>Proven, but old</b><p>Drain tile, membranes, paints and coatings. Decades of history, and the same limits they’ve always had.</p></div><div class=\"dqc wb\"><span class=\"dqt\">Where WetBond sits</span><b>New to your market, proven in the field</b></div><div class=\"dqc dim\"><b>Neither</b><p>Commodity products with nothing new and nothing to prove.</p></div><div class=\"dqc\"><b>New, but unproven</b><p>The breakthrough product with a great demo and no job history. You find out in year three.</p></div></div></div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-1; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3 class=\"sub3\">The track record</h3>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-2; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " The contractors who certify first in each county are the ones homeowners will find first.</p>",
+      "after": "</p>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-2; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"tl\">\n<div><b>Circa 2010</b><span>Rescued a retail slab emitting more than twice the moisture conventional coatings tolerate, in time for a grand opening.</span></div>\n<div><b>2021</b><span>One of two top performers in an Ohio DOT and University of Cincinnati bridge study.</span></div>\n<div class=\"on\"><b>Today: residential contractors, nationwide</b><span>Basements, floors and flatwork, through WetBond Certified Dealers.</span></div>\n</div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-3; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<li><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" style=\"flex:0 0 auto;margin-top:2px\"><circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#1E63B5\"></circle><path d=\"M7 12.5l3.2 3.2L17 9\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg><span>About 10 gallons for an average full basement</span></li>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-5; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-6",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"stat\"><b>~10 gal</b><span>Of material for an average full basement, walls and floor. Porous walls take more.</span></div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-6; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-7",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"stat\"><b>0</b><span>Trenches, sump pits or excavators. Most of the kit is already on your truck.</span></div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-7; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-8",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "then pre-wetted so it’s evenly damp for the material to follow.",
+      "after": "then pre-wetted so it’s evenly damp.",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-8; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-20",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>On basements: no demolition, trench or pump, and usually one day on the wall, so there is less labor and equipment in every job and room to price against a drain-tile bid. On floors: no waiting out a wet slab and no declining it. Run it on a job you know, with your own numbers.</p>",
+      "after": "<p>On basements: usually one day on the wall, so there is less labor and equipment in every job and room to price against a drain-tile bid. Run it on a job you know, with your own numbers.</p>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-20; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-30",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>On basements: usually one day on the wall, so there is less labor and equipment in every job and room to price against a drain-tile bid. Run it on a job you know, with your own numbers.</p>",
+      "after": "<p>On basements: usually one day on the wall. Run it on a job you know, with your own numbers.</p>",
+      "authority": "Zola §E r1.9 569643ad row E19-30; Maat SHIP 05cabbf8; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-21",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>And today, in most cities, nobody offers embedded waterproofing at all. The homeowner with a wet basement is choosing between a jackhammer and a coating that peels. The contractor who certifies first becomes the one homeowners, inspectors and remodelers in that area find, and there are only a few seats.</p>",
+      "after": "<p>The homeowner with a wet basement is choosing between a jackhammer and a coating that peels.</p>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-21; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-4",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "<a href=\"FieldData.dc.html\"><b>Field data</b><span>A decade of jobs and test results</span></a>",
+      "after": "<a href=\"FieldData.dc.html\"><b>Field data</b></a>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-4; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-6",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<div style=\"flex: 1 1 240px; padding: 26px; border-left: 1px solid #2E3B45;\">\n<p style=\"margin: 0; font-size: clamp(40px, 4.6vw, 58px); font-weight: 800; font-stretch: 114%; line-height: 1; color: #FFFFFF;\">~10 gal</p>\n<p style=\"margin: 12px 0 0; color: #C9D1D6;\">Of material for an average full basement, walls and floor. More porous walls take more.</p>\n</div>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-6; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-7",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<div style=\"flex: 1 1 240px; padding: 26px; border-left: 1px solid #2E3B45;\">\n<p style=\"margin: 0; font-size: clamp(40px, 4.6vw, 58px); font-weight: 800; font-stretch: 114%; line-height: 1; color: #FFFFFF;\">0</p>\n<p style=\"margin: 12px 0 0; color: #C9D1D6;\">Trenches, sump pits or excavation. The work happens on the inside face of the wall.</p>\n</div>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-7; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-9",
+      "section": "§E",
+      "pages": [
+        "Compare"
+      ],
+      "before": "Digging seals the outside. WetBond treats from inside, with no digging.",
+      "after": "Digging seals the outside. WetBond treats from inside.",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-9; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-10",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<td data-label=\"The WetBond way\">Applied from the inside: no digging, no hauling, nothing rebuilt</td>",
+      "after": "<td data-label=\"The WetBond way\">Applied from the inside</td>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-10; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-11",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<li><strong>No solvents, no water carrier:</strong> what's applied is what stays</li>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-11; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-12",
+      "section": "§E",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "10 years on the treated concrete; 2 years on any floor finish",
+      "after": "10 years on the treated concrete",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-12; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-13",
+      "section": "§E",
+      "pages": [
+        "Floors"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"2-Year Limited Finish Warranty. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"mn\"><b class=\"nm\">2</b><span class=\"st\"><span class=\"l1\">Year limited</span><span class=\"l2\">Finish warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg2\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg2)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Floor Finish appearance and wear</span></a>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-13; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-13",
+      "section": "§E",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"2-Year Limited Finish Warranty. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"mn\"><b class=\"nm\">2</b><span class=\"st\"><span class=\"l1\">Year limited</span><span class=\"l2\">Finish warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg9\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg9)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Floor Finish appearance and wear</span></a>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-13; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-14",
+      "section": "§E",
+      "pages": [
+        "Contractors",
+        "Floors",
+        "Warranty"
+      ],
+      "before": "<span class=\"f\">Against moisture-driven delamination</span>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-14; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-15",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "Contractors",
+        "CrawlSpaces",
+        "Main",
+        "Warranty"
+      ],
+      "before": "<span class=\"l1\">Year limited</span><span class=\"l2\">Limited warranty</span>",
+      "after": "<span class=\"l1\">Year</span><span class=\"l2\">Limited warranty</span>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-15; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-16",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "<div><span class=\"hi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M5.7 5.7l12.6 12.6\"></path></svg></span><b>Applied from the inside</b><span>Applied from the inside</span></div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-16; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-19",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "<div><span class=\"hi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M12 7v5l3.2 2\"></path></svg></span><b>Usually one day on site</b><span>Plus any repairs first</span></div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-19; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-22",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "<p>Been told your basement is too wet to fix without digging? WetBond was made for exactly that. It’s engineered to work with water, not wait for it to dry.</p>",
+      "after": "<p>It’s engineered to work with water, not wait for it to dry.</p>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-22; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-17",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<p class=\"lead\"><strong>The treated concrete becomes something new.</strong></p>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-17; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-18",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<p class=\"plain\"><em>In plain terms: the wall itself becomes waterproof.</em></p>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-18; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-18",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<p style=\"margin: 14px 0 0; font-size: 18px; color: #FFFFFF; border-left: 3px solid #7C8389; padding-left: 14px;\">In plain terms: the wall itself becomes waterproof.</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-18; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-23",
+      "section": "§E",
+      "pages": [
+        "CityPittsburgh"
+      ],
+      "before": "<h1>Basement waterproofing in Pittsburgh, without the digging.</h1>",
+      "after": "<h1>Basement waterproofing in Pittsburgh.</h1>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-23; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-24",
+      "section": "§E",
+      "pages": [
+        "CityPittsburgh"
+      ],
+      "before": "content=\"Basement waterproofing in Pittsburgh without digging: WetBond treats fieldstone, block and poured walls from the inside, applied by a Certified Dealer.\"",
+      "after": "content=\"WetBond treats fieldstone, block and poured walls from the inside, applied by a Certified Dealer.\"",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-24; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-25",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "<p>WetBond fixes the concrete from the inside, without excavation and usually one area per day, with the documentation your owners, insurers and files need.</p>",
+      "after": "<p>WetBond fixes the concrete from the inside, usually one area per day, with the documentation your owners, insurers and files need.</p>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-25; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-29",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "<p>WetBond fixes the concrete from the inside, usually one area per day, with the documentation your owners, insurers and files need.</p>",
+      "after": "<p>WetBond fixes the concrete from the inside, with the documentation your owners, insurers and files need.</p>",
+      "authority": "Zola §E r1.9 569643ad row E19-29; Maat SHIP 05cabbf8; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-26",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "<div class=\"cb\"><p class=\"lead\"><strong>One crew, usually one day, nothing dug up.</strong></p></div>",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-26; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-27",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<p>A free photo check tells you what your foundation needs, and a Certified Dealer can keep it dry without digging, wrapping or replacing.</p>",
+      "after": "<p>A free photo check tells you what your foundation needs.</p>",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-27; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E19-28",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<li><strong>Tunable chemistry:</strong> vapor permeance can be set in formulation</li>\n",
+      "after": "",
+      "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-28; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
     }
   ],
   "allowedMetadataDeltas": [
