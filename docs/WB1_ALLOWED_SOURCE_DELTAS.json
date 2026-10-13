@@ -1030,6 +1030,127 @@
       "before": "The treated depth becomes part of the concrete. No pump to service, no film to peel and recoat.",
       "after": "WetBond bonds into the concrete. No pump to service.",
       "authority": "Zola WB claims-debt wording r2.1 row P30; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B1",
+      "section": "§B",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div><span class=\"ti\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"26\" height=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4l-1.1 1.1\"></path><path d=\"M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.1-1.1\"></path></svg></span><b>Concrete fails first</b>In 450 psi pull tests, the bond outlasts the concrete</div>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B1; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B2",
+      "section": "§B",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p style=\"font-size:19px;color:#33414B\">In 450 psi pull tests the concrete breaks before the bond does.</p>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B2; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B3",
+      "section": "§B",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "reacting with the water inside the concrete and bonding there; in pull tests, the concrete breaks first.",
+      "after": "reacting with the water inside the concrete and bonding into the concrete itself.",
+      "count": 3,
+      "authority": "Zola WB claims-debt wording r2.1 row B3; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B4",
+      "section": "§B",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Property\">Bond strength</td><td data-label=\"Result\">450 psi, failure in the concrete</td><td data-label=\"Method / status\">Pull-off adhesion test</td></tr>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B4",
+      "section": "§B",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<tr>\n<td data-label=\"Property\">Bond strength</td>\n<td data-label=\"Result\">450 psi, failure in the concrete</td>\n<td data-label=\"Method\">Pull-off adhesion test</td>\n</tr>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B5",
+      "section": "§B",
+      "pages": [
+        "Science"
+      ],
+      "before": "<tr><td data-label=\"Claim\">Bonds more strongly than the concrete holds together</td><td data-label=\"Evidence\">Pull-off test: 450 psi, failure in the concrete</td></tr>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B5; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B6",
+      "section": "§B",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": " In pull tests the concrete breaks first, at 450 psi. Groundwater presses on a basement wall at a few psi.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B6; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B7",
+      "section": "§B",
+      "pages": [
+        "Main"
+      ],
+      "before": "<div style=\"background: #162028; padding: 32px;\">\n<p style=\"margin: 0; font-size: 16px; color: #A9B4BB;\">Bond strength, pull-off test</p>\n<p style=\"margin: 10px 0 0; font-size: clamp(48px, 5.4vw, 72px); font-weight: 800; font-stretch: 116%; line-height: 1; letter-spacing: -0.02em; color: #FFFFFF;\">450 psi</p>\n<p style=\"margin: 14px 0 0; color: #A9B4BB;\">The concrete failed before the bond did. In plain terms: the concrete breaks before WetBond lets go.</p>\n</div>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B7; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B8",
+      "section": "§B",
+      "pages": [
+        "Main"
+      ],
+      "before": "<div style=\"margin-top: 32px; background: #0E161C; border: 1px solid #2E3B45; border-radius: 10px; padding: 32px; display: flex; flex-wrap: wrap; gap: 24px 48px;\"><div style=\"flex: 1 1 320px;\"><h3 style=\"margin: 0; font-size: clamp(24px, 2.6vw, 32px); line-height: 1.1; font-weight: 800; font-stretch: 112%; color: #FFFFFF;\">450 psi against what, exactly?</h3><p style=\"margin: 14px 0 0; color: #A9B4BB;\">Water pressure sounds dramatic, but it’s modest: about 0.43 psi per foot of depth. Eight feet of groundwater pushes about 3.5 psi at the base of a wall, whether it’s a soaked yard or a lake. Only depth matters.</p></div><div style=\"flex: 1.4 1 420px;\"><div style=\"margin-top: 18px;\"><div style=\"display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 16px; color: #C9D1D6;\"><span>Water pressure at the base of an 8 ft wall</span><span style=\"color: #FFFFFF; font-weight: 700;\">~3.5 psi</span></div><div style=\"margin-top: 8px; height: 14px; background: #22303A; border-radius: 7px; overflow: hidden;\"><div style=\"height: 100%; width: 0.8%; min-width: 5px; background: #1E63B5; border-radius: 7px;\"></div></div></div><div style=\"margin-top: 18px;\"><div style=\"display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 16px; color: #C9D1D6;\"><span>WetBond pull-off test</span><span style=\"color: #FFFFFF; font-weight: 700;\">450 psi</span></div><div style=\"margin-top: 8px; height: 14px; background: #22303A; border-radius: 7px; overflow: hidden;\"><div style=\"height: 100%; width: 100%; min-width: 5px; background: #7C8389; border-radius: 7px;\"></div></div><p style=\"margin: 6px 0 0; font-size: 15px; color: #A9B4BB;\">A steel disc glued to the treated surface was pulled straight off. The concrete tore at 450 psi before the bond let go, so the bond is at least that strong.</p></div><p style=\"margin: 18px 0 0; font-size: 15px; color: #A9B4BB;\">Coatings rarely fail from that push. They fail because vapor and crystallizing minerals keep lifting them from behind. WetBond is embedded 0.7 to 1 inch inside the concrete, so there’s no film to lift. A pull test isn’t a water-pressure rating; that test is under way. Water rising under the floor is a separate check your dealer makes. <a href=\"Science.dc.html\" style=\"color: #FFFFFF; font-weight: 700;\">The science</a></p></div></div>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B8; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B9",
+      "section": "§B",
+      "pages": [
+        "Science"
+      ],
+      "before": " In pull-off tests the concrete breaks first, at 450 psi. Groundwater presses on the base of an 8-foot basement wall at roughly 3.5 psi.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B9; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B10",
+      "section": "§B",
+      "pages": [
+        "Science"
+      ],
+      "before": " A pull-off test isn’t a water-pressure rating, and we don’t present it as one.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row B10; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "B11",
+      "section": "§B",
+      "pages": [
+        "Technical"
+      ],
+      "before": "product line, published performance (450 psi bond, semi-permeable vapor design), product characteristics and downloads.",
+      "after": "product line, product characteristics and downloads.",
+      "authority": "Zola WB claims-debt wording r2.1 row B11; Maat SHIP r2.1 ae1a2249 (62252bd3)"
     }
   ],
   "allowedMetadataDeltas": [
