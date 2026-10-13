@@ -19,7 +19,10 @@ try{
   assert(html.includes('<link rel="canonical" href="https://wetbond.com'+pathname+'">'),name+' canonical');assert.equal((html.match(/rel="canonical"/g)||[]).length,1);assert(!/href="[A-Za-z]+\.dc\.html/.test(html));
   assert.equal((html.match(/<meta name="viewport" content="width=device-width, initial-scale=1">/g)||[]).length,1,name+' viewport');
   assert.equal(html.match(/<title>([^<]*)<\/title>/)[1].replace(/&amp;/g,'&'),titles[name]+' | WetBond',name+' title');
-  for(const key of ['og:title','og:description','og:url','og:type','og:site_name','og:image'])assert.equal((html.match(new RegExp('property="'+key+'"','g'))||[]).length,1,name+' '+key);
+  for(const key of ['og:title','og:url','og:type','og:site_name','og:image'])assert.equal((html.match(new RegExp('property="'+key+'"','g'))||[]).length,1,name+' '+key);
+  const held=new Set(['ProductsPenetrating','Technical','Contractors','Warranty']).has(name);
+  assert.equal((html.match(/(?:property|name)="(?:og|twitter):description"/g)||[]).length,held?0:1,name+' share description');
+  assert.equal((html.match(/name="description"/g)||[]).length,name==='ProductsPenetrating'?0:1,name+' ordinary description');
   assert(html.includes('<meta property="og:url" content="https://wetbond.com'+pathname+'">'),name+' og:url');
   assert.equal((body.match(/<main\b/g)||[]).length,1,name+' main');
   assert(!/<a\b[^>]*href="#"[^>]*data-social=/.test(html),name+' social placeholder in live or inert markup');

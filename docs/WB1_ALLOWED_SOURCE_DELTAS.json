@@ -84,6 +84,25 @@
       "after": "This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands."
     }
   ],
+  "allowedMetadataDeltas": [
+    {
+      "page": "ProductsPenetrating",
+      "change": "meta description removed, held claim WB-C10"
+    },
+    {
+      "page": "ProductsRepair",
+      "change": "meta description trimmed to last full sentence; no new words"
+    },
+    {
+      "pages": [
+        "ProductsPenetrating",
+        "Technical",
+        "Contractors",
+        "Warranty"
+      ],
+      "change": "No og:description or twitter:description emitted; Zola/Nova ruling 145539bc/c32a3e7b/9f5eae7f"
+    }
+  ],
   "dealerApply": {
     "authorization": "B4/B5 Maat a0439e9b",
     "routingCases": 1680,

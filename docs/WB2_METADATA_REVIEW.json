@@ -4,6 +4,7 @@
     "route": "/about",
     "title": "About | WetBond",
     "description": "Why WetBond exists, and how it reaches your home through independent Certified Dealers backed by the manufacturer.",
+    "shareDescription": "Why WetBond exists, and how it reaches your home through independent Certified Dealers backed by the manufacturer.",
     "ogImage": "https://wetbond.com/assets/8a44128610dc9d8becc13139aefa822f.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -12,6 +13,7 @@
     "route": "/accessibility",
     "title": "Accessibility | WetBond",
     "description": "Our commitment to making wetbond.com accessible, and how to reach us if something doesn’t work for you.",
+    "shareDescription": "Our commitment to making wetbond.com accessible, and how to reach us if something doesn’t work for you.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -20,6 +22,7 @@
     "route": "/basements",
     "title": "Basements | WetBond",
     "description": "Basement waterproofing that treats walls, floor and joints as one envelope. Works on poured concrete, block, brick and stone. Find out what your basement needs.",
+    "shareDescription": "Basement waterproofing that treats walls, floor and joints as one envelope. Works on poured concrete, block, brick and stone. Find out what your basement needs.",
     "ogImage": "https://wetbond.com/assets/a6e7556f3971ad98839a119134eb4e32.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -28,6 +31,7 @@
     "route": "/book",
     "title": "You Can’t Stop Water | WetBond",
     "description": "You Can’t Stop Water: a free, fair guide to basement waterproofing. Every system explained honestly, what each costs and how each fails.",
+    "shareDescription": "You Can’t Stop Water: a free, fair guide to basement waterproofing. Every system explained honestly, what each costs and how each fails.",
     "ogImage": "https://wetbond.com/assets/9f0811586bc6e0113b5079d20eaa58aa.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -36,6 +40,7 @@
     "route": "/city-pittsburgh",
     "title": "Basement waterproofing in Pittsburgh | WetBond",
     "description": "Basement waterproofing in Pittsburgh without digging: WetBond treats fieldstone, block and poured walls from the inside, applied by a Certified Dealer.",
+    "shareDescription": "Basement waterproofing in Pittsburgh without digging: WetBond treats fieldstone, block and poured walls from the inside, applied by a Certified Dealer.",
     "ogImage": "https://wetbond.com/assets/224d0e915560a7d83a8a7425f3de06e2.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -44,6 +49,7 @@
     "route": "/compare",
     "title": "Compare options | WetBond",
     "description": "WetBond compared with interior drains and sump pumps, exterior excavation, and waterproof coatings. How each works, what it costs you, and how it fails.",
+    "shareDescription": "WetBond compared with interior drains and sump pumps, exterior excavation, and waterproof coatings. How each works, what it costs you, and how it fails.",
     "ogImage": "https://wetbond.com/assets/f00b6ce5080781e434283e731a73c79a.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -52,6 +58,7 @@
     "route": "/contractors",
     "title": "For contractors | WetBond",
     "description": "Become a WetBond Certified Dealer. Add bonded basement waterproofing, slabs and repairs to your business. Founding Dealer terms close November 1, 2026.",
+    "shareDescription": "Omitted — held claim",
     "ogImage": "https://wetbond.com/assets/fd3e7480065e4129e093bdb03a07eda7.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -60,6 +67,7 @@
     "route": "/crawl-spaces",
     "title": "Crawl spaces | WetBond",
     "description": "Crawl space waterproofing without sealing the space in plastic. WetBond treats block and poured foundation walls and piers so ground moisture stops at the masonry.",
+    "shareDescription": "Crawl space waterproofing without sealing the space in plastic. WetBond treats block and poured foundation walls and piers so ground moisture stops at the masonry.",
     "ogImage": "https://wetbond.com/assets/ae221dd242244e7d8e0071cc22f4db83.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -68,6 +76,7 @@
     "route": "/dealer-apply",
     "title": "Check my market | WetBond",
     "description": "A short application, tailored to your trade, to see if your market is open for a WetBond Certified Dealer.",
+    "shareDescription": "A short application, tailored to your trade, to see if your market is open for a WetBond Certified Dealer.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -76,6 +85,7 @@
     "route": "/dealer-confirmed",
     "title": "Your market call is confirmed | WetBond",
     "description": "Your WetBond market call is confirmed.",
+    "shareDescription": "Your WetBond market call is confirmed.",
     "ogImage": "https://wetbond.com/assets/46049f6f5a3cb968d3ed5cb219d74556.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -84,6 +94,7 @@
     "route": "/dealer-schedule",
     "title": "Pick a time | WetBond",
     "description": "Pick a time for your WetBond Certified Dealer market call.",
+    "shareDescription": "Pick a time for your WetBond Certified Dealer market call.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -92,6 +103,7 @@
     "route": "/dealer-vsl",
     "title": "Become a Certified Dealer | WetBond",
     "description": "Turn the wet basements and slabs other contractors walk away from into one-day jobs. See if your market is open for a WetBond Certified Dealer.",
+    "shareDescription": "Turn the wet basements and slabs other contractors walk away from into one-day jobs. See if your market is open for a WetBond Certified Dealer.",
     "ogImage": "https://wetbond.com/assets/89e08742a1dfad608602c3d6764715de.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -100,6 +112,7 @@
     "route": "/exterior",
     "title": "Driveways and walkways | WetBond",
     "description": "WetBond UV bonds into driveways, walkways, patios and steps to keep water out of outdoor concrete. Aliphatic and UV stable by its chemistry.",
+    "shareDescription": "WetBond UV bonds into driveways, walkways, patios and steps to keep water out of outdoor concrete. Aliphatic and UV stable by its chemistry.",
     "ogImage": "https://wetbond.com/assets/6b2495f45a8d99270bc994b850ce8e09.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -108,6 +121,7 @@
     "route": "/faq",
     "title": "FAQ | WetBond",
     "description": "Answers to common questions about WetBond basement waterproofing: wet walls, vapor, cost, what it doesn’t do, and the warranty.",
+    "shareDescription": "Answers to common questions about WetBond basement waterproofing: wet walls, vapor, cost, what it doesn’t do, and the warranty.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -116,6 +130,7 @@
     "route": "/field-data",
     "title": "Field data | WetBond",
     "description": "Every registered WetBond job is documented with moisture readings before and after. See what a job record looks like and get notified when results go live.",
+    "shareDescription": "Every registered WetBond job is documented with moisture readings before and after. See what a job record looks like and get notified when results go live.",
     "ogImage": "https://wetbond.com/assets/b71bcc68da26ddecb3e7cf31c3e24411.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -124,6 +139,7 @@
     "route": "/find-a-dealer",
     "title": "Find a Certified Dealer | WetBond",
     "description": "Find a WetBond Certified Dealer near you. Trained, tested and authorized to register your job for a manufacturer warranty.",
+    "shareDescription": "Find a WetBond Certified Dealer near you. Trained, tested and authorized to register your job for a manufacturer warranty.",
     "ogImage": "https://wetbond.com/assets/eb7ec32d531314a08ab59fa05bb658fc.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -132,6 +148,7 @@
     "route": "/floors",
     "title": "Floors and garage slabs | WetBond",
     "description": "Garage floors and concrete slabs that are too damp for coatings. WetBond treats the slab so moisture from below stays out and new finishes stay put.",
+    "shareDescription": "Garage floors and concrete slabs that are too damp for coatings. WetBond treats the slab so moisture from below stays out and new finishes stay put.",
     "ogImage": "https://wetbond.com/assets/733c12ad6de9704a9936724401458b65.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -140,6 +157,7 @@
     "route": "/for-architects",
     "title": "For architects and engineers | WetBond",
     "description": "Negative-side, water-reactive waterproofing for below-grade concrete and masonry: published performance, fit and limits, submittals and specification support.",
+    "shareDescription": "Negative-side, water-reactive waterproofing for below-grade concrete and masonry: published performance, fit and limits, submittals and specification support.",
     "ogImage": "https://wetbond.com/assets/a723ea0787a71ad478601b8af5cde72f.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -148,6 +166,7 @@
     "route": "/for-homeowners",
     "title": "For homeowners | WetBond",
     "description": "A dry basement, explained before you buy: what causes it, what each fix really does, and how to choose a contractor you can trust.",
+    "shareDescription": "A dry basement, explained before you buy: what causes it, what each fix really does, and how to choose a contractor you can trust.",
     "ogImage": "https://wetbond.com/assets/224d0e915560a7d83a8a7425f3de06e2.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -156,6 +175,7 @@
     "route": "/for-property-managers",
     "title": "For property managers | WetBond",
     "description": "Stop paying for the same leak every year: interior waterproofing for occupied buildings, phased with minimal disruption and documented for your records.",
+    "shareDescription": "Stop paying for the same leak every year: interior waterproofing for occupied buildings, phased with minimal disruption and documented for your records.",
     "ogImage": "https://wetbond.com/assets/00dc1eb44c99a09b170516fb40e10e92.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -164,6 +184,7 @@
     "route": "/how-it-works",
     "title": "How it works | WetBond",
     "description": "How WetBond works: reactive penetration, covalent bonding and substrate conversion turn the inside of your basement wall into the waterproofing.",
+    "shareDescription": "How WetBond works: reactive penetration, covalent bonding and substrate conversion turn the inside of your basement wall into the waterproofing.",
     "ogImage": "https://wetbond.com/assets/a2a07ac3438597b3eb70aa3b016a025e.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -172,6 +193,7 @@
     "route": "/learn",
     "title": "Learn | WetBond",
     "description": "Plain-English guides to why basements leak, how each fix works, and how to hire a waterproofing contractor you can trust.",
+    "shareDescription": "Plain-English guides to why basements leak, how each fix works, and how to hire a waterproofing contractor you can trust.",
     "ogImage": "https://wetbond.com/assets/a7455fbfea79e227b74d16c4f061bbd6.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -180,6 +202,7 @@
     "route": "/learn-choosing-contractor",
     "title": "How to choose a waterproofing contractor | WetBond",
     "description": "The questions to ask, the red flags to watch for, and how to read and compare quotes before you sign anything.",
+    "shareDescription": "The questions to ask, the red flags to watch for, and how to read and compare quotes before you sign anything.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -188,6 +211,7 @@
     "route": "/learn-sump-pumps",
     "title": "When the sump pump stops | WetBond",
     "description": "Why sump pumps fail when you need them most, how to protect the one you have, and how to reduce how much your basement depends on it.",
+    "shareDescription": "Why sump pumps fail when you need them most, how to protect the one you have, and how to reduce how much your basement depends on it.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -196,6 +220,7 @@
     "route": "/learn-why-basements-leak",
     "title": "Why basements leak | WetBond",
     "description": "How groundwater reaches a foundation, the five places it gets in, a simple test to tell a leak from condensation, and what each fix actually does.",
+    "shareDescription": "How groundwater reaches a foundation, the five places it gets in, a simple test to tell a leak from condensation, and what each fix actually does.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -204,6 +229,7 @@
     "route": "/",
     "title": "Home | WetBond",
     "description": "WetBond embeds in concrete and masonry so walls, floors and slabs stop water on their own. Applied by Certified Dealers, backed by the manufacturer.",
+    "shareDescription": "WetBond embeds in concrete and masonry so walls, floors and slabs stop water on their own. Applied by Certified Dealers, backed by the manufacturer.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -212,6 +238,7 @@
     "route": "/patents",
     "title": "Patents | WetBond",
     "description": "Patent marking for WetBond products under 35 U.S.C. § 287(a).",
+    "shareDescription": "Patent marking for WetBond products under 35 U.S.C. § 287(a).",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -220,6 +247,7 @@
     "route": "/privacy",
     "title": "Privacy policy | WetBond",
     "description": "How WetBond Systems collects, uses and protects the information you share with us through this website.",
+    "shareDescription": "How WetBond Systems collects, uses and protects the information you share with us through this website.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -228,6 +256,7 @@
     "route": "/products-color",
     "title": "Color treatments | WetBond",
     "description": "WetBond Color and Color UV treat concrete and color it in one system, for basements, utility rooms and outdoor surfaces you see every day.",
+    "shareDescription": "WetBond Color and Color UV treat concrete and color it in one system, for basements, utility rooms and outdoor surfaces you see every day.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -236,6 +265,7 @@
     "route": "/products-floor",
     "title": "Floor system | WetBond",
     "description": "The WetBond floor system: WetBond primes even moist slabs, then a finish in clear, pigmented or metallic, decorative flake and a touch-up kit.",
+    "shareDescription": "The WetBond floor system: WetBond primes even moist slabs, then a finish in clear, pigmented or metallic, decorative flake and a touch-up kit.",
     "ogImage": "https://wetbond.com/assets/82d82995b889cc8a128be9fe6ae7c65c.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -243,7 +273,8 @@
     "page": "ProductsPenetrating",
     "route": "/products-penetrating",
     "title": "Embedded Waterproofing | WetBond",
-    "description": "WetBond’s embedded treatments follow water 0.7 to 1 inch into concrete and masonry and react with it, so the treated depth becomes part of the stru",
+    "description": "Omitted — held WB-C10",
+    "shareDescription": "Omitted — held claim",
     "ogImage": "https://wetbond.com/assets/fd3e7480065e4129e093bdb03a07eda7.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -251,7 +282,8 @@
     "page": "ProductsRepair",
     "route": "/products-repair",
     "title": "Repair and prep | WetBond",
-    "description": "Cracks, joints and holes are where most basements leak first. These are the products a Certified Dealer uses to stop active leaks, rebuild damaged con",
+    "description": "Cracks, joints and holes are where most basements leak first.",
+    "shareDescription": "Cracks, joints and holes are where most basements leak first.",
     "ogImage": "https://wetbond.com/assets/cc030bfa799aeba0f62b3a0e89db4d57.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -260,6 +292,7 @@
     "route": "/repairs",
     "title": "Cracks and repairs | WetBond",
     "description": "Basement wall cracks, the wall-floor joint and leaking tie-rod holes, repaired and then treated over with WetBond as part of the same job.",
+    "shareDescription": "Basement wall cracks, the wall-floor joint and leaking tie-rod holes, repaired and then treated over with WetBond as part of the same job.",
     "ogImage": "https://wetbond.com/assets/0d8297f3be794d75eaaa71c5cf7512a0.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -268,6 +301,7 @@
     "route": "/science",
     "title": "The science | WetBond",
     "description": "The science behind WetBond: how water moves through concrete, how the material bonds inside the pores, and the test data behind every claim.",
+    "shareDescription": "The science behind WetBond: how water moves through concrete, how the material bonds inside the pores, and the test data behind every claim.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -276,6 +310,7 @@
     "route": "/sump-pits",
     "title": "Sump pits | WetBond",
     "description": "Stop water seeping in around your sump pit. WetBond treats the slab, the cut edge around the opening and the joint at the basin.",
+    "shareDescription": "Stop water seeping in around your sump pit. WetBond treats the slab, the cut edge around the opening and the joint at the basin.",
     "ogImage": "https://wetbond.com/assets/e55d3d93af75015ba03c2de4e8c97e8f.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -284,6 +319,7 @@
     "route": "/sustainability",
     "title": "Sustainability | WetBond",
     "description": "The most sustainable building is the one that lasts: how stopping water inside concrete keeps existing buildings in service and out of the replacement cycle.",
+    "shareDescription": "The most sustainable building is the one that lasts: how stopping water inside concrete keeps existing buildings in service and out of the replacement cycle.",
     "ogImage": "https://wetbond.com/assets/785a7c76e4988b6c1a63aea4089127c4.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -292,6 +328,7 @@
     "route": "/technical",
     "title": "Technical data | WetBond",
     "description": "WetBond technical data: product line, published performance (450 psi bond, semi-permeable vapor design), product characteristics and downloads.",
+    "shareDescription": "Omitted — held claim",
     "ogImage": "https://wetbond.com/assets/fd3e7480065e4129e093bdb03a07eda7.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -300,6 +337,7 @@
     "route": "/terms",
     "title": "Terms of use | WetBond",
     "description": "The rules that apply when you use wetbond.com, including the photo check, dealer lookup and resources.",
+    "shareDescription": "The rules that apply when you use wetbond.com, including the photo check, dealer lookup and resources.",
     "ogImage": "https://wetbond.com/brand-mark.png",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -308,6 +346,7 @@
     "route": "/warranty",
     "title": "Warranty | WetBond",
     "description": "Every job registered by a WetBond Certified Dealer carries a 10-year limited warranty issued by WetBond, the manufacturer, with 15- and 20-year options.",
+    "shareDescription": "Omitted — held claim",
     "ogImage": "https://wetbond.com/assets/9b5da4b406c8df668bfac681b31e1b1a.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   },
@@ -316,6 +355,7 @@
     "route": "/wet-spaces",
     "title": "Wet spaces | WetBond",
     "description": "Waterproofing for basement laundry rooms, mechanical rooms and half baths. WetBond treats the concrete walls and floor so water stays on the surface.",
+    "shareDescription": "Waterproofing for basement laundry rooms, mechanical rooms and half baths. WetBond treats the concrete walls and floor so water stays on the surface.",
     "ogImage": "https://wetbond.com/assets/b2d62e738b06f1455d898b5963f27159.webp",
     "provenance": "Existing page title/nav/h1; existing description or first content paragraph; existing page image or header mark"
   }

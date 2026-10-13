@@ -59,7 +59,12 @@ try{
   if(!/name="viewport"/.test(head))head=head.replace(/<meta charset="utf-8">/,'$&\n<meta name="viewport" content="width=device-width, initial-scale=1">');
   if(!/name="viewport"/.test(head))throw Error(file+': viewport not added');
   const image=landmark.image&&/^(?:\.\/)?assets\/[0-9a-f]+\.(?:webp|jpg|png)$/.test(landmark.image)?origin+'/'+landmark.image.replace(/^\.\//,''):origin+'/brand-mark.png';
-  const og=[['og:type','website'],['og:site_name','WetBond'],['og:title',title],['og:description',description],['og:url',url],...(image?[['og:image',image]]:[])]
+  // Zola/Nova metadata ruling: omit held claims from share descriptions.
+  const heldDescription=new Set(['ProductsPenetrating','Technical','Contractors','Warranty']).has(name);
+  if(name==='ProductsPenetrating'){description=null;head=head.replace(/<meta name="description" content="[^"]*">/,'');}
+  if(name==='ProductsRepair'){description='Cracks, joints and holes are where most basements leak first.';head=head.replace(/(<meta name="description" content=")[^"]*(">)/,'$1'+description+'$2');}
+  head=head.replace(/<meta (?:property|name)="(?:og|twitter):description"[^>]*>/g,'');
+  const og=[['og:type','website'],['og:site_name','WetBond'],['og:title',title],...(!heldDescription?[['og:description',description]]:[]),['og:url',url],...(image?[['og:image',image]]:[])]
    .map(([key,value])=>'<meta property="'+key+'" content="'+(key==='og:description'?value:escapeAttr(value))+'">').join('\n');
   const css=rewrite(captured.styles.join('\n'));const hash=createHash('sha256').update(css).digest('hex').slice(0,16);
   await writeFile(out+'/shared/'+hash+'.css',css);
