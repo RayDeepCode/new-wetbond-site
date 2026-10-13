@@ -1,0 +1,25 @@
+/* WB-2 shared phone-width layer. Linked after each page's own stylesheet.
+   Phone-width rules only: nothing here applies above 760px, so desktop is unchanged.
+   !important is needed because the runtime re-appends page styles after this file. */
+
+@media (max-width:760px){
+ /* Warranty seals: stack the three badges and keep their text at least 12px. */
+ html body .wbb-row{grid-template-columns:minmax(0,280px)!important;gap:10px!important}
+ html body .wbb{padding:4px!important}
+ html body .wbb .p{padding:8px 26px 8px 10px!important}
+ html body .wbb .wv{width:20px!important}
+ html body .wbb .br{font-size:12px!important;margin-bottom:4px!important}
+ html body .wbb .pre{font-size:12px!important;margin-bottom:2px!important}
+ html body .wbb .nm{font-size:34px!important}
+ html body .wbb .mn{gap:8px!important}
+ html body .wbb .l1,html body .wbb .l2{font-size:12px!important;letter-spacing:.04em!important}
+ html body .wbb .big{font-size:13px!important}
+ html body .wbb .f{font-size:12px!important;letter-spacing:.05em!important;padding:6px!important}
+
+ /* DealerVSL county-cap block: the number input's intrinsic width pushed the grid past 375. */
+ html body .sc-in{grid-template-columns:minmax(0,1fr)!important}
+ html body .capcalc input{width:100%!important;min-width:0!important;box-sizing:border-box!important}
+
+ /* Main "How it works" stage buttons: let the third button wrap instead of overflowing. */
+ html body #how div:has(> button[aria-pressed]){flex-wrap:wrap!important}
+}

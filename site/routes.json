@@ -3,240 +3,283 @@
     "name": "About",
     "source": "About.dc.html",
     "route": "/about",
-    "css": "d5eb455b258c961d.css"
+    "css": "d5eb455b258c961d.css",
+    "ogImage": "https://wetbond.com/assets/8a44128610dc9d8becc13139aefa822f.webp"
   },
   {
     "name": "Accessibility",
     "source": "Accessibility.dc.html",
     "route": "/accessibility",
-    "css": "3e93b3532f617f10.css"
+    "css": "3e93b3532f617f10.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "Basements",
     "source": "Basements.dc.html",
     "route": "/basements",
-    "css": "7e0d610adbc2ed6d.css"
+    "css": "7e0d610adbc2ed6d.css",
+    "ogImage": "https://wetbond.com/assets/a6e7556f3971ad98839a119134eb4e32.webp"
   },
   {
     "name": "Book",
     "source": "Book.dc.html",
     "route": "/book",
-    "css": "2edf2e0e1b013dd9.css"
+    "css": "2edf2e0e1b013dd9.css",
+    "ogImage": "https://wetbond.com/assets/9f0811586bc6e0113b5079d20eaa58aa.webp"
   },
   {
     "name": "CityPittsburgh",
     "source": "CityPittsburgh.dc.html",
     "route": "/city-pittsburgh",
-    "css": "ebae4564de028a49.css"
+    "css": "ebae4564de028a49.css",
+    "ogImage": "https://wetbond.com/assets/224d0e915560a7d83a8a7425f3de06e2.webp"
   },
   {
     "name": "Compare",
     "source": "Compare.dc.html",
     "route": "/compare",
-    "css": "cab22d1777ed8ffa.css"
+    "css": "cab22d1777ed8ffa.css",
+    "ogImage": "https://wetbond.com/assets/f00b6ce5080781e434283e731a73c79a.webp"
   },
   {
     "name": "Contractors",
     "source": "Contractors.dc.html",
     "route": "/contractors",
-    "css": "fc806e0661b5b397.css"
+    "css": "fc806e0661b5b397.css",
+    "ogImage": "https://wetbond.com/assets/fd3e7480065e4129e093bdb03a07eda7.webp"
   },
   {
     "name": "CrawlSpaces",
     "source": "CrawlSpaces.dc.html",
     "route": "/crawl-spaces",
-    "css": "6fd6dd90628d1020.css"
+    "css": "6fd6dd90628d1020.css",
+    "ogImage": "https://wetbond.com/assets/ae221dd242244e7d8e0071cc22f4db83.webp"
   },
   {
     "name": "DealerApply",
     "source": "DealerApply.dc.html",
     "route": "/dealer-apply",
-    "css": "b7f7753c3fc40d81.css"
+    "css": "b7f7753c3fc40d81.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "DealerConfirmed",
     "source": "DealerConfirmed.dc.html",
     "route": "/dealer-confirmed",
-    "css": "b7f7753c3fc40d81.css"
+    "css": "b7f7753c3fc40d81.css",
+    "ogImage": "https://wetbond.com/assets/46049f6f5a3cb968d3ed5cb219d74556.webp"
   },
   {
     "name": "DealerSchedule",
     "source": "DealerSchedule.dc.html",
     "route": "/dealer-schedule",
-    "css": "b7f7753c3fc40d81.css"
+    "css": "b7f7753c3fc40d81.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "DealerVSL",
     "source": "DealerVSL.dc.html",
     "route": "/dealer-vsl",
-    "css": "92b81a18c5bab485.css"
+    "css": "92b81a18c5bab485.css",
+    "ogImage": "https://wetbond.com/assets/89e08742a1dfad608602c3d6764715de.webp"
   },
   {
     "name": "Exterior",
     "source": "Exterior.dc.html",
     "route": "/exterior",
-    "css": "a87126f35d828c92.css"
+    "css": "a87126f35d828c92.css",
+    "ogImage": "https://wetbond.com/assets/6b2495f45a8d99270bc994b850ce8e09.webp"
   },
   {
     "name": "FAQ",
     "source": "FAQ.dc.html",
     "route": "/faq",
-    "css": "5e1cef57884888b2.css"
+    "css": "5e1cef57884888b2.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "FieldData",
     "source": "FieldData.dc.html",
     "route": "/field-data",
-    "css": "f53a69b26635b109.css"
+    "css": "f53a69b26635b109.css",
+    "ogImage": "https://wetbond.com/assets/b71bcc68da26ddecb3e7cf31c3e24411.webp"
   },
   {
     "name": "FindADealer",
     "source": "FindADealer.dc.html",
     "route": "/find-a-dealer",
-    "css": "d5eb455b258c961d.css"
+    "css": "d5eb455b258c961d.css",
+    "ogImage": "https://wetbond.com/assets/eb7ec32d531314a08ab59fa05bb658fc.webp"
   },
   {
     "name": "Floors",
     "source": "Floors.dc.html",
     "route": "/floors",
-    "css": "fe17b14647eafd0b.css"
+    "css": "fe17b14647eafd0b.css",
+    "ogImage": "https://wetbond.com/assets/733c12ad6de9704a9936724401458b65.webp"
   },
   {
     "name": "ForArchitects",
     "source": "ForArchitects.dc.html",
     "route": "/for-architects",
-    "css": "7edde9150c934a66.css"
+    "css": "7edde9150c934a66.css",
+    "ogImage": "https://wetbond.com/assets/a723ea0787a71ad478601b8af5cde72f.webp"
   },
   {
     "name": "ForHomeowners",
     "source": "ForHomeowners.dc.html",
     "route": "/for-homeowners",
-    "css": "c2ebb6e35ba82ab8.css"
+    "css": "c2ebb6e35ba82ab8.css",
+    "ogImage": "https://wetbond.com/assets/224d0e915560a7d83a8a7425f3de06e2.webp"
   },
   {
     "name": "ForPropertyManagers",
     "source": "ForPropertyManagers.dc.html",
     "route": "/for-property-managers",
-    "css": "c2ebb6e35ba82ab8.css"
+    "css": "c2ebb6e35ba82ab8.css",
+    "ogImage": "https://wetbond.com/assets/00dc1eb44c99a09b170516fb40e10e92.webp"
   },
   {
     "name": "HowItWorks",
     "source": "HowItWorks.dc.html",
     "route": "/how-it-works",
-    "css": "b8639449015d6b12.css"
+    "css": "b8639449015d6b12.css",
+    "ogImage": "https://wetbond.com/assets/a2a07ac3438597b3eb70aa3b016a025e.webp"
   },
   {
     "name": "Learn",
     "source": "Learn.dc.html",
     "route": "/learn",
-    "css": "ebae4564de028a49.css"
+    "css": "ebae4564de028a49.css",
+    "ogImage": "https://wetbond.com/assets/a7455fbfea79e227b74d16c4f061bbd6.webp"
   },
   {
     "name": "LearnChoosingContractor",
     "source": "LearnChoosingContractor.dc.html",
     "route": "/learn-choosing-contractor",
-    "css": "4125d60ab3e7a6f7.css"
+    "css": "4125d60ab3e7a6f7.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "LearnSumpPumps",
     "source": "LearnSumpPumps.dc.html",
     "route": "/learn-sump-pumps",
-    "css": "4125d60ab3e7a6f7.css"
+    "css": "4125d60ab3e7a6f7.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "LearnWhyBasementsLeak",
     "source": "LearnWhyBasementsLeak.dc.html",
     "route": "/learn-why-basements-leak",
-    "css": "4125d60ab3e7a6f7.css"
+    "css": "4125d60ab3e7a6f7.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "Main",
     "source": "Main.dc.html",
-    "route": "/main",
-    "css": "1ae774d0a05e3bf5.css"
+    "route": "/",
+    "redirectFrom": [
+      "/main"
+    ],
+    "css": "1ae774d0a05e3bf5.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "Patents",
     "source": "Patents.dc.html",
     "route": "/patents",
-    "css": "ebae4564de028a49.css"
+    "css": "ebae4564de028a49.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "Privacy",
     "source": "Privacy.dc.html",
     "route": "/privacy",
-    "css": "3e93b3532f617f10.css"
+    "css": "3e93b3532f617f10.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "ProductsColor",
     "source": "ProductsColor.dc.html",
     "route": "/products-color",
-    "css": "6215a18ed1056fff.css"
+    "css": "6215a18ed1056fff.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "ProductsFloor",
     "source": "ProductsFloor.dc.html",
     "route": "/products-floor",
-    "css": "6215a18ed1056fff.css"
+    "css": "6215a18ed1056fff.css",
+    "ogImage": "https://wetbond.com/assets/82d82995b889cc8a128be9fe6ae7c65c.webp"
   },
   {
     "name": "ProductsPenetrating",
     "source": "ProductsPenetrating.dc.html",
     "route": "/products-penetrating",
-    "css": "6215a18ed1056fff.css"
+    "css": "6215a18ed1056fff.css",
+    "ogImage": "https://wetbond.com/assets/fd3e7480065e4129e093bdb03a07eda7.webp"
   },
   {
     "name": "ProductsRepair",
     "source": "ProductsRepair.dc.html",
     "route": "/products-repair",
-    "css": "6215a18ed1056fff.css"
+    "css": "6215a18ed1056fff.css",
+    "ogImage": "https://wetbond.com/assets/cc030bfa799aeba0f62b3a0e89db4d57.webp"
   },
   {
     "name": "Repairs",
     "source": "Repairs.dc.html",
     "route": "/repairs",
-    "css": "c1003c4cfe80d5dc.css"
+    "css": "c1003c4cfe80d5dc.css",
+    "ogImage": "https://wetbond.com/assets/0d8297f3be794d75eaaa71c5cf7512a0.webp"
   },
   {
     "name": "Science",
     "source": "Science.dc.html",
     "route": "/science",
-    "css": "e1ad42dc5374df77.css"
+    "css": "e1ad42dc5374df77.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "SumpPits",
     "source": "SumpPits.dc.html",
     "route": "/sump-pits",
-    "css": "88fd410390654142.css"
+    "css": "88fd410390654142.css",
+    "ogImage": "https://wetbond.com/assets/e55d3d93af75015ba03c2de4e8c97e8f.webp"
   },
   {
     "name": "Sustainability",
     "source": "Sustainability.dc.html",
     "route": "/sustainability",
-    "css": "4efa8d92e3e239b8.css"
+    "css": "4efa8d92e3e239b8.css",
+    "ogImage": "https://wetbond.com/assets/785a7c76e4988b6c1a63aea4089127c4.webp"
   },
   {
     "name": "Technical",
     "source": "Technical.dc.html",
     "route": "/technical",
-    "css": "a496452ace0f000a.css"
+    "css": "a496452ace0f000a.css",
+    "ogImage": "https://wetbond.com/assets/fd3e7480065e4129e093bdb03a07eda7.webp"
   },
   {
     "name": "Terms",
     "source": "Terms.dc.html",
     "route": "/terms",
-    "css": "3e93b3532f617f10.css"
+    "css": "3e93b3532f617f10.css",
+    "ogImage": "https://wetbond.com/brand-mark.png"
   },
   {
     "name": "Warranty",
     "source": "Warranty.dc.html",
     "route": "/warranty",
-    "css": "2235c8f300574809.css"
+    "css": "2235c8f300574809.css",
+    "ogImage": "https://wetbond.com/assets/9b5da4b406c8df668bfac681b31e1b1a.webp"
   },
   {
     "name": "WetSpaces",
     "source": "WetSpaces.dc.html",
     "route": "/wet-spaces",
-    "css": "88fd410390654142.css"
+    "css": "88fd410390654142.css",
+    "ogImage": "https://wetbond.com/assets/b2d62e738b06f1455d898b5963f27159.webp"
   }
 ]
