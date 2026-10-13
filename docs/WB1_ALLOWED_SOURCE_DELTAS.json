@@ -1408,6 +1408,27 @@
       "after": "",
       "count": 3,
       "authority": "Zola WB claims-debt wording r2.1 row ART-4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A8c",
+      "section": "§A",
+      "pages": [
+        "DealerVSL",
+        "Science"
+      ],
+      "before": "Same wall, same scale, cut open. Illustration.",
+      "after": "Same wall, cut open. Illustration.",
+      "authority": "Zola WB claims-debt wording r2.2 1cc7dee0 row A8c; Zola confirm 480a5917; Maat check pending with the PR"
+    },
+    {
+      "row": "A8d",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "Diagram. Proportions to scale: 8 in. wall, 4 in. slab.",
+      "after": "Diagram.",
+      "authority": "Zola WB claims-debt wording r2.2 1cc7dee0 row A8d; Zola confirm 480a5917; Maat check pending with the PR"
     }
   ],
   "allowedMetadataDeltas": [
