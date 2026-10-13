@@ -1429,6 +1429,156 @@
       "before": "Diagram. Proportions to scale: 8 in. wall, 4 in. slab.",
       "after": "Diagram.",
       "authority": "Zola WB claims-debt wording r2.2 1cc7dee0 row A8d; Zola confirm 480a5917; Maat check pending with the PR"
+    },
+    {
+      "row": "A48",
+      "section": "§A",
+      "pages": [
+        "CrawlSpaces"
+      ],
+      "before": "stops in the first inch of the block or concrete.",
+      "after": "stops in the block or concrete.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row A48; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "A49",
+      "section": "§A",
+      "pages": [
+        "Exterior"
+      ],
+      "before": "Treated: WetBond UV fills the top inch, the surface is intact",
+      "after": "Treated: the surface is intact",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row A49; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "A50",
+      "section": "§A",
+      "pages": [
+        "Floors"
+      ],
+      "before": "with WetBond treating the top inch of the slab.",
+      "after": "with WetBond treating the top of the slab.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row A50; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "A51",
+      "section": "§A",
+      "pages": [
+        "Floors"
+      ],
+      "before": "and a slab treated in its top inch with a new floor finish on top.",
+      "after": "and a slab treated with a new floor finish on top.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row A51; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "A52",
+      "section": "§A",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "with WetBond treating the inside inch of the wall across the repair.",
+      "after": "with WetBond treating the inside of the wall across the repair.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row A52; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "A53",
+      "section": "§A",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "3: a uniform gray treated inch, the surface gray and the dampness",
+      "after": "3: the surface gray and the dampness",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row A53; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "P31",
+      "section": "§A-2",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "The treated inch is now one composite: the surface stays gray and the water stops at it.",
+      "after": "The surface stays gray and the water stops at it.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row P31; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "P32",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "<text x=\"387.0\" y=\"156.0\" text-anchor=\"middle\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"800\" fill=\"#FFFFFF\">Solid composite</text>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row P32; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "P33",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "It's embedded in it, so there's nothing to push off.",
+      "after": "It's embedded in it.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row P33; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "P34",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "sharing electrons at the molecular level. No film on the surface, so no bond line for water to push against.",
+      "after": "sharing electrons at the molecular level.",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row P34; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "B14",
+      "section": "§B",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<div class=\"wpd\"><div class=\"wpd-h\"><b>Try it: add water pressure</b><span>{{wp.lvl}}</span></div><input class=\"wpr\" type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"{{wp.v}}\" onInput=\"{{wp.set}}\" onChange=\"{{wp.set}}\" aria-label=\"Water pressure behind the wall\"><svg viewBox=\"0 0 640 300\" role=\"img\" aria-label=\"Two wall sections under the same water pressure: a coating blisters and lets go as pressure rises, while WetBond, inside the concrete, has nothing to push off.\" style=\"width:100%;height:auto;display:block\"><defs><marker id=\"wpa\" markerUnits=\"userSpaceOnUse\" markerWidth=\"12\" markerHeight=\"12\" refX=\"8\" refY=\"6\" orient=\"auto\"><path d=\"M0 0 L12 6 L0 12z\" fill=\"#3D7FD0\"/></marker></defs><rect width=\"640\" height=\"300\" rx=\"14\" fill=\"#FFFFFF\"/><text x=\"150\" y=\"30\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">A coating</text><rect x=\"40\" y=\"45\" width=\"200\" height=\"200\" fill=\"#CFC9BE\"/><line x1=\"55\" y1=\"70\" x2=\"{{wp.cx}}\" y2=\"70\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><line x1=\"55\" y1=\"120\" x2=\"{{wp.cx}}\" y2=\"120\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><line x1=\"55\" y1=\"170\" x2=\"{{wp.cx}}\" y2=\"170\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><line x1=\"55\" y1=\"220\" x2=\"{{wp.cx}}\" y2=\"220\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><path d=\"{{wp.film}}\" fill=\"#B9BEC3\" stroke=\"#5F6873\" stroke-width=\"2\"/><path d=\"{{wp.pool}}\" fill=\"#7FB0EA\"/><text x=\"150\" y=\"275\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#4A555D\" text-anchor=\"middle\" opacity=\"{{wp.o1}}\">Holding, for now</text><text x=\"150\" y=\"275\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#B42318\" text-anchor=\"middle\" opacity=\"{{wp.o2}}\">Blistering at the bond line</text><text x=\"150\" y=\"275\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#B42318\" text-anchor=\"middle\" opacity=\"{{wp.o3}}\">Letting go</text><line x1=\"320\" y1=\"20\" x2=\"320\" y2=\"285\" stroke=\"#E6EAEC\" stroke-width=\"2\"/><text x=\"480\" y=\"30\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"17\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">WetBond</text><rect x=\"370\" y=\"45\" width=\"220\" height=\"200\" fill=\"#CFC9BE\"/><rect x=\"548\" y=\"45\" width=\"42\" height=\"200\" fill=\"#7E878C\"/><line x1=\"385\" y1=\"70\" x2=\"535\" y2=\"70\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><line x1=\"385\" y1=\"120\" x2=\"535\" y2=\"120\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><line x1=\"385\" y1=\"170\" x2=\"535\" y2=\"170\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><line x1=\"385\" y1=\"220\" x2=\"535\" y2=\"220\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\"{{wp.ao}}\" marker-end=\"url(#wpa)\"/><text x=\"480\" y=\"275\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"15\" font-weight=\"700\" fill=\"#1E63B5\" text-anchor=\"middle\">No layer to push off. Holding.</text></svg><p class=\"wpd-n\">Diagram, not to scale. Slide to raise the water pressure behind both walls.</p></div>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row B14; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "B14",
+      "section": "§B",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "/*wpd*/\n.wpd{margin-top:28px;background:#F3F5F4;border:1px solid #D5D8D5;border-radius:16px;padding:20px}.wpd-h{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}.wpd-h b{font-size:19px}.wpd-h span{font-size:15px;font-weight:700;color:#1E63B5}.wpr{width:100%;margin:14px 0;accent-color:#1E63B5;height:28px}.wpd-n{margin:10px 0 0;font-size:13px;color:#4A555D}\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row B14; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "B14",
+      "section": "§B",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "const v=(st.wpv===undefined?25:st.wpv);const t=v/100;const bl=Math.round(4+t*46);const cx=Math.round(232-t*6);const film=`M240 45 L252 45 L252 ${150-bl} C ${252+bl*1.3} ${150-bl*0.6} ${252+bl*1.3} ${150+bl*0.6} 252 ${150+bl} L252 245 L240 245 Z`;const pool=`M241 ${152-bl+4} C ${241+bl*1.15} ${150-bl*0.5} ${241+bl*1.15} ${150+bl*0.5} 241 ${148+bl-4} Z`;const lvl=v<30?\"Damp soil\":v<70?\"After heavy rain\":\"Saturated soil, spring snowmelt\";const cs=v<30?\"Holding, for now\":v<70?\"Blistering at the bond line\":\"Letting go\";const cc=v<30?\"#4A555D\":\"#B42318\";const wp={v:String(v),lvl,film,pool,o1:v<30?\"1\":\"0\",o2:(v>=30&&v<70)?\"1\":\"0\",o3:v>=70?\"1\":\"0\",cx:String(cx),ao:String(0.35+t*0.65),set:e=>this.setState({wpv:Number(e.target.value)})};return {acc,tg,lbl,ax,wp};",
+      "after": "return {acc,tg,lbl,ax};",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row B14; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "C16",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": " If you decide to certify, what you've already bought counts toward your opening order for a limited time.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row C16; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
+    },
+    {
+      "row": "C17",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" style=\"flex:0 0 auto;margin-top:2px\"><circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#1E63B5\"></circle><path d=\"M7 12.5l3.2 3.2L17 9\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg><span>Our first dealers are just getting started. You'd be among the first, which is why the terms are better now.</span></div>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.3 7f31ce8c row C17; Maat SHIP a5a1fe7f (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_3_DELTA_2026_10_13.md)"
     }
   ],
   "allowedMetadataDeltas": [

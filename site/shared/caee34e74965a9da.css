@@ -334,9 +334,3 @@ a:focus:not(:focus-visible), button:focus:not(:focus-visible), summary:focus:not
   .wbh-nav > a, .wbh-dd > summary { padding: 10px 8px; font-size: 15px; }
   .wbh-bar { gap: 10px; }
 }
-.wpd { margin-top: 28px; background: rgb(243, 245, 244); border: 1px solid rgb(213, 216, 213); border-radius: 16px; padding: 20px; }
-.wpd-h { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; align-items: baseline; }
-.wpd-h b { font-size: 19px; }
-.wpd-h span { font-size: 15px; font-weight: 700; color: rgb(30, 99, 181); }
-.wpr { width: 100%; margin: 14px 0px; accent-color: rgb(30, 99, 181); height: 28px; }
-.wpd-n { margin: 10px 0px 0px; font-size: 13px; color: rgb(74, 85, 93); }
