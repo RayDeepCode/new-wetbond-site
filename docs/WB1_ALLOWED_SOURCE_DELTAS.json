@@ -84,7 +84,617 @@
       "after": "This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands."
     }
   ],
-  "allowedClaimsDebtDeltas": [],
+  "allowedClaimsDebtDeltas": [
+    {
+      "row": "A1",
+      "section": "§A",
+      "pages": [
+        "Basements"
+      ],
+      "before": "Follows the water 0.7 to 1 inch into the concrete or masonry and becomes part of it.",
+      "after": "Drives into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row A1; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A2",
+      "section": "§A",
+      "pages": [
+        "Basements"
+      ],
+      "before": "bonds into the concrete itself, about 0.7 to 1 inch deep, on both walls and floors.",
+      "after": "bonds into the concrete itself, on both walls and floors.",
+      "authority": "Zola WB claims-debt wording r2.1 row A2; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A3a",
+      "section": "§A",
+      "pages": [
+        "Basements",
+        "Main"
+      ],
+      "before": "Cut section of a poured concrete wall, gray treated zone 0.7 to 1 inch deep along the room-side surface.",
+      "after": "Cut section of a poured concrete wall, gray treated zone along the room-side surface.",
+      "authority": "Zola WB claims-debt wording r2.1 row A3a; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A3b",
+      "section": "§A",
+      "pages": [
+        "Basements",
+        "Main"
+      ],
+      "before": "Cut section of a standard two-core concrete block: both hollow cores and the center web, with the room-side face shell treated 0.7 to 1 inch deep.",
+      "after": "Cut section of a standard two-core concrete block: both hollow cores and the center web, with the room-side face shell treated.",
+      "authority": "Zola WB claims-debt wording r2.1 row A3b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A3c",
+      "section": "§A",
+      "pages": [
+        "Basements",
+        "Main"
+      ],
+      "before": "Cut section of a brick wall with a mortar joint, brick and mortar treated 0.7 to 1 inch deep along the room-side surface.",
+      "after": "Cut section of a brick wall with a mortar joint, brick and mortar treated along the room-side surface.",
+      "authority": "Zola WB claims-debt wording r2.1 row A3c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A3d",
+      "section": "§A",
+      "pages": [
+        "Basements",
+        "Main"
+      ],
+      "before": "Cut section of a stone foundation wall, mortar and stone faces treated 0.7 to 1 inch deep along the room-side surface.",
+      "after": "Cut section of a stone foundation wall, mortar and stone faces treated along the room-side surface.",
+      "authority": "Zola WB claims-debt wording r2.1 row A3d; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A3e",
+      "section": "§A",
+      "pages": [
+        "Basements",
+        "Main"
+      ],
+      "before": "Cut section of a parged masonry wall, treated 0.7 to 1 inch deep along the room-side surface.",
+      "after": "Cut section of a parged masonry wall, treated along the room-side surface.",
+      "authority": "Zola WB claims-debt wording r2.1 row A3e; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A4",
+      "section": "§A",
+      "pages": [
+        "CityPittsburgh"
+      ],
+      "before": "<p>WetBond embeds 0.7 to 1 inch into poured concrete, block, brick and stone, so the treated depth becomes part of the wall. Cracks,",
+      "after": "<p>Cracks,",
+      "authority": "Zola WB claims-debt wording r2.1 row A4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A5",
+      "section": "§A",
+      "pages": [
+        "Compare"
+      ],
+      "before": "A coating has to fight moisture; WetBond goes after it, 0.7 to 1 inch into the concrete, and bonds there, so there’s no film to peel, and in pull tests the concrete breaks first. It’s applied",
+      "after": "A coating has to fight moisture; WetBond goes after it, reacting with the water inside the concrete and bonding into the concrete itself. It’s applied",
+      "authority": "Zola WB claims-debt wording r2.1 row A5; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A6",
+      "section": "§A",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "engineered to go after it: it follows the water 0.7 to 1 inch into the concrete and bonds there. No film, no bond line, nothing to peel. In pull tests, the concrete breaks first.</p>",
+      "after": "engineered to go after it, reacting with the water inside the concrete and bonding into the concrete itself.</p>",
+      "authority": "Zola WB claims-debt wording r2.1 row A6; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A7",
+      "section": "§A",
+      "pages": [
+        "Contractors",
+        "DealerVSL",
+        "ForArchitects",
+        "HowItWorks"
+      ],
+      "before": "Close-up cross-sections of the same concrete wall at the same scale: white waterproofing paint only on the surface and peeling off; a thin amber epoxy layer about 1 millimeter deep; and WetBond, a dense gray zone reaching 0.7 to 1 inch into the concrete with no film on the surface.",
+      "after": "Close-up cross-sections of the same concrete wall: white waterproofing paint only on the surface and peeling off; a thin amber epoxy layer; and WetBond, a dense gray zone reaching into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row A7; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A8a",
+      "section": "§A",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "Same wall, same scale: paint, epoxy, and WetBond 0.7 to 1 in. deep. Illustration.",
+      "after": "Same wall: paint, epoxy, and WetBond. Illustration.",
+      "authority": "Zola WB claims-debt wording r2.1 row A8a; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A8b",
+      "section": "§A",
+      "pages": [
+        "ForArchitects",
+        "HowItWorks"
+      ],
+      "before": "Same wall, same scale: white paint on the surface, epoxy about 1 mm deep, WetBond 0.7 to 1 in. deep. Illustration",
+      "after": "Same wall: white paint on the surface, epoxy, WetBond. Illustration",
+      "authority": "Zola WB claims-debt wording r2.1 row A8b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A9a",
+      "section": "§A",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "WetBond follows that water 0.7 to 1 inch into the concrete and reacts there.",
+      "after": "WetBond follows that water into the concrete and reacts there.",
+      "authority": "Zola WB claims-debt wording r2.1 row A9a; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A9b",
+      "section": "§A",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "We call it <b>substrate conversion</b>: the outer inch of the wall becomes the waterproofing. There's no film, so there's no bond line for water to attack.</p>",
+      "after": "We call it <b>substrate conversion</b>.</p>",
+      "authority": "Zola WB claims-debt wording r2.1 row A9b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A10a",
+      "section": "§A",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>WetBond Color is the entry grade, reaching 150 to 200 mils into brick, about four to five times deeper than a typical penetrating epoxy. The grades Certified Dealers apply on basements and slabs go 700 to 1,000 mils.</p>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A10a; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A10b",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond Color on clay brick, filmed at two hours and at one week: 150 to 200 mils deep, versus about 40 mils for a typical penetrating epoxy. Depth varies by grade and substrate.",
+      "after": "WetBond Color on clay brick, filmed at two hours and at one week.",
+      "authority": "Zola WB claims-debt wording r2.1 row A10b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A10c",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "This is WetBond Color, the entry grade in the family. It reaches 150 to 200 mils into brick, about four to five times deeper than the roughly 40 mils of a typical penetrating epoxy. The grades our Certified Dealers use on basement walls and slabs go 700 to 1,000 mils.</p>",
+      "after": "This is WetBond Color, the entry grade in the family.</p>",
+      "authority": "Zola WB claims-debt wording r2.1 row A10c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A11",
+      "section": "§A",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" style=\"flex:0 0 auto;margin-top:2px\"><circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#1E63B5\"></circle><path d=\"M7 12.5l3.2 3.2L17 9\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg><span><b>Our data is published.</b> Bond strength, penetration depth and vapor permeance are on the <a href=\"Technical.dc.html\">technical page</a>.</span></div>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A11; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A12",
+      "section": "§A",
+      "pages": [
+        "Exterior"
+      ],
+      "before": "WetBond UV embeds 0.7 to 1 inch into outdoor concrete",
+      "after": "WetBond UV embeds into outdoor concrete",
+      "authority": "Zola WB claims-debt wording r2.1 row A12; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A13",
+      "section": "§A",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "WetBond goes 0.7 of an inch to a full inch into the concrete and bonds with it, so there's no surface layer to peel.",
+      "after": "WetBond drives into the concrete and bonds with it.",
+      "count": 3,
+      "authority": "Zola WB claims-debt wording r2.1 row A13; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A14",
+      "section": "§A",
+      "pages": [
+        "Floors"
+      ],
+      "before": "<b>0.7 to 1 in. deep</b>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A14; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A15",
+      "section": "§A",
+      "pages": [
+        "Floors"
+      ],
+      "before": "it uses it to embed 0.7 to 1 inch into the concrete, so moisture",
+      "after": "it uses it to embed into the concrete, so moisture",
+      "authority": "Zola WB claims-debt wording r2.1 row A15; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A16",
+      "section": "§A",
+      "pages": [
+        "Floors"
+      ],
+      "before": "WetBond primes the slab, using its moisture to embed 0.7 to 1 inch deep.",
+      "after": "WetBond primes the slab, using its moisture.",
+      "authority": "Zola WB claims-debt wording r2.1 row A16; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A17",
+      "section": "§A",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "It penetrates 0.7 to 1 inch into pre-wetted substrate and forms covalent bonds with the cement matrix, so the treated depth becomes part of the structure rather than a film applied to it.",
+      "after": "It penetrates pre-wetted substrate and forms covalent bonds with the cement matrix.",
+      "authority": "Zola WB claims-debt wording r2.1 row A17; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A18",
+      "section": "§A",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "saturated soil outside, the WetBond-treated band 0.7 to 1 inch into the room-side face.",
+      "after": "saturated soil outside, the WetBond-treated band.",
+      "authority": "Zola WB claims-debt wording r2.1 row A18; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A19",
+      "section": "§A",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<tr><td data-label=\"Property\">Penetration depth</td><td data-label=\"Result\">0.7 in. standard; up to 1 in. (WetBond Nano)</td><td data-label=\"Method / status\">Measured on treated concrete samples</td></tr>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A19; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A19",
+      "section": "§A",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<tr>\n<td data-label=\"Property\">Penetration depth</td>\n<td data-label=\"Result\">3/4 in. standard, up to 1 in. enhanced</td>\n<td data-label=\"Method\">Measured on treated concrete samples</td>\n</tr>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A19; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A20",
+      "section": "§A",
+      "pages": [
+        "Science"
+      ],
+      "before": "<tr><td data-label=\"Claim\">Penetrates 3/4 in. standard, up to 1 in. enhanced</td><td data-label=\"Evidence\">Measured penetration depth on concrete</td></tr>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A20; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A21",
+      "section": "§A",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "WetBond is rolled onto walls and floor and embeds 0.7 to 1 inch into the concrete.",
+      "after": "WetBond is rolled onto walls and floor and embeds into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row A21; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A22",
+      "section": "§A",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "reacts, and follows it in, 0.7 to 1 inch deep.",
+      "after": "reacts, and follows it in.",
+      "authority": "Zola WB claims-debt wording r2.1 row A22; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A23",
+      "section": "§A",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "Right edge is the room-side surface; the bar marks 1 inch. Illustration.",
+      "after": "Right edge is the room-side surface. Illustration.",
+      "authority": "Zola WB claims-debt wording r2.1 row A23; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A24",
+      "section": "§A",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "A concrete slice with a gray treated band about one inch deep on the inside face;",
+      "after": "A concrete slice with a gray treated band on the inside face;",
+      "authority": "Zola WB claims-debt wording r2.1 row A24; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A25",
+      "section": "§A",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "Inside the concrete, 0.7 to 1 in. deep",
+      "after": "Inside the concrete",
+      "authority": "Zola WB claims-debt wording r2.1 row A25; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A25",
+      "section": "§A",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "Inside the concrete, 0.7 to 1 inch deep",
+      "after": "Inside the concrete",
+      "authority": "Zola WB claims-debt wording r2.1 row A25; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A26",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond has penetrated 0.7 of an inch to an inch into the inside face of the wall",
+      "after": "WetBond has penetrated into the inside face of the wall",
+      "count": 2,
+      "authority": "Zola WB claims-debt wording r2.1 row A26; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A27",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond: 0.7 to 1 in. into the wall",
+      "after": "WetBond",
+      "count": 2,
+      "authority": "Zola WB claims-debt wording r2.1 row A27; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A27",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond: 0.7 to 1 in. into the slab",
+      "after": "WetBond",
+      "count": 2,
+      "authority": "Zola WB claims-debt wording r2.1 row A27; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A28",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond, 0.7 to 1 in. into the concrete",
+      "after": "WetBond",
+      "authority": "Zola WB claims-debt wording r2.1 row A28; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A29",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "<text x=\"387.0\" y=\"300\" text-anchor=\"middle\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"11\" font-weight=\"700\" letter-spacing=\".06em\" fill=\"#A9B4BB\">0.7 TO 1 IN. TREATED DEPTH</text>",
+      "after": "",
+      "count": 3,
+      "authority": "Zola WB claims-debt wording r2.1 row A29; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A30",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "follows them in and pushes the water deeper ahead of it, 0.7 to 1 inch. Damp walls",
+      "after": "follows them in and pushes the water deeper ahead of it. Damp walls",
+      "authority": "Zola WB claims-debt wording r2.1 row A30; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A31",
+      "section": "§A",
+      "pages": [
+        "Main"
+      ],
+      "before": "<div style=\"background: #162028; padding: 32px;\">\n<p style=\"margin: 0; font-size: 16px; color: #A9B4BB;\">Penetration depth, dealer grades</p>\n<p style=\"margin: 10px 0 0; font-size: clamp(48px, 5.4vw, 72px); font-weight: 800; font-stretch: 116%; line-height: 1; letter-spacing: -0.02em; color: #FFFFFF;\">0.7–1 in.</p>\n<p style=\"margin: 14px 0 0; color: #A9B4BB;\">Into the concrete, not on top of it. These are the professional grades only Certified Dealers can apply.</p>\n</div>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A31; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A32",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating"
+      ],
+      "before": "<meta name=\"description\" content=\"WetBond’s embedded treatments follow water 0.7 to 1 inch into concrete and masonry and react with it, so the treated depth becomes part of the stru\">\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A32; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A33",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating"
+      ],
+      "before": "WetBond’s embedded treatments follow water 0.7 to 1 inch into concrete and masonry and react with it, so the treated depth becomes part of the structure.",
+      "after": "WetBond’s embedded treatments follow water into concrete and masonry and react with it.",
+      "authority": "Zola WB claims-debt wording r2.1 row A33; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A34",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating",
+        "Technical"
+      ],
+      "before": "<dt>Penetration</dt><dd>Up to 3/4 in.</dd>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A34; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A34",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating",
+        "Technical"
+      ],
+      "before": "<dt>Penetration</dt><dd>Up to 1 in.</dd>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row A34; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A35",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating"
+      ],
+      "before": "Maximum depth, up to 1 in.; required throughout for the longest warranty terms.",
+      "after": "Required throughout for the longest warranty terms.",
+      "authority": "Zola WB claims-debt wording r2.1 row A35; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A36",
+      "section": "§A",
+      "pages": [
+        "Technical"
+      ],
+      "before": "Two-part embedded treatment, penetrates up to 3/4 in.",
+      "after": "Two-part embedded treatment.",
+      "authority": "Zola WB claims-debt wording r2.1 row A36; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A36",
+      "section": "§A",
+      "pages": [
+        "Technical"
+      ],
+      "before": "Nano-enhanced two-part treatment, up to 1 in. Certified Dealers only",
+      "after": "Nano-enhanced two-part treatment. Certified Dealers only",
+      "authority": "Zola WB claims-debt wording r2.1 row A36; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A37",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating",
+        "Technical"
+      ],
+      "before": "Two-part embedded waterproofing treatment for interior and below-grade concrete and masonry; penetrates up to 3/4 in.",
+      "after": "Two-part embedded waterproofing treatment for interior and below-grade concrete and masonry.",
+      "authority": "Zola WB claims-debt wording r2.1 row A37; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A38",
+      "section": "§A",
+      "pages": [
+        "ProductsPenetrating"
+      ],
+      "before": "Nano-enhanced two-part embedded treatment; penetrates up to 1 in.\"",
+      "after": "Nano-enhanced two-part embedded treatment.\"",
+      "authority": "Zola WB claims-debt wording r2.1 row A38; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A39",
+      "section": "§A",
+      "pages": [
+        "Technical"
+      ],
+      "before": "Nano-enhanced two-part embedded treatment; penetrates up to 1 in. Certified Dealers only.",
+      "after": "Nano-enhanced two-part embedded treatment. Certified Dealers only.",
+      "authority": "Zola WB claims-debt wording r2.1 row A39; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A40",
+      "section": "§A",
+      "pages": [
+        "Science"
+      ],
+      "before": "Close-up cross-sections at the same scale: paint only on the surface, epoxy about 40 mils deep, and WetBond 0.7 to 1 inch into the concrete.",
+      "after": "Close-up cross-sections: paint only on the surface, epoxy, and WetBond into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row A40; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A41",
+      "section": "§A",
+      "pages": [
+        "Science",
+        "Technical"
+      ],
+      "before": "Three sawn concrete samples on a lab bench with a ruler for scale: white paint only on the surface and peeling, a thin amber epoxy layer about 1 millimeter deep, and a gray WetBond zone reaching about 0.7 inch into the concrete.",
+      "after": "Three sawn concrete samples on a lab bench: white paint only on the surface and peeling, a thin amber epoxy layer, and a gray WetBond zone reaching into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row A41; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A42",
+      "section": "§A",
+      "pages": [
+        "Science"
+      ],
+      "before": "It reaches 0.7 inch with WetBond Core and up to 1 inch with WetBond Nano. These deepest-penetrating products carry no pigment,",
+      "after": "WetBond Core and WetBond Nano carry no pigment,",
+      "authority": "Zola WB claims-debt wording r2.1 row A42; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A43",
+      "section": "§A",
+      "pages": [
+        "Science"
+      ],
+      "before": "stops at the WetBond zone 0.7 to 1 inch deep.",
+      "after": "stops at the WetBond zone.",
+      "count": 2,
+      "authority": "Zola WB claims-debt wording r2.1 row A43; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A44",
+      "section": "§A",
+      "pages": [
+        "Science"
+      ],
+      "before": "WETBOND 0.7 TO 1 IN., ROOM SIDE",
+      "after": "WETBOND, ROOM SIDE",
+      "authority": "Zola WB claims-debt wording r2.1 row A44; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A45",
+      "section": "§A",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "Cross-sections at the same scale: paint on the surface, epoxy about 40 mils deep, WetBond 0.7 to 1 inch into the concrete.",
+      "after": "Cross-sections: paint on the surface, epoxy, WetBond into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row A45; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "A46",
+      "section": "§A",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "It travels 0.7 to 1 inch into the concrete and reacts there, forming chemical bonds with the concrete itself. There’s no surface layer and no interface between two materials for moisture to work into. In pull-off testing the concrete broke at 450 psi before the bond let go.",
+      "after": "It travels into the concrete and reacts there, forming chemical bonds with the concrete itself.",
+      "authority": "Zola WB claims-debt wording r2.1 row A46; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    }
+  ],
   "allowedMetadataDeltas": [
     {
       "page": "ProductsPenetrating",
