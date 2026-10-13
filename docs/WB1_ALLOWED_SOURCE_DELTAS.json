@@ -3876,6 +3876,16 @@
       "before": "a: 'You keep buying and installing. Volume affects your pricing band and any exclusive area, never your right to buy the product.' }",
       "after": "a: 'You keep buying and installing.' }",
       "authority": "Zola §E r1.13 34ee4bc3 row E24-7 with Maat corrected selectors c99be947; Melan 848772da"
+    },
+    {
+      "row": "E24-L",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ".lad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));",
+      "after": ".lad{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));",
+      "authority": "Layout only, under the empty-container rule after E24-3 removed Step 3 (Melan ef10e4ca). No copy change."
     }
   ],
   "allowedMetadataDeltas": [
