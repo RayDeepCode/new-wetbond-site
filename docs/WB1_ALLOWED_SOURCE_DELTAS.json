@@ -1376,6 +1376,38 @@
       "before": "<b>The founding cohort is new.</b> ",
       "after": "",
       "authority": "Zola WB claims-debt wording r2.1 row C13; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "ART-2",
+      "section": "§A artwork",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<span aria-hidden=\"true\" style=\"position:absolute;left:85.4%;width:11.5%;bottom:14px;height:22px;border-left:2px solid #FFFFFF;border-right:2px solid #FFFFFF;box-sizing:border-box\"><span style=\"position:absolute;left:0;right:0;top:10px;border-top:2px solid #FFFFFF\"></span><span style=\"position:absolute;right:calc(100% + 8px);top:2px;color:#FFFFFF;font-size:12px;font-weight:800;letter-spacing:.08em;white-space:nowrap;text-shadow:0 1px 3px rgba(0,0,0,.7)\">1 IN.</span></span>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row ART-2; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "ART-4",
+      "section": "§A artwork",
+      "pages": [
+        "Main"
+      ],
+      "before": "<g stroke=\"#FFFFFF\" stroke-width=\"1.5\"><line x1=\"385\" y1=\"136\" x2=\"396\" y2=\"136\"></line><line x1=\"385\" y1=\"130\" x2=\"385\" y2=\"142\"></line><line x1=\"396\" y1=\"130\" x2=\"396\" y2=\"142\"></line></g>\n",
+      "after": "",
+      "count": 2,
+      "authority": "Zola WB claims-debt wording r2.1 row ART-4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "ART-4",
+      "section": "§A artwork",
+      "pages": [
+        "Main"
+      ],
+      "before": "<g stroke=\"#5B6A75\" stroke-width=\"1\"><path d=\"M312 280 L462 280\"></path><path d=\"M312 275 L312 285\"></path><path d=\"M462 275 L462 285\"></path></g>",
+      "after": "",
+      "count": 3,
+      "authority": "Zola WB claims-debt wording r2.1 row ART-4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
     }
   ],
   "allowedMetadataDeltas": [
