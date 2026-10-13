@@ -693,6 +693,343 @@
       "before": "It travels 0.7 to 1 inch into the concrete and reacts there, forming chemical bonds with the concrete itself. There’s no surface layer and no interface between two materials for moisture to work into. In pull-off testing the concrete broke at 450 psi before the bond let go.",
       "after": "It travels into the concrete and reacts there, forming chemical bonds with the concrete itself.",
       "authority": "Zola WB claims-debt wording r2.1 row A46; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P1",
+      "section": "§A-2",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "It follows water into the concrete and reacts there, so the wall itself becomes the waterproofing.",
+      "after": "It follows water into the concrete and reacts there.",
+      "authority": "Zola WB claims-debt wording r2.1 row P1; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P2",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "react with it, so the structure itself becomes the waterproofing. Nothing to pump, dig or peel.",
+      "after": "react with it. Nothing to pump or dig.",
+      "authority": "Zola WB claims-debt wording r2.1 row P2; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P4",
+      "section": "§A-2",
+      "pages": [
+        "Compare"
+      ],
+      "before": "<td data-label=\"WetBond\">No surface layer to peel</td>",
+      "after": "<td data-label=\"WetBond\">Bonds into the concrete</td>",
+      "authority": "Zola WB claims-debt wording r2.1 row P4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P4",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "wb: 'No surface layer to peel'",
+      "after": "wb: 'Bonds into the concrete'",
+      "authority": "Zola WB claims-debt wording r2.1 row P4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P5",
+      "section": "§A-2",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<td data-label=\"WetBond\">No surface layer to peel</td>",
+      "after": "<td data-label=\"WetBond\">Bonds into the concrete</td>",
+      "authority": "Zola WB claims-debt wording r2.1 row P5; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P6",
+      "section": "§A-2",
+      "pages": [
+        "CrawlSpaces"
+      ],
+      "before": "<td data-label=\"WetBond\">Nothing on the surface to peel or tear</td>",
+      "after": "<td data-label=\"WetBond\"></td>",
+      "authority": "Zola WB claims-debt wording r2.1 row P6; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P7",
+      "section": "§A-2",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "with no trench, no pump and nothing to peel.",
+      "after": "with no trench and no pump.",
+      "authority": "Zola WB claims-debt wording r2.1 row P7; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P8",
+      "section": "§A-2",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "In the concrete, so there's no film to wear off.",
+      "after": "In the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row P8; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P9",
+      "section": "§A-2",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "WetBond bonds inside the concrete, so there's no film for water to push off.",
+      "after": "WetBond bonds into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row P9; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P10",
+      "section": "§A-2",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " WetBond turns the concrete into a composite backed by its own strength.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P10; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P11",
+      "section": "§A-2",
+      "pages": [
+        "Exterior"
+      ],
+      "before": "<b>No film to peel</b>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P11; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P12",
+      "section": "§A-2",
+      "pages": [
+        "Exterior"
+      ],
+      "before": "It embeds in the concrete, so there’s no film to wear off under feet or tires.",
+      "after": "It embeds in the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row P12; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P13",
+      "section": "§A-2",
+      "pages": [
+        "Exterior"
+      ],
+      "before": "No color change, no shine and no film.",
+      "after": "No color change and no shine.",
+      "authority": "Zola WB claims-debt wording r2.1 row P13; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P14",
+      "section": "§A-2",
+      "pages": [
+        "HowItWorks",
+        "Main"
+      ],
+      "before": "In plain terms: it locks onto the concrete itself, so there's nothing to peel off.",
+      "after": "In plain terms: it locks onto the concrete itself.",
+      "authority": "Zola WB claims-debt wording r2.1 row P14; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P15",
+      "section": "§A-2",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": " The treated depth is no longer plain concrete but a composite, with no surface layer to peel and no gap for water to collect.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P15; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P16",
+      "section": "§A-2",
+      "pages": [
+        "HowItWorks",
+        "Main"
+      ],
+      "before": "It follows moisture into the material and reacts with it, forming chemical bonds that make it part of the concrete or masonry. It can’t peel off because it isn’t on anything. It’s in it.",
+      "after": "It follows moisture into the material and reacts with it, bonding into the concrete itself.",
+      "authority": "Zola WB claims-debt wording r2.1 row P16; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P17",
+      "section": "§A-2",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": " There's no surface layer for water to push against, no bond line for minerals to collect at, and no film to peel.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P17; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P18",
+      "section": "§A-2",
+      "pages": [
+        "Learn",
+        "Sustainability"
+      ],
+      "before": "How WetBond becomes part of the concrete.",
+      "after": "How WetBond bonds into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row P18; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P19",
+      "section": "§A-2",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "Kept in service; the treated depth becomes part of the structure",
+      "after": "Kept in service",
+      "authority": "Zola WB claims-debt wording r2.1 row P19; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P20",
+      "section": "§A-2",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "so the protection doesn’t sit on the surface waiting to peel, and the structure you already paid for",
+      "after": "so the structure you already paid for",
+      "authority": "Zola WB claims-debt wording r2.1 row P20; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P21",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": " There's no surface layer to peel, blister or flake.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P21; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P22",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "<p style=\"margin: 12px 0 0; color: #A9B4BB;\">The treated depth of concrete becomes one solid composite, sealed against water and the moisture that wicks through concrete, while letting vapor pass slowly so nothing is trapped inside.</p>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P22; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P23",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "Magnified concrete. The treated depth is one solid composite with its pores sealed; water stops at the boundary.",
+      "after": "Magnified concrete. Water stops at the boundary.",
+      "authority": "Zola WB claims-debt wording r2.1 row P23; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P24",
+      "section": "§A-2",
+      "pages": [
+        "Main"
+      ],
+      "before": "reacting with the water inside the concrete and becoming part of it.",
+      "after": "reacting with the water inside the concrete and bonding into the concrete itself.",
+      "authority": "Zola WB claims-debt wording r2.1 row P24; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P25",
+      "section": "§A-2",
+      "pages": [
+        "Science"
+      ],
+      "before": "When the reaction is complete, the treated depth is no longer plain concrete. The pores are filled and bonded closed, and material and concrete act as one composite, with no surface layer or bond line for water, minerals or vapor to work against.",
+      "after": "When the reaction is complete, the pores are filled and bonded closed.",
+      "authority": "Zola WB claims-debt wording r2.1 row P25; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P26",
+      "section": "§A-2",
+      "pages": [
+        "Science"
+      ],
+      "before": "<p class=\"plain\"><em>In plain terms: the waterproofing isn't attached to the wall. It's part of the wall.</em></p>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row P26; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P27",
+      "section": "§A-2",
+      "pages": [
+        "Technical"
+      ],
+      "before": "to form covalent bonds with the substrate, becoming part of the structure rather than a coating applied to it.",
+      "after": "to form covalent bonds with the substrate.",
+      "authority": "Zola WB claims-debt wording r2.1 row P27; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P28",
+      "section": "§A-2",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "Coatings stick to concrete. WetBond becomes part of it.",
+      "after": "Coatings stick to concrete. WetBond bonds into the concrete.",
+      "authority": "Zola WB claims-debt wording r2.1 row P28; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P29",
+      "section": "§A-2",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<figcaption>There&#8217;s no film to peel: the treated zone is part of the concrete. Illustration.</figcaption>",
+      "after": "<figcaption>Illustration.</figcaption>",
+      "authority": "Zola WB claims-debt wording r2.1 row P29; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "P30",
+      "section": "§A-2",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "The treated depth becomes part of the concrete. No pump to service, no film to peel and recoat.",
+      "after": "WetBond bonds into the concrete. No pump to service.",
+      "authority": "Zola WB claims-debt wording r2.1 row P30; Maat SHIP r2.1 ae1a2249 (62252bd3)"
     }
   ],
   "allowedMetadataDeltas": [
