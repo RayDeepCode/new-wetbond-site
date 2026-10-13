@@ -3466,6 +3466,346 @@
       "before": "<li><strong>Tunable chemistry:</strong> vapor permeance can be set in formulation</li>\n",
       "after": "",
       "authority": "Zola §E r1.7 f0ab5691 / r1.8 77ab2605 row E19-28; Maat SHIP 88c68000/72e61566; Melan 1792e3f6"
+    },
+    {
+      "row": "E21-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"vr\"><span>Demolition</span><p data-l=\"Drain tile and pump\">Jackhammer a trench around the perimeter</p><p class=\"wb\" data-l=\"WetBond\">None. Prep, repairs, then a roller</p></div>",
+      "after": "",
+      "authority": "Zola §E r1.10 fd861cba row E21-1; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"vr\"><span>What the homeowner lives with</span><p data-l=\"Drain tile and pump\">A pump, a power dependence, a system to maintain</p><p class=\"wb\" data-l=\"WetBond\">A dry wall and floor. Nothing to run</p></div>",
+      "after": "",
+      "authority": "Zola §E r1.10 fd861cba row E21-2; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-3",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "<a href=\"Sustainability.dc.html\"><b>Sustainability</b><span>Less demolition, less waste</span></a>",
+      "after": "<a href=\"Sustainability.dc.html\"><b>Sustainability</b></a>",
+      "authority": "Zola §E r1.10 fd861cba row E21-3; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-4",
+      "section": "§E",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "<p>Prep, repairs, application and job registration in one day, and where certification fits into it.</p>",
+      "after": "<p>Prep, repairs, application and job registration, and where certification fits into it.</p>",
+      "authority": "Zola §E r1.10 fd861cba row E21-4; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-5",
+      "section": "§E",
+      "pages": [
+        "Compare"
+      ],
+      "before": "<td data-label=\"WetBond\">Minimal; applied in one day</td>",
+      "after": "<td data-label=\"WetBond\">Minimal</td>",
+      "authority": "Zola §E r1.10 fd861cba row E21-5; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-5",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "wb: 'Minimal; applied in one day' }",
+      "after": "wb: 'Minimal' }",
+      "authority": "Zola §E r1.10 fd861cba row E21-5; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-6",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<section class=\"sec alt\" id=\"dilemma\"><div class=\"fw\"><div class=\"now dqtl\"><div class=\"hd\"><p>It never made it into the residential basement trade. That's the opening.</p><p>WetBond is bringing it to residential contractors across the US through a Certified Dealer network, one county at a time.</p></div>\n</div><p class=\"dqn\">That’s the rare part of what you’re looking at: a method your competitors haven’t seen.</p></div></section>\n",
+      "after": "",
+      "authority": "Zola §E r1.10 fd861cba row E21-6; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-7",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span>We appoint one Certified Dealer per 250,000 people. In most cities, no contractor offers embedded waterproofing yet.</span>",
+      "after": "<span>We appoint one Certified Dealer per 250,000 people.</span>",
+      "authority": "Zola §E r1.10 fd861cba row E21-7; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-8",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Compare",
+        "LearnWhyBasementsLeak"
+      ],
+      "before": "<span>Why the wall itself becomes the waterproofing.</span>",
+      "after": "",
+      "authority": "Zola §E r1.10 fd861cba row E21-8; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-9",
+      "section": "§E",
+      "pages": [
+        "About"
+      ],
+      "before": " It does harm by moving through the concrete’s pores, cracks and joints. So instead of asking where to send the water, we asked what concrete would have to become to stop it. WetBond is the answer.</p>",
+      "after": " It does harm by moving through the concrete’s pores, cracks and joints.</p>",
+      "authority": "Zola §E r1.10 fd861cba row E21-9; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-10",
+      "section": "§E",
+      "pages": [
+        "CrawlSpaces"
+      ],
+      "before": "<td data-label=\"WetBond\">Treated; the masonry becomes the barrier</td>",
+      "after": "<td data-label=\"WetBond\">Treated</td>",
+      "authority": "Zola §E r1.10 fd861cba row E21-10; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-11",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p class=\"lead\">WetBond converts the concrete itself into the waterproofing, so wet basements and damp slabs become jobs you can take. Most contractors in your city will never be able to offer it: we certify only a handful per market, and in many cities just one. The whole case is below, and it takes about five minutes to read.</p>",
+      "after": "<p class=\"lead\">The whole case is below, and it takes about five minutes to read.</p>",
+      "authority": "Zola §E r1.10 fd861cba row E21-11; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-15",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<h1>Negative-side waterproofing that becomes the substrate.</h1>",
+      "after": "<h1>Negative-side waterproofing.</h1>",
+      "authority": "Zola §E r1.10 fd861cba row E21-15; Maat 7a8de856; Melan 290fc231"
+    },
+    {
+      "row": "E21-5b",
+      "section": "§E",
+      "pages": [
+        "Compare"
+      ],
+      "before": "<tr><td><strong>Disruption</strong></td><td data-label=\"Interior drain and sump\">Floor cut, trench, pit</td><td data-label=\"Exterior excavation\">Yard dug to the footing</td><td data-label=\"Coatings and paint\">Minimal</td><td data-label=\"WetBond\">Minimal</td></tr>",
+      "after": "",
+      "authority": "Zola §E r1.11 33150f57 row E21-5b; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E21-5b",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "      { q: 'Disruption', drain: 'Floor cut, trench, pit', ext: 'Yard dug to the footing', coat: 'Minimal', wb: 'Minimal' },\n",
+      "after": "",
+      "authority": "Zola §E r1.11 33150f57 row E21-5b; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E22-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"capcalc\"><label>Population of your market<input type=\"number\" min=\"0\" step=\"10000\" value=\"{{cap.pop}}\" onChange=\"{{cap.setPop}}\"></label><div class=\"capout\"><b>{{cap.seats}}</b><i class=\"capl\">{{cap.label}}</i></div><p>Seats are counted per county from published population figures. Your exact count is confirmed when you apply.</p></div>",
+      "after": "",
+      "authority": "Zola §E r1.11 33150f57 row E22-5; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E22-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"cta-strip dk\"><p><b>Most cities have room for only a few dealers.</b><span>Check yours before it fills.</span></p><div class=\"cta-b\">",
+      "after": "<div class=\"cta-strip dk\"><div class=\"cta-b\">",
+      "authority": "Zola §E r1.11 33150f57 row E22-5; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E22-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " const pop=Math.max(0,Number(s.pop)||0); const seats=pop<1?0:Math.max(1,Math.floor(pop/250000)); const cap={pop:s.pop,seats:String(seats),label:(seats===1?\"Certified Dealer seat\":\"Certified Dealer seats\")+\" for \"+pop.toLocaleString(\"en-US\")+\" people\",setPop:e=>this.setState({pop:e.target.value})};\n    return { cap, c:{",
+      "after": "\n    return { c:{",
+      "authority": "Zola §E r1.11 33150f57 row E22-5; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E22-9",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "<a href=\"DealerVSL.dc.html\"><b>Become a Certified Dealer</b><span>One per 250,000 people. See if your market is open</span></a>",
+      "after": "<a href=\"DealerVSL.dc.html\"><b>Become a Certified Dealer</b><span>See if your market is open</span></a>",
+      "authority": "Zola §E r1.11 33150f57 row E22-9; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E22-2",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"capb\"><span class=\"capn\">1 per 250K</span><span>",
+      "after": "<div class=\"capb\"><span>",
+      "authority": "Zola §E r1.11 33150f57 row E22-2; Maat SHIP 8c88d0c0; Melan 2c37d794"
+    },
+    {
+      "row": "E22-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span>We appoint one Certified Dealer per 250,000 people.</span>",
+      "after": "<span>We appoint about one Certified Dealer per 250,000 people in a county.</span>",
+      "authority": "Zola §E r1.12 39f01e30 row E22-1; Maat SHIP d9658d98 (E22) / 8c88d0c0; Sade 865ef256; Melan 92873155"
+    },
+    {
+      "row": "E22-3",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ">One Certified Dealer per 250,000 people. That’s the cap.</h2>",
+      "after": ">We appoint about one Certified Dealer per 250,000 people in a county.</h2>",
+      "authority": "Zola §E r1.12 39f01e30 row E22-3; Maat SHIP d9658d98 (E22) / 8c88d0c0; Sade 865ef256; Melan 92873155"
+    },
+    {
+      "row": "E22-4",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>We publish the limit and we hold to it. A metro of a million people gets about four Certified Dealers. A city of 250,000 gets one. Once an area is full, the next contractor waits.</p>",
+      "after": "<p>When a county's Certified seats are filled, we stop appointing Certified Dealers there.</p>",
+      "authority": "Zola §E r1.12 39f01e30 row E22-4; Maat SHIP d9658d98 (E22) / 8c88d0c0; Sade 865ef256; Melan 92873155"
+    },
+    {
+      "row": "E22-6",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<li>Appointments capped at roughly one per 250,000 people</li>",
+      "after": "<li>We appoint about one Certified Dealer per 250,000 people in a county.</li>",
+      "authority": "Zola §E r1.12 39f01e30 row E22-6; Maat SHIP d9658d98 (E22) / 8c88d0c0; Sade 865ef256; Melan 92873155"
+    },
+    {
+      "row": "E22-7",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>Once a county reaches its cap, we stop appointing Certified Dealers there.</p>",
+      "after": "<p>When a county's Certified seats are filled, we stop appointing Certified Dealers there.</p>",
+      "authority": "Zola §E r1.12 39f01e30 row E22-7; Maat SHIP d9658d98 (E22) / 8c88d0c0; Sade 865ef256; Melan 92873155"
+    },
+    {
+      "row": "E22-8",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<details><summary>Is there a protected territory?</summary><p>Not at signing. Certified Dealer appointments are capped per county, roughly one per 250,000 people. Master Dealers earn an exclusive area on volume and keep it by meeting it.</p></details>\n",
+      "after": "",
+      "authority": "Zola §E r1.12 39f01e30 row E22-8; Maat SHIP d9658d98 (E22) / 8c88d0c0; Sade 865ef256; Melan 92873155"
+    },
+    {
+      "row": "E23-1",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span class=\"eyb dk\"><b class=\"chn\">01</b> See the difference</span>",
+      "after": "<span class=\"eyb dk\"><b class=\"chn\">01</b></span>",
+      "authority": "Zola §E r1.13 34ee4bc3 row E23-1; Maat 73505b22; Melan 8438dd59"
     }
   ],
   "allowedMetadataDeltas": [
