@@ -3886,6 +3886,602 @@
       "before": ".lad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));",
       "after": ".lad{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));",
       "authority": "Layout only, under the empty-container rule after E24-3 removed Step 3 (Melan ef10e4ca). No copy change."
+    },
+    {
+      "row": "E25-1",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "phased with minimal disruption and documented",
+      "after": "phased and documented",
+      "authority": "Zola §E r1.15 50f02514 row E25-1; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-2",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "<article class=\"au-card\"><p class=\"k\">Operations</p><h3>Disruption</h3><p>Excavation closes walkways, parking and landscaping, and tying up staff time often costs more than the repair.</p></article>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-2; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-3",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "<tr><td data-label=\"What you need\">Minimal disruption</td><td data-label=\"How WetBond handles it\">Applied from the inside.</td></tr>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-3; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-4",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "what WetBond costs you in time and disruption, ",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-4; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-5",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<tr><td data-label=\"Choice\">Ongoing energy</td><td data-label=\"The usual way\">Pumps and dehumidifiers that run for the life of the building and get replaced</td><td data-label=\"The WetBond way\">Nothing to run on the walls; your dealer will say if humidity calls for help</td></tr>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-5; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-6",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "Drain tile works, but every job means days of demolition, a bigger crew and a price that sends homeowners shopping three bids.",
+      "after": "Drain tile works.",
+      "authority": "Zola §E r1.15 50f02514 row E25-6; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-7",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>The homeowner with a wet basement is choosing between a jackhammer and a coating that peels.</p>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-7; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-8",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "        { t: 'Waterproofers', d: \"Who want a system that doesn't depend on pumps and trenches.\" },\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-8; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-9",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "WetBond works on all of them, and your dealer sets",
+      "after": "Your dealer sets",
+      "authority": "Zola §E r1.15 50f02514 row E25-9; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-10",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3 class=\"vt3\">Basements</h3><div class=\"vs\"><div class=\"vh\"><span></span><b>Drain tile and pump</b><b class=\"wb\">WetBond</b></div><div class=\"vr\"><span>Time on site</span><p data-l=\"Drain tile and pump\">Several days, plus concrete cure</p><p class=\"wb\" data-l=\"WetBond\">Usually one day of application</p></div></div>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-10; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-11",
+      "section": "§E",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "WetBond itself goes on in a single day. Prep and repairs",
+      "after": "Most basements are a one-day application. Prep and repairs",
+      "count": 3,
+      "authority": "Zola §E r1.15 50f02514 row E25-11; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-11",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond itself goes on in a single day. Prep and repairs",
+      "after": "Most basements are a one-day application. Prep and repairs",
+      "authority": "Zola §E r1.15 50f02514 row E25-11; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-12",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": ", and WetBond goes on in a day, not a week",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-12; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-13",
+      "section": "§E",
+      "pages": [
+        "CityPittsburgh"
+      ],
+      "before": " Most basements are done in a day.",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-13; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-14",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "applied in a day, ",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-14; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-15",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<li><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" aria-hidden=\"true\" style=\"flex:0 0 auto;margin-top:2px\"><circle cx=\"12\" cy=\"12\" r=\"11\" fill=\"#1E63B5\"></circle><path d=\"M7 12.5l3.2 3.2L17 9\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></svg><span>Applied in a day</span></li>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-15; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-16",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "Applied in a day. Backed by the manufacturer.",
+      "after": "Backed by the manufacturer.",
+      "authority": "Zola §E r1.15 50f02514 row E25-16; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-17",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "Usually one area per day after repairs, so work can be phased",
+      "after": "Work can be phased",
+      "authority": "Zola §E r1.15 50f02514 row E25-17; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-18",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "pre-wetted and treated, usually in a day.",
+      "after": "pre-wetted and treated.",
+      "authority": "Zola §E r1.15 50f02514 row E25-18; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-19",
+      "section": "§E",
+      "pages": [
+        "DealerApply"
+      ],
+      "before": "line:'The wet basements you refer out today become your own first step.'",
+      "after": "line:''",
+      "authority": "Zola §E r1.15 50f02514 row E25-19; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-21",
+      "section": "§E",
+      "pages": [
+        "CrawlSpaces",
+        "Exterior",
+        "Repairs",
+        "SumpPits",
+        "WetSpaces"
+      ],
+      "before": "<span>A dry basement that doesn’t depend on a pump.</span>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-21; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-22",
+      "section": "§E",
+      "pages": [
+        "CrawlSpaces"
+      ],
+      "before": "<h1>A dry crawl space without wrapping it in plastic.</h1>",
+      "after": "<h1>A crawl space without wrapping it in plastic.</h1>",
+      "authority": "Zola §E r1.15 50f02514 row E25-22; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-23",
+      "section": "§E",
+      "pages": [
+        "CityPittsburgh"
+      ],
+      "before": "<span>A dry crawl space without plastic.</span>",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-23; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-25",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<path d=\"M880 345 L880 205 L860 205\"></path>",
+      "after": "",
+      "count": 2,
+      "authority": "Zola §E r1.15 50f02514 row E25-25; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-25",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<text x=\"852\" y=\"210\" font-size=\"17\" fill=\"#C9D1D6\" text-anchor=\"end\">Your basement, dry</text>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-25; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-25",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<svg class=\"m-only\" viewBox=\"50 0 830 1064\"",
+      "after": "<svg class=\"m-only\" viewBox=\"50 0 830 1006\"",
+      "authority": "Zola §E r1.15 50f02514 row E25-25; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-25",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<circle cx=\"826\" cy=\"204\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"826\" y=\"215\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">5</text><circle cx=\"92\" cy=\"286\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"92\" y=\"297\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">6</text><circle cx=\"288\" cy=\"508\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"288\" y=\"519\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">7</text><circle cx=\"850\" cy=\"460\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"850\" y=\"471\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">8</text>",
+      "after": "<circle cx=\"92\" cy=\"286\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"92\" y=\"297\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">5</text><circle cx=\"288\" cy=\"508\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"288\" y=\"519\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">6</text><circle cx=\"850\" cy=\"460\" r=\"27\" fill=\"#F4F1EA\" stroke=\"#162028\" stroke-width=\"4\"></circle><text x=\"850\" y=\"471\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">7</text>",
+      "authority": "Zola §E r1.15 50f02514 row E25-25; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-25",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<circle cx=\"80\" cy=\"820\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"829\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">5</text><text x=\"118\" y=\"832\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Your basement, dry</text><circle cx=\"80\" cy=\"878\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"887\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">6</text><text x=\"118\" y=\"890\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Water table</text><circle cx=\"80\" cy=\"936\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"945\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">7</text><text x=\"118\" y=\"948\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Footing</text><circle cx=\"80\" cy=\"994\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"1003\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">8</text><text x=\"118\" y=\"1006\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Gravel</text>",
+      "after": "<circle cx=\"80\" cy=\"820\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"829\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">5</text><text x=\"118\" y=\"832\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Water table</text><circle cx=\"80\" cy=\"878\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"887\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">6</text><text x=\"118\" y=\"890\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Footing</text><circle cx=\"80\" cy=\"936\" r=\"22\" fill=\"#F4F1EA\"></circle><text x=\"80\" y=\"945\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"26\" font-weight=\"800\" fill=\"#162028\" text-anchor=\"middle\">7</text><text x=\"118\" y=\"948\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"32\" font-weight=\"500\" fill=\"#C9D1D6\">Gravel</text>",
+      "authority": "Zola §E r1.15 50f02514 row E25-25; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-26",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "their finished, dry basement",
+      "after": "their finished basement",
+      "authority": "Zola §E r1.15 50f02514 row E25-26; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-27",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "cove and floor treated, dry and clean.",
+      "after": "cove and floor treated.",
+      "authority": "Zola §E r1.15 50f02514 row E25-27; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-28",
+      "section": "§E",
+      "pages": [
+        "Basements"
+      ],
+      "before": "are treated and dry with no plastic.",
+      "after": "are treated with no plastic.",
+      "authority": "Zola §E r1.15 50f02514 row E25-28; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-29",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "the footprint of a dry building",
+      "after": "the footprint of a building",
+      "authority": "Zola §E r1.15 50f02514 row E25-29; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-30",
+      "section": "§E",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": "inside the concrete, and your finishes go on a dry base.",
+      "after": "inside the concrete.",
+      "authority": "Zola §E r1.15 50f02514 row E25-30; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-31",
+      "section": "§E",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "per area, and how Master Dealers earn exclusivity.",
+      "after": "per area.",
+      "authority": "Zola §E r1.15 50f02514 row E25-31; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-32",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "100 gallons of WetBond</b><span>Enough for your first ten average basements, <i>so you can</i> run jobs without reordering.</span>",
+      "after": "Material for about ten basement jobs: WetBond Core plus crack and injection repair products.</b>",
+      "authority": "Zola §E r1.15 50f02514 row E25-32; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-33",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "Most markets have room for only a few dealers. ",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-33; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-34",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"wc\"><span class=\"wi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 11l9-7 9 7\"></path><path d=\"M5.5 9.5V20h13V9.5\"></path><path d=\"M10 20v-5h4v5\"></path></svg></span><h3>Work that's already in your market</h3><p>Every job another crew walked away from is a job with no competitor on it. WetBond is built for exactly those substrates.</p></div>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-34; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-35",
+      "section": "§E",
+      "pages": [
+        "FieldData"
+      ],
+      "before": "Most waterproofing companies show you photos. We take readings. ",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-35; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-36",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "Most waterproofing starts with the water and asks where to send it. We started from first principles: water gets in through the concrete, so the concrete has to change. ",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-36; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-37",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<p class=\"plain\">Most waterproofing sits on the surface and waits to fail. WetBond is engineered to do the opposite. It drives into the concrete, reacting with the water inside the concrete and bonding into the concrete itself.</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-37; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-37",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<p style=\"margin: 22px 0 0; max-width: 56ch; color: #A9B4BB;\">Most waterproofing sits on the surface and waits to fail. WetBond is engineered to do the opposite. It drives into the concrete, reacting with the water inside the concrete and bonding into the concrete itself. Here’s how, in three stages.</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-37; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-38",
+      "section": "§E",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": " The common fixes usually handle only one.",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-38; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-39",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"rk\"><span class=\"wi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 3h6M10 3v6l-5.2 8.8A2.1 2.1 0 0 0 6.6 21h10.8a2.1 2.1 0 0 0 1.8-3.2L14 9V3\"></path><path d=\"M7.5 15h9\"></path></svg></span><b>Try it on one job first</b><p>Start with a starter kit. If you certify within 60 days of delivery, those gallons count toward your opening order.</p></div>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-39; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-40",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<details><summary>What if I'm not ready for the opening order?</summary><p>Start with an Applicator starter kit: material for a job or two and the written protocol, with no warranty authority. Certify within 60 days of delivery and what you bought counts toward the opening order.</p></details>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-40; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-41",
+      "section": "§E",
+      "pages": [
+        "DealerApply"
+      ],
+      "before": " A starter kit lets you run one or two jobs first. If you certify within 60 days of delivery, what you've bought counts toward the Certified opening order.",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-41; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3>Applicator</h3><p>A starter kit for a job or two and the written protocol.</p><ul><li>No warranty authority</li></ul>",
+      "after": "<h3>Applicator</h3><ul><li>No warranty authority</li></ul>",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " are turned down or pointed to the starter kit.",
+      "after": " are turned down.",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<div style=\"flex: 1 1 440px; background: #162028; border-radius: 8px; padding: 36px;\">\n<h2 style=\"margin: 0; font-size: 30px; line-height: 1.1; font-weight: 800; font-stretch: 110%; color: #FFFFFF;\">Not ready for certification? Start with one job.</h2>\n<p style=\"margin: 14px 0 0; color: #C9D1D6;\">Order an Applicator starter kit with enough material for a job or two and the written application protocol.</p>\n<p style=\"margin: 22px 0 0;\"><a href=\"mailto:support@wetbond.com?subject=Starter%20kit%20order\" style=\"color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 8px; border: 2px solid #E6EAEC; display: inline-flex; min-height: 44px; box-sizing: border-box; align-items: center;\">Order a starter kit</a></p>\n</div>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<p style=\"margin: 0; font-size: 18px; font-weight: 700;\">The fastest way in is a starter kit: material for a job or two and the written protocol. You can still book a call.</p>",
+      "after": "<p style=\"margin: 0; font-size: 18px; font-weight: 700;\">You can still book a call.</p>",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<a href=\"mailto:support@wetbond.com?subject=Starter%20kit%20order\" style=\"background: #162028; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 8px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center;\">Order a starter kit</a>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<th scope=\"col\" style=\"padding: 18px 16px;\">Applicator</th>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<td style=\"padding: 16px;\">{{r.a}}</td>\n",
+      "after": "",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "{ q: \"Who it's for\", a: 'Contractors trying the material on a job or two', c:",
+      "after": "{ q: \"Who it's for\", c:",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "{ q: 'How you join', a: 'Buy a starter kit', c:",
+      "after": "{ q: 'How you join', c:",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "{ q: 'Training', a: 'Written application protocol included', c:",
+      "after": "{ q: 'Training', c:",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "{ q: 'Manufacturer warranty', a: 'No', c:",
+      "after": "{ q: 'Manufacturer warranty', c:",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "{ q: 'Included in the dealer lookup', a: 'No', c:",
+      "after": "{ q: 'Included in the dealer lookup', c:",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-42",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "var cols = [['a', 'Applicator', false], ['c',",
+      "after": "var cols = [['c',",
+      "authority": "Zola §E r1.15 50f02514 row E25-42; Maat SHIP d9d2baae; Melan 377e3c09"
+    },
+    {
+      "row": "E25-43",
+      "section": "§E",
+      "pages": [
+        "DealerApply"
+      ],
+      "before": "line:'Your crew already knows basements. WetBond adds a one-day option.'",
+      "after": "line:'Your crew already knows basements.'",
+      "authority": "Zola §E r1.16 9a0270f7 row E25-43; Maat SHIP 60187ae0; Melan 6e157916"
     }
   ],
   "allowedMetadataDeltas": [

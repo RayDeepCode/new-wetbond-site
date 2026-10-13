@@ -68,7 +68,7 @@ table{border-collapse:collapse}
 <div style="max-width: 1240px; margin: 0 auto; padding: 64px 24px 80px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center;">
 <div style="flex: 1 1 420px; min-width: 0;">
 <p style="margin: 0 0 20px; font-size: clamp(24px, 2.8vw, 34px); line-height: 1.05; font-weight: 800; font-stretch: 112%; letter-spacing: -0.01em; color: #A9B4BB;"><span style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;">Fix the wall, not the water.</span><span aria-hidden="true">Fix the </span><span aria-hidden="true" style="display: inline-grid; vertical-align: top; font-size: min(1em, 10.5vw);"><sc-for list="{{rot}}" as="w" hint-placeholder-count="1"><span style="grid-area: 1 / 1; white-space: nowrap; color: #FFFFFF; opacity: {{w.op}}; animation: {{w.anim}}; will-change: opacity, transform, filter;">{{w.t}}</span></sc-for></span><span aria-hidden="true" style="display: block;">not the water.</span></p><h1 style="margin: 0; font-size: clamp(44px, 6.6vw, 84px); line-height: 0.97; font-weight: 800; font-stretch: 114%; letter-spacing: -0.03em; color: #FFFFFF;">Become a WetBond Certified Dealer.</h1><sc-if value="{{rotOn}}" hint-placeholder-val="{{false}}"><button type="button" onClick="{{rotPause}}" aria-label="Stop the rotating words" style="margin-top: 14px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border-radius: 8px; border: 1px solid #3A4852; background: transparent; color: #C9D1D6; font-family: inherit; font-size: 15px; font-weight: 700; cursor: pointer;"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor"></path></svg>Pause</button></sc-if>
-<p style="margin: 26px 0 0; font-size: 20px; max-width: 40ch; color: #C9D1D6;">Add embedded waterproofing to your business. Basements, slabs and repairs, applied in a day, and backed by a manufacturer warranty.</p>
+<p style="margin: 26px 0 0; font-size: 20px; max-width: 40ch; color: #C9D1D6;">Add embedded waterproofing to your business. Basements, slabs and repairs, and backed by a manufacturer warranty.</p>
 <div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 14px;">
 <a href="DealerApply.dc.html" style="background: {{water}}; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 16px 26px; border-radius: 8px; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center;">Book a call</a>
 <a href="#program" style="color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 16px 26px; border-radius: 8px; font-size: 18px; border: 2px solid #E6EAEC; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center;">How the program works</a>
@@ -167,7 +167,6 @@ table{border-collapse:collapse}
 <thead>
 <tr style="border-bottom: 2px solid #162028;">
 <td style="padding: 18px 16px; width: 20%;"></td>
-<th scope="col" style="padding: 18px 16px;">Applicator</th>
 <th scope="col" style="padding: 18px 16px; background: #162028; color: #FFFFFF;">Certified Dealer</th>
 <th scope="col" style="padding: 18px 16px;">Master Dealer</th>
 </tr>
@@ -176,7 +175,6 @@ table{border-collapse:collapse}
 <sc-for list="{{tiers}}" as="r" hint-placeholder-count="5">
 <tr style="border-bottom: 1px solid #D5D8D5;">
 <th scope="row" style="padding: 16px; font-weight: 700;">{{r.q}}</th>
-<td style="padding: 16px;">{{r.a}}</td>
 <td style="padding: 16px; background: #F4F5F3; font-weight: 700;">{{r.c}}</td>
 <td style="padding: 16px;">{{r.m}}</td>
 </tr>
@@ -226,11 +224,6 @@ table{border-collapse:collapse}
 <h2 style="margin: 0; font-size: 30px; line-height: 1.1; font-weight: 800; font-stretch: 110%; color: #FFFFFF;">No income claims. No promised leads.</h2>
 <p style="margin: 14px 0 0; color: #C9D1D6;">We don’t promise earnings or sell leads. We market WetBond to homeowners, and our dealer lookup treats every Certified Dealer equally. What you build with it is yours.</p>
 </div>
-<div style="flex: 1 1 440px; background: #162028; border-radius: 8px; padding: 36px;">
-<h2 style="margin: 0; font-size: 30px; line-height: 1.1; font-weight: 800; font-stretch: 110%; color: #FFFFFF;">Not ready for certification? Start with one job.</h2>
-<p style="margin: 14px 0 0; color: #C9D1D6;">Order an Applicator starter kit with enough material for a job or two and the written application protocol.</p>
-<p style="margin: 22px 0 0;"><a href="mailto:support@wetbond.com?subject=Starter%20kit%20order" style="color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 8px; border: 2px solid #E6EAEC; display: inline-flex; min-height: 44px; box-sizing: border-box; align-items: center;">Order a starter kit</a></p>
-</div>
 </div>
 </section>
 
@@ -276,9 +269,8 @@ table{border-collapse:collapse}
 </fieldset>
 <div style="margin-top: 32px;" aria-live="polite">
 <sc-if value="{{showSolo}}" hint-placeholder-val="{{false}}">
-<p style="margin: 0; font-size: 18px; font-weight: 700;">The fastest way in is a starter kit: material for a job or two and the written protocol. You can still book a call.</p>
+<p style="margin: 0; font-size: 18px; font-weight: 700;">You can still book a call.</p>
 <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px;">
-<a href="mailto:support@wetbond.com?subject=Starter%20kit%20order" style="background: #162028; color: #FFFFFF; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 8px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center;">Order a starter kit</a>
 <a href="DealerApply.dc.html" style="color: #162028; text-decoration: none; font-weight: 700; padding: 14px 22px; border-radius: 8px; border: 2px solid #162028; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center;">Pick a time for a call</a>
 </div>
 </sc-if>
@@ -348,13 +340,13 @@ class Component extends DCLogic {
     var answered = !!(self.state.trade && self.state.crew);
     var solo = self.state.crew === 'Just me';
     var tiers = [
-      { q: "Who it's for", a: 'Contractors trying the material on a job or two', c: 'Contractors building a waterproofing line of business', m: 'Certified Dealers at high volume' },
-      { q: 'How you join', a: 'Buy a starter kit', c: 'Opening product order, training and certification', m: 'Earned on volume' },
-      { q: 'Training', a: 'Written application protocol included', c: 'Online and hands-on certification, written exam, first jobs reviewed', m: 'Ongoing' },
-      { q: 'Manufacturer warranty', a: 'No', c: 'Yes, on registered jobs', m: 'Yes, on registered jobs' },
-      { q: 'Included in the dealer lookup', a: 'No', c: 'Yes', m: 'Yes' }
+      { q: "Who it's for", c: 'Contractors building a waterproofing line of business', m: 'Certified Dealers at high volume' },
+      { q: 'How you join', c: 'Opening product order, training and certification', m: 'Earned on volume' },
+      { q: 'Training', c: 'Online and hands-on certification, written exam, first jobs reviewed', m: 'Ongoing' },
+      { q: 'Manufacturer warranty', c: 'Yes, on registered jobs', m: 'Yes, on registered jobs' },
+      { q: 'Included in the dealer lookup', c: 'Yes', m: 'Yes' }
     ];
-    var cols = [['a', 'Applicator', false], ['c', 'Certified Dealer', true], ['m', 'Master Dealer', false]];
+    var cols = [['c', 'Certified Dealer', true], ['m', 'Master Dealer', false]];
     var tierCards = cols.map(function (c) {
       return { name: c[1], main: c[2], other: !c[2], items: tiers.map(function (r) { return { q: r.q, a: r[c[0]] }; }) };
     });
@@ -373,7 +365,6 @@ class Component extends DCLogic {
       water: this.props.water ?? '#1E63B5',
       band: this.props.band ?? '#7C8389',
       who: [
-        { t: 'Waterproofers', d: "Who want a system that doesn't depend on pumps and trenches." },
         { t: 'Concrete and foundation contractors', d: 'Looking for a new line of work on the same substrate.' },
         { t: 'Flooring and coating installers', d: 'Tired of walking away from slabs that fail a moisture test.' },
         { t: 'Roofers and exterior contractors', d: 'Adding a service their customers already need.' },
