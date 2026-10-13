@@ -1609,6 +1609,17 @@
       "before": "<figure style=\"margin:28px 0 0;max-width:520px\"><img src=\"assets/56036f3661c9a4436c8b8aef810b1f8d.webp\" width=\"860\" height=\"460\" alt=\"A weathered concrete sidewalk before treatment, and a treated sidewalk after.\" loading=\"lazy\" style=\"width:100%;height:auto;display:block;border-radius:12px\"><figcaption style=\"margin-top:8px;font-size:15px;color:#4A555D\">Exterior concrete, before and after. Field history of the chemistry family behind WetBond, circa 2010.</figcaption></figure>",
       "after": "",
       "authority": "Zola WB claims-debt wording r2.4 bc13035a row H4 (Exterior circa-2010 before/after figure, image 56036f36); Maat SHIP f954834c (RESEARCH/MAAT_WB_CLAIMS_DEBT_R2_4_DELTA_2026_10_13.md); Melan a1f9e02a"
+    },
+    {
+      "row": "H1a",
+      "section": "§H",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " <a href=\"FieldData.dc.html#track-record\" style=\"font-weight:700\">See the track record</a>.",
+      "after": "",
+      "count": 2,
+      "authority": "H1 consequence: dangling link to the removed #track-record section. Melan ruling 7aab06ec; Zola confirmation b782475e (two occurrences); recorded as H1a in the next revision; Maat checks it with Kaya result"
     }
   ],
   "allowedMetadataDeltas": [
