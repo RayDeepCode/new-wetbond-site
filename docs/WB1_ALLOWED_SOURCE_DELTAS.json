@@ -2791,6 +2791,251 @@
       "before": "The kind of bond that holds molecules together, much stronger than surface adhesion.",
       "after": "The kind of bond that holds molecules together.",
       "authority": "Zola WB site adjacent claims §E r1.1 18d15029 row E15-1; Maat SHIP ec09a0ff (RESEARCH/MAAT_WB_E_R1_1_AND_WARRANTY_V01_2026_10_13.md); Melan 53ea3c10"
+    },
+    {
+      "row": "E1b-2",
+      "section": "§E-W",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": "Laundry rooms, mechanical rooms, half baths and other wet spaces carry a 10-year limited warranty on the treated concrete against moisture coming through.",
+      "after": "Every registered job carries a ten-year term. Your certificate shows the term that applies to your property.",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E1b-2; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E1b-2b",
+      "section": "§E-W",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": "<span class=\"f\">Against moisture-driven delamination</span>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E1b-2b; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E1b-2b",
+      "section": "§E-W",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"2-Year Limited Finish Warranty. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"mn\"><b class=\"nm\">2</b><span class=\"st\"><span class=\"l1\">Year limited</span><span class=\"l2\">Finish warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg2\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg2)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">Floor Finish appearance and wear</span></a>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E1b-2b; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E1b-3",
+      "section": "§E-W",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "<p>Coverage applies to the repaired areas only.</p>",
+      "after": "<p>Every registered job carries a ten-year term. Coverage applies to the repaired areas only. This warranty does not cover areas that were not treated.</p>",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E1b-3; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E1b-3c",
+      "section": "§E-W",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "<span class=\"f\">On every repaired crack and joint</span>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E1b-3c; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-1",
+      "section": "§E-W",
+      "pages": [
+        "Basements"
+      ],
+      "before": "Extend it to 15 years, or up to 20 years when your basement is treated with WetBond Nano.",
+      "after": "Your certificate shows the term that applies to your property.",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-1; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-2",
+      "section": "§E-W",
+      "pages": [
+        "FAQ"
+      ],
+      "before": "10 years included on every registered job. Basements and crawl spaces can extend to 15 years, and basements treated with WetBond Nano throughout can qualify for 20 years with WetBond approval.",
+      "after": "Every registered job carries a ten-year term. Your certificate shows the term that applies to your property.",
+      "count": 3,
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-2; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-3",
+      "section": "§E-W",
+      "pages": [
+        "Warranty"
+      ],
+      "before": ", {\"@type\": \"Question\", \"name\": \"Can I get a longer warranty?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Basements and crawl spaces qualify for a 15-year option, and basements treated with WetBond Nano can qualify for 20 years.\"}}",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-3; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-3",
+      "section": "§E-W",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<p><strong>Can I get a longer warranty?</strong> Yes. Basements and crawl spaces qualify for a 15-year option, and basements treated with WetBond Nano can qualify for 20 years.</p>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-3; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-4",
+      "section": "§E-W",
+      "pages": [
+        "CrawlSpaces",
+        "Warranty"
+      ],
+      "before": ", with a 15-year option",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-4; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-5",
+      "section": "§E-W",
+      "pages": [
+        "Contractors"
+      ],
+      "before": " Longer terms are offered to the homeowner at registration.",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-5; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-6",
+      "section": "§E-W",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "A 10-year manufacturer warranty built into the product price, with 15- and 20-year upgrades for homeowners, <i>so you can</i>",
+      "after": "A 10-year manufacturer warranty built into the product price, <i>so you can</i>",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-6; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E17-1",
+      "section": "§E-W",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "A 10-year manufacturer warranty built into the product price, <i>so you can</i> offer coverage other contractors can't.",
+      "after": "A 10-year manufacturer warranty built into the product price.",
+      "authority": "Zola §E r1.6 8077321c row E17-1; Maat bf02105c/f145a548; Melan b9673ec7/18e00eac"
+    },
+    {
+      "row": "E8-7",
+      "section": "§E-W",
+      "pages": [
+        "Basements",
+        "Contractors",
+        "Warranty"
+      ],
+      "before": "<a class=\"wbb\" href=\"Warranty.dc.html\" aria-label=\"Up to 20 years with WetBond Nano. See the warranty.\"><span class=\"p\"><span class=\"br\">WetBond</span><span class=\"pre\">UP TO</span><span class=\"mn\"><b class=\"nm\">20</b><span class=\"st\"><span class=\"l1\">Years</span><span class=\"l2\">Limited warranty</span></span></span><svg class=\"wv\" viewBox=\"0 0 30 100\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><defs><linearGradient id=\"wbbg3\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#9AA0A6\"></stop><stop offset=\"1\" stop-color=\"#6E757C\"></stop></linearGradient></defs><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100 L30 100 L30 0 Z\" fill=\"url(#wbbg3)\"></path><path d=\"M12 0 C 4 12, 16 22, 9 34 C 2 46, 16 56, 9 68 C 2 80, 16 90, 12 100\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2.4\"></path></svg></span><span class=\"f\">With WetBond Nano</span></a>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-7; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-8",
+      "section": "§E-W",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<tr><td data-label=\"Coverage\"><strong>Extended Warranty</strong></td><td data-label=\"Term\">15 years</td><td data-label=\"Available on\">Basements and crawl spaces</td></tr><tr><td data-label=\"Coverage\"><strong>Premier Warranty</strong></td><td data-label=\"Term\">20 years</td><td data-label=\"Available on\">Basements treated with WetBond Nano throughout, with WetBond approval</td></tr>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-8; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-8b",
+      "section": "§E-W",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "; extend to 15, or up to 20 with WetBond Nano",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-8b; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-9",
+      "section": "§E-W",
+      "pages": [
+        "Main"
+      ],
+      "before": "<div style=\"flex: 5;\"><p style=\"margin: 0; font-size: 24px; font-weight: 800; color: #162028;\">15 years</p><p style=\"margin: 2px 0 0; font-size: 16px; color: #33414B;\">Basements and crawl spaces</p></div>\n<div style=\"flex: 5;\"><p style=\"margin: 0; font-size: 24px; font-weight: 800; color: #162028;\">Up to 20</p><p style=\"margin: 2px 0 0; font-size: 16px; color: #33414B;\">Basements with WetBond Nano</p></div>\n",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-9; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-9",
+      "section": "§E-W",
+      "pages": [
+        "Main"
+      ],
+      "before": "<span style=\"flex: 10; background: #162028;\"></span>\n<span style=\"flex: 5; background: #555C62; border-left: 2px solid #ECEEEC;\"></span>\n<span style=\"flex: 5; background: #B3AB9D; border-left: 2px solid #ECEEEC;\"></span>\n",
+      "after": "<span style=\"flex: 10; background: #162028;\"></span>\n",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-9; Maat SHIP 5a1d144e; Melan d086504c (bar segments for the deleted 15/20 tiles; empty-container rule)"
+    },
+    {
+      "row": "E8-10",
+      "section": "§E-W",
+      "pages": [
+        "Warranty"
+      ],
+      "before": ", with 15- and 20-year options",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-10; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E8-11",
+      "section": "§E-W",
+      "pages": [
+        "ProductsPenetrating"
+      ],
+      "before": "<tr><td data-label=\"Product\"><strong>Nano</strong></td><td data-label=\"Use it for\">Required throughout for the longest warranty terms.</td></tr>",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-11; Maat SHIP 5a1d144e; Melan d086504c (table row left empty; whole row removed)"
+    },
+    {
+      "row": "E8-11",
+      "section": "§E-W",
+      "pages": [
+        "ProductsPenetrating",
+        "Technical"
+      ],
+      "before": " Required throughout for the longest warranty terms.",
+      "after": "",
+      "authority": "Sade WB site E1b/E8 launch subset v0.3 8d15afd1 row E8-11; Maat SHIP 5a1d144e; Melan d086504c"
+    },
+    {
+      "row": "E17-2a",
+      "section": "§E-W",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "Built for the wet jobs other contractors walk away from.",
+      "after": "Built for the wet jobs.",
+      "authority": "Zola §E r1.6 8077321c row E17-2a; Maat bf02105c/f145a548; Melan b9673ec7/18e00eac"
+    },
+    {
+      "row": "E18",
+      "section": "§E-W",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<p style=\"margin: 18px 0 0; max-width: 60ch; font-size: 20px; color: #C9D1D6;\"><strong style=\"color: #FFFFFF;\">Built for the wet jobs.</strong> WetBond was engineered to work with water, so active leaks and damp substrates stop being a no-bid and start being your specialty.</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.6 8077321c row E18; Maat 2859c1aa; Melan e32114128/ac94c6dc (whole list item)"
+    },
+    {
+      "row": "E17-2b",
+      "section": "§E-W",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "Turn the wet basements and slabs other contractors walk away from into one-day jobs. ",
+      "after": "",
+      "authority": "Zola §E r1.6 8077321c row E17-2b; Maat bf02105c/f145a548; Melan b9673ec7/18e00eac"
     }
   ],
   "allowedMetadataDeltas": [
