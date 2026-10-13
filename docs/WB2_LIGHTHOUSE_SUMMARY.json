@@ -1,0 +1,39 @@
+{
+  "limits": "One localhost simulated mobile lab run per homepage; external resource/network/cache variation applies. No production performance claim.",
+  "results": [
+    {
+      "label": "WB1",
+      "url": "http://127.0.0.1:33073/main",
+      "version": "12.8.2",
+      "mobile": "mobile",
+      "categories": {
+        "performance": 0.35,
+        "accessibility": 0.92,
+        "best-practices": 0.89,
+        "seo": 1
+      },
+      "FCP": 6032.690200000001,
+      "LCP": 23555.494550000003,
+      "CLS": 0.2919109923617346,
+      "TBT": 427,
+      "warnings": []
+    },
+    {
+      "label": "WB2",
+      "url": "http://127.0.0.1:34763/",
+      "version": "12.8.2",
+      "mobile": "mobile",
+      "categories": {
+        "performance": 0.5,
+        "accessibility": 0.92,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "FCP": 4828.954,
+      "LCP": 23638.878625000005,
+      "CLS": 0.003988374552946671,
+      "TBT": 496.9990000000007,
+      "warnings": []
+    }
+  ]
+}

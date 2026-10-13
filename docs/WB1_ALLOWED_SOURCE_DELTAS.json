@@ -1,0 +1,92 @@
+{
+  "baseline": "288c68565f92f8b7dd640a8eef6d88205177becc",
+  "socialsRemoved": 144,
+  "nonDealerApplySources": "byte-exact after enumerated authorized replacements",
+  "allowedTransferDeltas": [
+    {
+      "page": "Basements",
+      "row": "WB-12c",
+      "pages": [
+        "Warranty",
+        "Basements",
+        "CrawlSpaces"
+      ],
+      "before": "Free to the next owner in 60 days",
+      "after": "There is no fee and no deadline."
+    },
+    {
+      "page": "CrawlSpaces",
+      "row": "WB-12c",
+      "pages": [
+        "Warranty",
+        "Basements",
+        "CrawlSpaces"
+      ],
+      "before": "Free to the next owner in 60 days",
+      "after": "There is no fee and no deadline."
+    },
+    {
+      "page": "FAQ",
+      "row": "WB-12d",
+      "pages": [
+        "Warranty",
+        "FAQ"
+      ],
+      "before": "Yes. Register the new owner within 60 days of closing and the transfer is free; the remaining term and the lifetime bond warranty carry over.",
+      "after": "Yes. This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands. There is no fee and no deadline."
+    },
+    {
+      "page": "Warranty",
+      "row": "WB-12c",
+      "pages": [
+        "Warranty",
+        "Basements",
+        "CrawlSpaces"
+      ],
+      "before": "Free to the next owner in 60 days",
+      "after": "There is no fee and no deadline."
+    },
+    {
+      "page": "Warranty",
+      "row": "WB-12d",
+      "pages": [
+        "Warranty",
+        "FAQ"
+      ],
+      "before": "Yes. Register the new owner within 60 days of closing and the transfer is free; the remaining term and the lifetime bond warranty carry over.",
+      "after": "Yes. This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands. There is no fee and no deadline."
+    },
+    {
+      "page": "Warranty",
+      "row": "WB-12e",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "<tr><td data-label=\"Term\"><strong>What transfers</strong></td><td data-label=\"How it works\">The remaining years of the term, plus the lifetime bond warranty. The term doesn’t restart</td></tr>",
+      "after": ""
+    },
+    {
+      "page": "Warranty",
+      "row": "WB-2 approved transfer Cost",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "Free when registered within 60 days of closing. After 60 days, a $95 re-registration and a free condition check by a Certified Dealer",
+      "after": "There is no fee and no deadline."
+    },
+    {
+      "page": "Warranty",
+      "row": "WB-2 approved transfer How",
+      "pages": [
+        "Warranty"
+      ],
+      "before": "Register the new owner with WetBond online or by phone",
+      "after": "This warranty transfers to the new owner automatically, for the remainder of the term, when you or the new owner tells us in writing that the property has changed hands."
+    }
+  ],
+  "dealerApply": {
+    "authorization": "B4/B5 Maat a0439e9b",
+    "routingCases": 1680,
+    "staleAnswerChecks": 2
+  }
+}
