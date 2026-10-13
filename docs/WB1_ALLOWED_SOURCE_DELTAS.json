@@ -1151,6 +1151,231 @@
       "before": "product line, published performance (450 psi bond, semi-permeable vapor design), product characteristics and downloads.",
       "after": "product line, product characteristics and downloads.",
       "authority": "Zola WB claims-debt wording r2.1 row B11; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C1",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": " Founding Dealer terms close November 1, 2026.\">",
+      "after": "\">",
+      "authority": "Zola WB claims-debt wording r2.1 row C1; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C2",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<p style=\"margin: 22px 0 0; font-size: 16px; color: #A9B4BB;\">Founding Dealer terms close November 1, 2026.</p>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C2; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C2",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<p style=\"margin: 24px 0 0; font-size: 22px; font-weight: 800; color: #FFFFFF;\">Founding terms close November 1, 2026.</p>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C2; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C3",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "review of your first documented jobs. Included for the founding cohort; travel is your own.",
+      "after": "review of your first documented jobs. Travel is your own.",
+      "authority": "Zola WB claims-debt wording r2.1 row C3; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C4",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<h2 style=\"margin: 0; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.04; font-weight: 800; font-stretch: 112%; letter-spacing: -0.02em; color: #FFFFFF;\">The first Certified Dealers get the best terms.</h2>\n<p style=\"margin: 20px 0 0; color: #C9D1D6;\">For our founding cohort, certification training is included and freight on your opening order is covered.</p>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C4; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C5a",
+      "section": "§C",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "<section style=\"background: #162028;\">\n<div style=\"max-width: 1240px; margin: 0 auto; padding: 96px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;\">\n<div style=\"flex: 1 1 340px;\">\n<h2 style=\"margin: 0; font-size: clamp(32px, 4.4vw, 52px); line-height: 1.04; font-weight: 800; font-stretch: 112%; letter-spacing: -0.02em; color: #FFFFFF;\">Founding dealers</h2>\n<p style=\"margin: 16px 0 0; color: #C9D1D6;\">The first contractors building WetBond into their businesses.</p>\n</div>\n<div style=\"flex: 1 1 520px; border: 1px solid #2E3B45; border-radius: 8px; padding: 32px; box-sizing: border-box;\"><p style=\"margin: 0; font-size: 24px; line-height: 1.3; font-weight: 700; color: #FFFFFF;\">The founding cohort is forming now.</p><p style=\"margin: 12px 0 0; color: #C9D1D6;\">As founding dealers complete certification, they’ll be introduced here in their own words, with their market and the work they’re doing. Founding Dealer terms close November 1, 2026.</p><a href=\"DealerApply.dc.html\" style=\"margin-top: 20px; color: #FFFFFF; font-weight: 700; display: inline-flex; align-items: center; min-height: 44px;\">Ask about joining the founding cohort</a></div>\n</div>\n</section>\n\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C5a; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C5b",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "<div class=\"tst\"><span class=\"eyb dk\">Founding dealers</span><h3 style=\"margin-top:6px\">The founding cohort is forming now.</h3><p>As founding dealers complete certification, they'll share their experience here in their own words, the good and the hard parts, with their market and the work they're doing.</p></div>\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C5b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C7",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "<span>It covers why founding terms and county caps make timing matter.</span>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C7; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8b",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "<div class=\"cd\" aria-label=\"Time left on founding terms\"><div class=\"u\"><b>{{cd.d}}</b><span>Days</span></div><div class=\"u\"><b>{{cd.h}}</b><span>Hours</span></div><div class=\"u\"><b>{{cd.m}}</b><span>Min</span></div><span class=\"cl\">until Founding Dealer terms close, Nov 1, 2026</span></div>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C8b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8b",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"cd\" aria-label=\"Time left on founding terms\"><div class=\"u\"><b>{{cd.d}}</b><span>Days</span></div><div class=\"u\"><b>{{cd.h}}</b><span>Hours</span></div><div class=\"u\"><b>{{cd.m}}</b><span>Min</span></div><span class=\"cl\">until Founding Dealer terms close, Nov 1, 2026</span></div>",
+      "after": "",
+      "count": 2,
+      "authority": "Zola WB claims-debt wording r2.1 row C8b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8c",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed",
+        "DealerVSL"
+      ],
+      "before": "  componentDidMount(){ this._t=setInterval(()=>this.forceUpdate(),30000); }\n  componentWillUnmount(){ clearInterval(this._t); }\n  cd(){ const end=Date.UTC(2026,10,1,4,0,0); let ms=Math.max(0,end-Date.now()); const d=Math.floor(ms/864e5); ms-=d*864e5; const h=Math.floor(ms/36e5); ms-=h*36e5; const m=Math.floor(ms/6e4); const p=n=>String(n).padStart(2,'0'); return {d:String(d),h:p(h),m:p(m)}; }\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C8c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8c",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "  renderVals(){ return { cd: this.cd() }; }",
+      "after": "  renderVals(){ return {}; }",
+      "authority": "Zola WB claims-debt wording r2.1 row C8c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8c",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "    return { cd: this.cd(), cap,",
+      "after": "    return { cap,",
+      "authority": "Zola WB claims-debt wording r2.1 row C8c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8c",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed",
+        "DealerVSL"
+      ],
+      "before": ".cd{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap;align-items:center}\n.cd .u{background:#0E161C;border:1px solid #2E3B45;border-radius:10px;padding:8px 12px;min-width:74px;text-align:center}\n.cd .u b{display:block;font-size:28px;line-height:1.1;font-weight:800}\n.cd .u span{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#A9B4BB;font-weight:700}\n.cd .cl{font-size:15px;color:#C9D1D6;margin-left:4px}\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C8c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8c",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed",
+        "DealerVSL"
+      ],
+      "before": ".fnd .cd .u{background:rgba(14,22,28,.25);border-color:rgba(255,255,255,.3)}\n",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C8c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C8c",
+      "section": "§C",
+      "pages": [
+        "DealerConfirmed",
+        "DealerVSL"
+      ],
+      "before": ".cd .u{min-width:64px;padding:6px 8px}.cd .u b{font-size:22px}",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C8c; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C9",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span class=\"eyb\" style=\"color:#FFFFFF\">Founding cohort</span><h2 style=\"margin-top:10px\">The first Certified Dealers get the best terms.</h2><p>Certification training included and freight on your opening order covered. Once a county",
+      "after": "<p>Once a county",
+      "authority": "Zola WB claims-debt wording r2.1 row C9; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C10",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "Material for your first ten average basements, plus repair materials. Training included and freight covered for founding dealers.",
+      "after": "Material for about ten basement jobs: WetBond Core plus crack and injection repair products.",
+      "authority": "Zola WB claims-debt wording r2.1 row C10; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C11",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " Founding cohort forming now.",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C11; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C12a",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<em>Founding: included</em>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C12a; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C12b",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<em>Founding: covered</em>",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C12b; Maat SHIP r2.1 ae1a2249 (62252bd3)"
+    },
+    {
+      "row": "C13",
+      "section": "§C",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<b>The founding cohort is new.</b> ",
+      "after": "",
+      "authority": "Zola WB claims-debt wording r2.1 row C13; Maat SHIP r2.1 ae1a2249 (62252bd3)"
     }
   ],
   "allowedMetadataDeltas": [

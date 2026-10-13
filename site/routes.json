@@ -66,7 +66,7 @@
     "name": "DealerConfirmed",
     "source": "DealerConfirmed.dc.html",
     "route": "/dealer-confirmed",
-    "css": "b7f7753c3fc40d81.css",
+    "css": "2ccf9f6abf0835e8.css",
     "ogImage": "https://wetbond.com/assets/46049f6f5a3cb968d3ed5cb219d74556.webp"
   },
   {
@@ -80,7 +80,7 @@
     "name": "DealerVSL",
     "source": "DealerVSL.dc.html",
     "route": "/dealer-vsl",
-    "css": "92b81a18c5bab485.css",
+    "css": "ee442ec169f2617b.css",
     "ogImage": "https://wetbond.com/assets/89e08742a1dfad608602c3d6764715de.webp"
   },
   {
