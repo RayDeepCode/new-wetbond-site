@@ -3036,6 +3036,46 @@
       "before": "Turn the wet basements and slabs other contractors walk away from into one-day jobs. ",
       "after": "",
       "authority": "Zola §E r1.6 8077321c row E17-2b; Maat bf02105c/f145a548; Melan b9673ec7/18e00eac"
+    },
+    {
+      "row": "ART-17",
+      "section": "§E-C",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<figure style=\"margin:24px 0 0\"><div style=\"position:relative\"><img decoding=\"async\" width=\"1920\" height=\"1086\" src=\"assets/6693e69cc4f925bc0e31a47edc177e4e.webp\" alt=\"Three magnified slices of the same concrete, room-side surface on the right. 1: the concrete is pre-wetted and holds water in its pores; a thin wet gray layer sits on the surface and gray fingers start following the water in. 2: the gray has driven further in along the wet pores, bonding as it goes, with the surface now gray. 3: the surface gray and the dampness behind it stopping at the treated zone.\" loading=\"lazy\" style=\"width: 100%; height: auto; display: block; border-radius: 10px;\"><span class=\"hiw-pill\" style=\"position:absolute;top:14px;left:16.7%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 9px;border-radius:999px;background:rgba(14,22,28,.82);border:1px solid #2E3B45;color:#E6EAEC;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap\"><span style=\"width:8px;height:8px;border-radius:50%;background:#7C8389\"></span>1 Penetration</span><span class=\"hiw-pill\" style=\"position:absolute;top:14px;left:50%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 9px;border-radius:999px;background:rgba(14,22,28,.82);border:1px solid #2E3B45;color:#E6EAEC;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap\"><span style=\"width:8px;height:8px;border-radius:50%;background:#7C8389\"></span>2 Bonding</span><span class=\"hiw-pill\" style=\"position:absolute;top:14px;left:83.3%;transform:translateX(-50%);display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 9px;border-radius:999px;background:rgba(14,22,28,.82);border:1px solid #2E3B45;color:#E6EAEC;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap\"><span style=\"width:8px;height:8px;border-radius:50%;background:#7C8389\"></span>3 Conversion</span></div><div class=\"hiw-steps\" style=\"display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:16px\"><div><p style=\"margin:0;font-size:13px;font-weight:800;letter-spacing:.1em;color:#1E63B5\">01</p><p style=\"margin:4px 0 0;font-size:18px;font-weight:800;color:#162028\">Penetration</p><p style=\"margin:4px 0 0;font-size:15px;line-height:1.45;color:#4A555D\">On pre-wetted concrete, WetBond starts on the surface and drives into the concrete.</p></div><div><p style=\"margin:0;font-size:13px;font-weight:800;letter-spacing:.1em;color:#1E63B5\">02</p><p style=\"margin:4px 0 0;font-size:18px;font-weight:800;color:#162028\">Bonding</p><p style=\"margin:4px 0 0;font-size:15px;line-height:1.45;color:#4A555D\">It drives further in, reacting with the water and bonding to the concrete as it goes.</p></div><div><p style=\"margin:0;font-size:13px;font-weight:800;letter-spacing:.1em;color:#1E63B5\">03</p><p style=\"margin:4px 0 0;font-size:18px;font-weight:800;color:#162028\">Conversion</p><p style=\"margin:4px 0 0;font-size:15px;line-height:1.45;color:#4A555D\">The surface stays gray and the water stops at it.</p></div></div><figcaption style=\"margin-top:12px;font-size:14px;color:#7F8C95\">The same concrete at three moments. Right edge is the room-side surface. Illustration.</figcaption></figure>",
+      "after": "",
+      "authority": "Maat SHIP 5969bc8e (RESEARCH/MAAT_WB_ART17_REMOVAL_RULING_2026_10_13.md); Melan ce85bad8; Zola r1.7 f0ab5691 ART-17 (whole figure; supersedes in-figure E3-5/E3-8a/P31/A23/A53)"
+    },
+    {
+      "row": "E20-a",
+      "section": "§E-C",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<table>\n<thead>\n<tr>\n<th>Property</th>\n<th>Result</th>\n<th>Method</th>\n</tr>\n</thead>\n<tbody>\n</tbody>\n</table>",
+      "after": "",
+      "authority": "Melan c17ad00a empty-container ruling (Maat standing condition); logged as E20 in Zola r1.7 f0ab5691"
+    },
+    {
+      "row": "E20-a",
+      "section": "§E-C",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<div class=\"tw\"><table><thead><tr><th>Property</th><th>Result</th><th>Method / status</th></tr></thead><tbody></tbody></table></div>",
+      "after": "",
+      "authority": "Melan c17ad00a empty-container ruling (Maat standing condition); logged as E20 in Zola r1.7 f0ab5691"
+    },
+    {
+      "row": "E20-b",
+      "section": "§E-C",
+      "pages": [
+        "Main"
+      ],
+      "before": "<div style=\"background: #162028; padding: 32px;\">\n<p style=\"margin: 0; font-size: 16px; color: #A9B4BB;\">Vapor permeance, target</p>\n<p style=\"margin: 14px 0 0; color: #A9B4BB;\">Stops water and wicking moisture. Lets vapor pass slowly.</p>\n</div>\n",
+      "after": "",
+      "authority": "Melan c17ad00a empty-container ruling (Maat standing condition); logged as E20 in Zola r1.7 f0ab5691"
     }
   ],
   "allowedMetadataDeltas": [
