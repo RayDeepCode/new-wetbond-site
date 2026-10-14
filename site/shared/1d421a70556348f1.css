@@ -68,6 +68,9 @@ body { margin: 0px; }
 .stat b { display: block; font-size: 42px; font-weight: 800; letter-spacing: -0.02em; color: rgb(22, 32, 40); line-height: 1; }
 .stat span { display: block; margin-top: 8px; font-size: 16px; color: rgb(51, 65, 75); }
 .why { display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); gap: 16px; margin-top: 32px; }
+@media (min-width: 761px) {
+  .why.three { grid-template-columns: repeat(3, minmax(0px, 1fr)); }
+}
 .wc { background: rgb(255, 255, 255); border: 1px solid rgb(213, 216, 213); border-radius: 14px; padding: 22px; }
 .wc h3 { font-size: 20px; }
 .wc p { margin: 8px 0px 0px; font-size: 16px; color: rgb(51, 65, 75); }
@@ -260,7 +263,7 @@ body { margin: 0px; }
 .exl span { display: block; margin-top: 4px; font-size: 15px; color: rgb(201, 209, 214); }
 .dks { background: rgb(22, 32, 40); color: rgb(255, 255, 255); }
 .dks .hd p { color: rgb(201, 209, 214); }
-.risk { display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr)); gap: 14px; margin-top: 28px; }
+.risk { display: grid; grid-template-columns: repeat(3, minmax(0px, 1fr)); gap: 14px; margin-top: 28px; }
 .rk { background: rgb(255, 255, 255); border: 1px solid rgb(213, 216, 213); border-radius: 14px; padding: 20px; }
 .rk b { display: block; font-size: 18px; }
 .rk p { margin: 8px 0px 0px; font-size: 15px; color: rgb(51, 65, 75); }
@@ -328,6 +331,9 @@ body { margin: 0px; }
 .rnote { margin: 16px 0px 0px; font-size: 14px; color: rgb(74, 85, 93); max-width: 80ch; }
 @media (max-width: 760px) {
   .rgrid { grid-template-columns: 1fr; }
+}
+@media (min-width: 981px) {
+  .rgrid.four { grid-template-columns: repeat(4, minmax(0px, 1fr)); }
 }
 .sz-w { margin-top: 28px; overflow-x: auto; border: 1px solid rgb(213, 216, 213); border-radius: 14px; background: rgb(255, 255, 255); }
 .sz { min-width: 760px; padding: 14px 16px; }

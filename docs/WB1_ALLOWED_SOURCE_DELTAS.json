@@ -4512,6 +4512,608 @@
       "before": "      nfLine: why\n",
       "after": "      intake: qualified ? 'fit' : a.order===3 ? 'not_now' : a.order===2 ? 'start_smaller' : 'researching'\n",
       "authority": "Zola DealerApply non-fit panel r2.1 7cb53846; Maat SHIP 8aa303f9; Melan ce2615ce (display converges, intake kept distinct; data-intake is a non-visible attribute that carries the original outcome)"
+    },
+    {
+      "row": "E26-1a",
+      "section": "§E",
+      "pages": [
+        "ProductsRepair"
+      ],
+      "before": "prepare the surface, so the repair and the wall act as one.",
+      "after": "prepare the surface.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-1a; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-1b",
+      "section": "§E",
+      "pages": [
+        "ProductsRepair",
+        "Technical"
+      ],
+      "before": "finished flush, so the repair and the wall act as one.",
+      "after": "finished flush.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-1b; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-1c",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "<span>So repair and wall act as one</span>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-1c; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-1d",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "treats the wall and floor around it, so the repair and the concrete act as one.",
+      "after": "treats the wall and floor around it.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-1d; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-1e",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "bonds into the concrete around it, so the repair and the wall work as one.",
+      "after": "bonds into the concrete around it.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-1e; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-2",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "Your Certified Dealer repairs them and makes them part of a wall that holds.",
+      "after": "Your Certified Dealer repairs them.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-2; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-3a",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "<h1>The leak you can point to, fixed for good.</h1>",
+      "after": "<h1>The leak you can point to.</h1>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-3a; Maat 31b3a612; Melan e2318c9c (H1 trim cleared by Maat 31b3a612)"
+    },
+    {
+      "row": "E26-3b",
+      "section": "§E",
+      "pages": [
+        "Basements",
+        "CrawlSpaces",
+        "Exterior",
+        "SumpPits"
+      ],
+      "before": "<span>The leak you can point to, fixed for good.</span>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-3b; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-22",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<p style=\"margin: 18px 0 0;\">It works until the pump stops, the coating lifts or the sealer wears off. The water never stopped coming through the concrete. It just had somewhere to go.</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-22; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-4",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<p style=\"margin: 32px 0 0; font-size: 27px; line-height: 1.22; font-weight: 700; color: #FFFFFF;\">We asked a different question: what if it never got through at all?</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-4; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-25",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "often told drainage is the only option. Not here. The more porous",
+      "after": "often told drainage is the only option. The more porous",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-25; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-5b",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "WetBond embeds in concrete and masonry so walls, floors and slabs stop water on their own. Applied by Certified Dealers, backed by the manufacturer.",
+      "after": "WetBond embeds in concrete and masonry. Applied by Certified Dealers, backed by the manufacturer.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5b; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<sc-for list=\"{{stages}}\" as=\"s\" hint-placeholder-count=\"3\">",
+      "after": "<sc-for list=\"{{stages}}\" as=\"s\" hint-placeholder-count=\"2\">",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state)"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<sc-if value=\"{{isStage3}}\" hint-placeholder-val=\"{{false}}\">\n<svg viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Magnified concrete. Water stops at the boundary.\" style=\"width: 100%; height: auto; display: block; background: #0E161C;\"><defs><clipPath id=\"k3clip\"><rect x=\"18\" y=\"58\" width=\"444\" height=\"204\" rx=\"10\"></rect></clipPath><linearGradient id=\"k3con\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#CDD0D2\"></stop><stop offset=\"1\" stop-color=\"#BEC1C4\"></stop></linearGradient><linearGradient id=\"k3ag\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#B8BCBF\"></stop><stop offset=\"1\" stop-color=\"#A5A9AD\"></stop></linearGradient><linearGradient id=\"k3wet\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#3D7FD0\" stop-opacity=\".06\"></stop><stop offset=\"1\" stop-color=\"#3D7FD0\" stop-opacity=\".16\"></stop></linearGradient><linearGradient id=\"k3wb\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#5E656B\"></stop><stop offset=\"1\" stop-color=\"#474E54\"></stop></linearGradient><linearGradient id=\"k3push\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#3D7FD0\" stop-opacity=\"0\"></stop><stop offset=\"1\" stop-color=\"#3D7FD0\" stop-opacity=\".34\"></stop></linearGradient><filter id=\"k3glow\" x=\"-50%\" y=\"-50%\" width=\"200%\" height=\"200%\"><feGaussianBlur stdDeviation=\"1.6\"></feGaussianBlur></filter><filter id=\"k3grain\" x=\"0\" y=\"0\" width=\"100%\" height=\"100%\" color-interpolation-filters=\"sRGB\"><feTurbulence type=\"fractalNoise\" baseFrequency=\"1.2\" numOctaves=\"2\" seed=\"5\" result=\"t\"></feTurbulence><feColorMatrix in=\"t\" type=\"saturate\" values=\"0\" result=\"g\"></feColorMatrix><feComponentTransfer in=\"g\" result=\"r\"><feFuncR type=\"linear\" slope=\".12\" intercept=\".88\"></feFuncR><feFuncG type=\"linear\" slope=\".12\" intercept=\".88\"></feFuncG><feFuncB type=\"linear\" slope=\".12\" intercept=\".88\"></feFuncB></feComponentTransfer><feBlend in=\"SourceGraphic\" in2=\"r\" mode=\"multiply\" result=\"m\"></feBlend><feComposite in=\"m\" in2=\"SourceGraphic\" operator=\"in\"></feComposite></filter></defs><g clip-path=\"url(#k3clip)\"><image href=\"assets/002c87248782dff566a9b7a38777192e.jpg\" x=\"18\" y=\"58\" width=\"444\" height=\"204\" preserveAspectRatio=\"xMidYMid slice\"></image><rect x=\"18\" y=\"58\" width=\"444\" height=\"204\" fill=\"#B9BEC2\" opacity=\".12\"></rect></g><g clip-path=\"url(#k3clip)\"><rect x=\"18\" y=\"58\" width=\"444\" height=\"204\" fill=\"#3A3E42\" fill-opacity=\".34\"></rect><circle cx=\"163.9\" cy=\"93.0\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"55.3\" cy=\"166.9\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"275.8\" cy=\"238.7\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"40.2\" cy=\"147.3\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"128.0\" cy=\"169.8\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"296.4\" cy=\"175.9\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"273.3\" cy=\"140.2\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"44.1\" cy=\"228.8\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"205.1\" cy=\"167.8\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"102.1\" cy=\"175.7\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"184.9\" cy=\"169.2\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"267.8\" cy=\"182.8\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"225.1\" cy=\"241.3\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"153.7\" cy=\"159.1\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"75.0\" cy=\"144.3\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"89.7\" cy=\"157.9\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"271.5\" cy=\"232.1\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"170.9\" cy=\"131.2\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"274.5\" cy=\"151.6\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"50.2\" cy=\"198.7\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"33.7\" cy=\"152.6\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"287.9\" cy=\"158.8\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"195.9\" cy=\"240.0\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"58.8\" cy=\"150.2\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"144.0\" cy=\"90.3\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"203.4\" cy=\"132.9\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"89.4\" cy=\"190.4\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"233.5\" cy=\"177.1\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"254.9\" cy=\"181.1\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"193.5\" cy=\"140.6\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"232.0\" cy=\"140.9\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"94.1\" cy=\"129.3\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"68.2\" cy=\"172.8\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"67.8\" cy=\"133.8\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"186.5\" cy=\"185.8\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"73.8\" cy=\"157.7\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"86.3\" cy=\"207.9\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"230.8\" cy=\"196.9\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"34.0\" cy=\"246.6\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"180.3\" cy=\"196.5\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"182.4\" cy=\"96.1\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"166.4\" cy=\"106.8\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"110.4\" cy=\"158.6\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"285.4\" cy=\"130.1\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"169.9\" cy=\"156.7\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"101.1\" cy=\"215.5\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"61.5\" cy=\"245.7\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"224.1\" cy=\"206.7\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"35.9\" cy=\"177.4\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"91.4\" cy=\"169.3\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"304.7\" cy=\"165.1\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"211.4\" cy=\"231.4\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"36.1\" cy=\"104.9\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"136.0\" cy=\"144.5\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"50.3\" cy=\"206.1\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"205.7\" cy=\"240.2\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"98.5\" cy=\"154.9\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"264.4\" cy=\"126.6\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"253.3\" cy=\"156.6\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"243.3\" cy=\"171.9\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"215.5\" cy=\"181.6\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"285.9\" cy=\"102.3\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"219.4\" cy=\"166.4\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"55.6\" cy=\"192.5\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"85.8\" cy=\"233.5\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"118.9\" cy=\"246.9\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"108.6\" cy=\"125.2\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"32.4\" cy=\"170.4\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"51.8\" cy=\"253.1\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"138.7\" cy=\"71.6\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"237.7\" cy=\"126.8\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"207.7\" cy=\"77.9\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"298.1\" cy=\"217.9\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"29.0\" cy=\"254.9\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"79.8\" cy=\"165.2\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"158.8\" cy=\"122.6\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"31.8\" cy=\"112.1\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"32.0\" cy=\"161.1\" r=\"1.5\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"217.1\" cy=\"190.4\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"109.8\" cy=\"233.3\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"47.5\" cy=\"88.9\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"294.2\" cy=\"232.9\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"94.5\" cy=\"80.2\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"282.7\" cy=\"197.0\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"163.8\" cy=\"70.6\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"118.1\" cy=\"99.1\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"188.9\" cy=\"155.1\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"86.1\" cy=\"176.7\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"33.7\" cy=\"122.4\" r=\"1.0\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"192.3\" cy=\"126.6\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"301.9\" cy=\"72.4\" r=\"1.7\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"295.0\" cy=\"204.9\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"60.8\" cy=\"72.0\" r=\"1.2\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"219.0\" cy=\"73.7\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"294.5\" cy=\"194.7\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"138.0\" cy=\"151.7\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"63.7\" cy=\"165.0\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"132.9\" cy=\"78.3\" r=\"1.9\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"123.7\" cy=\"188.8\" r=\"2.3\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"269.3\" cy=\"66.4\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"233.9\" cy=\"250.7\" r=\"1.2\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"224.7\" cy=\"153.5\" r=\"0.8\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"149.1\" cy=\"78.7\" r=\"2.8\" fill=\"#CFE0F2\" opacity=\"0.78\"></circle><circle cx=\"92.7\" cy=\"246.4\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><circle cx=\"199.1\" cy=\"203.6\" r=\"1.4\" fill=\"#BFD6EE\" opacity=\".45\"></circle><clipPath id=\"k3z\"><path d=\"M462,58 L315.1,56.0 L315.2,60.0 L314.9,64.0 L314.4,68.0 L313.9,72.0 L313.5,76.0 L313.5,80.0 L313.7,84.0 L314.1,88.0 L314.5,92.0 L314.6,96.0 L314.2,100.0 L313.5,104.0 L312.3,108.0 L310.9,112.0 L309.5,116.0 L308.5,120.0 L308.0,124.0 L308.0,128.0 L308.4,132.0 L309.2,136.0 L310.1,140.0 L310.8,144.0 L311.2,148.0 L311.3,152.0 L311.1,156.0 L310.9,160.0 L310.8,164.0 L311.1,168.0 L311.8,172.0 L312.8,176.0 L314.0,180.0 L315.2,184.0 L316.1,188.0 L316.5,192.0 L316.3,196.0 L315.6,200.0 L314.6,204.0 L313.4,208.0 L312.4,212.0 L311.8,216.0 L311.5,220.0 L311.5,224.0 L311.7,228.0 L311.8,232.0 L311.7,236.0 L311.2,240.0 L310.4,244.0 L309.5,248.0 L308.5,252.0 L307.9,256.0 L307.7,260.0 L308.0,264.0 L462,262 Z\"></path></clipPath><g clip-path=\"url(#k3z)\"><image href=\"assets/e199a2d58f901cbe143dff0a70c84441.jpg\" x=\"181.8\" y=\"58.0\" width=\"280.2\" height=\"257.0\" preserveAspectRatio=\"none\"></image><rect x=\"18\" y=\"58\" width=\"444\" height=\"204\" fill=\"#2C3236\" opacity=\"0.26\"></rect></g><path d=\"M315.1,56.0 L315.2,60.0 L314.9,64.0 L314.4,68.0 L313.9,72.0 L313.5,76.0 L313.5,80.0 L313.7,84.0 L314.1,88.0 L314.5,92.0 L314.6,96.0 L314.2,100.0 L313.5,104.0 L312.3,108.0 L310.9,112.0 L309.5,116.0 L308.5,120.0 L308.0,124.0 L308.0,128.0 L308.4,132.0 L309.2,136.0 L310.1,140.0 L310.8,144.0 L311.2,148.0 L311.3,152.0 L311.1,156.0 L310.9,160.0 L310.8,164.0 L311.1,168.0 L311.8,172.0 L312.8,176.0 L314.0,180.0 L315.2,184.0 L316.1,188.0 L316.5,192.0 L316.3,196.0 L315.6,200.0 L314.6,204.0 L313.4,208.0 L312.4,212.0 L311.8,216.0 L311.5,220.0 L311.5,224.0 L311.7,228.0 L311.8,232.0 L311.7,236.0 L311.2,240.0 L310.4,244.0 L309.5,248.0 L308.5,252.0 L307.9,256.0 L307.7,260.0 L308.0,264.0\" fill=\"none\" stroke=\"#3D7FD0\" stroke-width=\"3\" opacity=\".55\" filter=\"url(#k3glow)\"></path><ellipse cx=\"310.4\" cy=\"68\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"309.5\" cy=\"82\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"310.6\" cy=\"96\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"308.3\" cy=\"110\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"304.0\" cy=\"124\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"305.2\" cy=\"138\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"307.3\" cy=\"152\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"306.8\" cy=\"166\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"310.0\" cy=\"180\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"312.5\" cy=\"194\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"309.4\" cy=\"208\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"307.5\" cy=\"222\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"307.7\" cy=\"236\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse><ellipse cx=\"305.5\" cy=\"250\" rx=\"1.7\" ry=\"2.5\" fill=\"#CFE0F2\" opacity=\".85\"></ellipse></g><g><rect x=\"18.0\" y=\"19\" width=\"148.0\" height=\"22\" rx=\"11\" fill=\"#1B2730\" stroke=\"#2E3B45\"></rect><circle cx=\"30.0\" cy=\"30\" r=\"4\" fill=\"#3D7FD0\"></circle><text x=\"39.0\" y=\"33.6\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\".08em\" fill=\"#E6EAEC\">WATER STOPS HERE</text></g><text x=\"470\" y=\"160.0\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"700\" letter-spacing=\".1em\" fill=\"#7F8C95\" transform=\"rotate(90 470 160.0)\" text-anchor=\"middle\">ROOM SIDE</text><text x=\"10\" y=\"160.0\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"9.5\" font-weight=\"700\" letter-spacing=\".1em\" fill=\"#7F8C95\" transform=\"rotate(-90 10 160.0)\" text-anchor=\"middle\">SOIL SIDE</text></svg>\n</sc-if>\n",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state)"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<article data-stage=\"2\" class=\"stage-text\" style=\"min-height: 300px; padding: 8px 0 24px; border-top: 1px solid #2E3B45;\">\n<p style=\"margin: 16px 0 0; font-size: 16px; color: #A9B4BB;\">Stage 3 of 3</p>\n<h3 style=\"margin: 6px 0 0; font-size: 40px; line-height: 1.02; font-weight: 800; font-stretch: 114%; color: #FFFFFF;\">Substrate Conversion</h3>\n<p style=\"margin: 16px 0 0; font-size: 22px; font-weight: 700; color: #FFFFFF;\">What's left is concrete that stops water itself, whether it's a wall, a floor or a slab.</p>\n</article>\n",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state)"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": ">Stage 1 of 3</p>",
+      "after": ">Stage 1</p>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state) (stale \"of 3\" counter removed)"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": ">Stage 2 of 3</p>",
+      "after": ">Stage 2</p>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state) (stale \"of 3\" counter removed)"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "var stages = ['1  Penetration', '2  Bonding', '3  Conversion'].map(",
+      "after": "var stages = ['1  Penetration', '2  Bonding'].map(",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state)"
+    },
+    {
+      "row": "E26-5a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": ", isStage3: stage === 2\n",
+      "after": "\n",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-5a; Maat 31b3a612; Melan e2318c9c (whole Stage 3 item: control, visual, text and state)"
+    },
+    {
+      "row": "E26-5c",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<div class=\"cb\">\n<p>The channels water used are filled and bonded closed. The result: a wall that stops water before it reaches the room.</p>\n</div>",
+      "after": "",
+      "authority": "Zola §E r1.17.2 cfcc1775 row E26-5c (boundary per r1.17.2; Maat 31b3a612 boundary fix); Melan e2318c9c, 0759aa81"
+    },
+    {
+      "row": "E26-5d",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<h3>3. Substrate Conversion</h3>\n",
+      "after": "",
+      "authority": "Zola §E r1.17.2 cfcc1775 row E26-5d; Melan dfdebe0c; Maat to confirm with the delta scan (cleared label precedent 31b3a612)"
+    },
+    {
+      "row": "E26-5d",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "<h2>The three stages</h2>",
+      "after": "<h2>The stages</h2>",
+      "authority": "Zola §E r1.17.2 cfcc1775 row E26-5d; Melan dfdebe0c; Maat to confirm with the delta scan (cleared label precedent 31b3a612) (stale step counter \"three\" removed with the step-3 heading)"
+    },
+    {
+      "row": "E26-6",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "<p>Every company recommends what it sells. Our Compare page",
+      "after": "<p>Our Compare page",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-6; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-7",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "<p>Most people shopping for waterproofing are hearing three different answers from three different companies, each one selling the system they install. We’d rather",
+      "after": "<p>We’d rather",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-7; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-8",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "<p class=\"lead\"><strong>Most wet basements are a water-through-the-concrete problem.</strong></p>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-8; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-27",
+      "section": "§E",
+      "pages": [
+        "ForHomeowners"
+      ],
+      "before": "<span>A dry crawl space without wrapping it in plastic.</span>",
+      "after": "<span>A crawl space without wrapping it in plastic.</span>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-27; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-32",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<span>See whether your market still has room for a Certified Dealer. It takes about two minutes.</span>",
+      "after": "<span>See whether your county still has a seat. It takes about two minutes.</span>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-32; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-14",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p>The wet basement or slab is work you refer out, or the reason the job you wanted never starts.</p>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-14; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-13",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"vr\"><span>What you can bid</span><p data-l=\"Coating over a damp slab\">Only slabs that pass the test</p><p class=\"wb\" data-l=\"WetBond\">The slabs other crews turn down</p></div>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-13; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-9",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h2 style=\"margin-top:10px\">Homeowners can't put this off, and most can't claim it.</h2>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-9; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-16",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"rc\"><span class=\"wi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 9h11a3 3 0 1 0-3-3M3 15h15a3 3 0 1 1-3 3M3 12h8\"></path></svg></span><div><b>A musty basement</b><p>Dampness and a smell that a dehumidifier only manages.</p></div></div>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-16; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-15",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<div class=\"rc\"><span class=\"wi\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"7\" y=\"9\" width=\"10\" height=\"12\" rx=\"2\"></rect><path d=\"M12 9V3M9 3h6M10 14h4\"></path></svg></span><div><b>Tired of the pump</b><p>A sump that runs constantly, or a homeowner who doesn't want one at all.</p></div></div>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-15; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-12",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<section class=\"sec\" id=\"seasons\"><div class=\"fw\"><div class=\"hd\"><span class=\"eyb dk\">All year, any market</span><h2 style=\"margin-top:10px\">One material line keeps your crew working every season.</h2><p>Most specialty trades live and die by the weather. Basement and crawl-space work happens indoors, floors and flatwork carry the warm months, and repairs fill the gaps. When one job type slows down, another picks up, and it’s the same crew, the same material and the same training.</p></div><div class=\"sz-w\"><div class=\"sz\"><div class=\"sz-h\"><span></span><b>J</b><b>F</b><b>M</b><b>A</b><b>M</b><b>J</b><b>J</b><b>A</b><b>S</b><b>O</b><b>N</b><b>D</b></div><div class=\"sz-r\"><span><b>Basements and crawl spaces</b><em>Indoors, so the weather doesn’t stop you</em></span><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s1\"></i></div><div class=\"sz-r\"><span><b>Wet-basement calls</b><em>Snowmelt and spring rain, then fall storms</em></span><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i></div><div class=\"sz-r\"><span><b>Garage floors and slabs</b><em>Peak in mild months; heated garages run all year</em></span><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s1\"></i></div><div class=\"sz-r\"><span><b>Exterior flatwork</b><em>Driveways, patios, steps and pool decks</em></span><i class=\"s0\"></i><i class=\"s0\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s0\"></i></div><div class=\"sz-r\"><span><b>Cracks, joints and repairs</b><em>Small tickets that fill gaps in the schedule</em></span><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i></div><div class=\"sz-r\"><span><b>Home sales and inspections</b><em>Inspection findings send buyers and sellers to you</em></span><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s2\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i><i class=\"s1\"></i></div></div></div><div class=\"sz-k\"><span><i class=\"s2\"></i>Busy</span><span><i class=\"s1\"></i>Steady</span><span><i class=\"s0\"></i>Off-season</span><span class=\"sz-n\">Typical pattern in a cold-winter market. Every market is different.</span></div><div class=\"sz-c\"><div><b>Winter</b><p>Interior basements and crawl spaces, finishing projects getting ready for spring, and floors in heated garages.</p></div><div><b>Spring</b><p>Snowmelt and rain bring the wet-basement calls, the busiest stretch for interior work. Flatwork season starts.</p></div><div><b>Summer</b><p>Exterior flatwork, garage floors and musty basements, plus the home-sale inspections that turn up problems.</p></div><div><b>Fall</b><p>Flatwork protection before freeze-thaw and road salt, fall storms, and basements treated before they’re finished.</p></div></div><p class=\"sz-sb\"><b>No basements in your market?</b> In the South and Southwest, slabs, garage floors, wet spaces, crawl spaces and flatwork carry the year on their own.</p></div></section>",
+      "after": "",
+      "authority": "Zola §E r1.17.2 cfcc1775 row E26-12 (boundary per r1.17.2; Maat 31b3a612 boundary fix); Melan e2318c9c, 0759aa81 (whole section#seasons)"
+    },
+    {
+      "row": "E26-10",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3>A warranty only you can offer</h3>",
+      "after": "<h3>A warranty you can offer</h3>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-10; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-11",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3 class=\"sub3\">What we’ll tell you that most programs won’t.</h3>",
+      "after": "<h3 class=\"sub3\">What we’ll tell you.</h3>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-11; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-17",
+      "section": "§E",
+      "pages": [
+        "Sustainability"
+      ],
+      "before": "<div class=\"cb\"><p class=\"lead\"><strong>Most concrete doesn’t fail from age. It fails from water.</strong></p></div>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-17; Maat 31b3a612; Melan e2318c9c (div.cb left empty, removed whole)"
+    },
+    {
+      "row": "E26-18",
+      "section": "§E",
+      "pages": [
+        "SumpPits"
+      ],
+      "before": "<p class=\"lead\"><strong>Most fixes add more pumping, not less water.</strong></p>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-18; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-19",
+      "section": "§E",
+      "pages": [
+        "WetSpaces"
+      ],
+      "before": "<p class=\"lead\"><strong>Most fixes treat the surface or the air, not the concrete.</strong></p>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-19; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-20",
+      "section": "§E",
+      "pages": [
+        "Repairs"
+      ],
+      "before": "<p class=\"lead\"><strong>Most repairs fix one spot and leave the rest of the wall porous.</strong></p>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-20; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-21",
+      "section": "§E",
+      "pages": [
+        "About"
+      ],
+      "before": "<p>Drains and pumps that work only while the power’s on. Coatings and sealers that get redone every few years. They treat the symptom, and the homeowner keeps paying.</p>\n",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-21; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-23",
+      "section": "§E",
+      "pages": [
+        "ForPropertyManagers"
+      ],
+      "before": "<article class=\"au-card\"><p class=\"k\">Budget</p><h3>The recurring line item</h3><p>Pumps, patching, cleanup and repainting come back every season. That money can’t go to anything else.</p></article>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-23; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-24",
+      "section": "§E",
+      "pages": [
+        "DealerConfirmed"
+      ],
+      "before": "<p>What the opening order includes, the warranty you can offer, and the starter-kit path if you want to try one job first.</p>",
+      "after": "<p>What the opening order includes and the warranty you can offer.</p>",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-24; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-26",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "Material for your first ten average basements, plus the crack filler and injection material that go with them. It ships in one order, straight to you.",
+      "after": "Material for about ten basement jobs: WetBond Core plus crack and injection repair products. It ships in one order, straight to you.",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-26; Maat 31b3a612; Melan e2318c9c (INS CARD §4 verbatim)"
+    },
+    {
+      "row": "E26-28",
+      "section": "§E",
+      "pages": [
+        "Contractors"
+      ],
+      "before": "alt=\"The WetBond starter kit laid out on a drop cloth: two pails,",
+      "after": "alt=\"The WetBond kit laid out on a drop cloth: two pails,",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-28; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-29",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<section class=\"sec alt\"><div class=\"wrap narrow\"><h2>Published performance</h2><div class=\"tw\"><figure style=\"margin:28px 0 0\"><img src=\"assets/b2c4f8365ccfec37dedfbd5923c12072.webp\" width=\"1344\" height=\"752\" loading=\"lazy\" alt=\"Three sawn concrete samples on a lab bench: white paint only on the surface and peeling, a thin amber epoxy layer, and a gray WetBond zone reaching into the concrete.\" style=\"width:100%;height:auto;display:block;border-radius:12px\"><figcaption style=\"margin-top:8px;font-size:14px;color:#4A555D\">Penetration depth compared on sawn samples: paint, epoxy, WetBond. Illustration.</figcaption></figure></div></div></section>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-29; Maat 31b3a612; Melan e2318c9c (whole section)"
+    },
+    {
+      "row": "E26-30a",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<p>Published performance data, product information and documents from WetBond Systems",
+      "after": "<p>Product information and documents from WetBond Systems",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-30a; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-30b",
+      "section": "§E",
+      "pages": [
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "ProductsFloor"
+      ],
+      "before": "<div class=\"cb\" style=\"margin-top:28px\"><p><strong>Specs and documents.</strong> Published performance, the Technical Data Sheet and Safety Data Sheet are on the <a href=\"Technical.dc.html\">Products &amp; Technical Data</a> page.</p></div>",
+      "after": "",
+      "authority": "Zola §E r1.17.2 cfcc1775 row E26-30b (boundary per r1.17.2; Maat 31b3a612 boundary fix); Melan e2318c9c, 0759aa81 (availability sentence cut; div.cb removed whole)"
+    },
+    {
+      "row": "E26-31",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<section class=\"{{acc.s1}}\"><div class=\"wrap narrow\"><h2>Published performance</h2><div class=\"cb\"><p class=\"lead\"><strong>What we publish, and how it was measured.</strong></p><p>We publish only what we can support.</p></div><p class=\"plain\"><em>Why permeance matters:</em> a negative-side treatment that sealed vapor completely would trap moisture in the wall. WetBond is formulated to stop liquid water while letting the wall dry inward.</p><figure class=\"au-fig\"><img decoding=\"async\" src=\"assets/a2a07ac3438597b3eb70aa3b016a025e.webp\" width=\"1920\" height=\"1086\" alt=\"Cross-section of a foundation wall: saturated soil outside, the WetBond-treated band.\" loading=\"lazy\"><figcaption>Illustration</figcaption></figure><button type=\"button\" class=\"more\" onClick=\"{{tg.s1}}\" aria-expanded=\"{{ax.s1}}\">{{lbl.s1}}</button></div></section>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row E26-31; Maat 31b3a612; Melan e2318c9c (whole section)"
+    },
+    {
+      "row": "Z-1",
+      "section": "§E",
+      "pages": [
+        "About",
+        "Accessibility",
+        "Basements",
+        "Book",
+        "CityPittsburgh",
+        "Compare",
+        "CrawlSpaces",
+        "Exterior",
+        "FAQ",
+        "FieldData",
+        "FindADealer",
+        "Floors",
+        "ForArchitects",
+        "ForHomeowners",
+        "ForPropertyManagers",
+        "HowItWorks",
+        "Learn",
+        "LearnChoosingContractor",
+        "LearnSumpPumps",
+        "LearnWhyBasementsLeak",
+        "Main",
+        "Patents",
+        "Privacy",
+        "ProductsColor",
+        "ProductsFloor",
+        "ProductsPenetrating",
+        "ProductsRepair",
+        "Repairs",
+        "Science",
+        "SumpPits",
+        "Sustainability",
+        "Technical",
+        "Terms",
+        "Warranty",
+        "WetSpaces"
+      ],
+      "before": "Specs, test results and downloads",
+      "after": "Specs and downloads",
+      "count": 2,
+      "authority": "Zola §E r1.17.1 306de2e8 row Z-1; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "Z-2",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": " (all WetBond products)</li>",
+      "after": "</li>",
+      "count": 2,
+      "authority": "Zola §E r1.17.1 306de2e8 row Z-2; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "Z-3",
+      "section": "§E",
+      "pages": [
+        "Technical"
+      ],
+      "before": "<span>Documented readings from real jobs.</span>",
+      "after": "",
+      "authority": "Zola §E r1.17.1 306de2e8 row Z-3; Maat 31b3a612; Melan e2318c9c"
+    },
+    {
+      "row": "E26-L1 (.risk)",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ".risk{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));",
+      "after": ".risk{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));",
+      "authority": "layout only, empty-container rule, Melan ac441703 (.risk holds 3 cards; desktop 4 cols -> 3; no copy change)"
+    },
+    {
+      "row": "E26-L2 (.why three)",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<p class=\"sub3p\">The wet basements and declined slabs in your market are still there, and the people who own them still want them fixed.</p><div class=\"why\">",
+      "after": "<p class=\"sub3p\">The wet basements and declined slabs in your market are still there, and the people who own them still want them fixed.</p><div class=\"why three\">",
+      "authority": "layout only, empty-container rule, Melan ac441703 (this .why holds 3 cards; the other .why holds 4 and keeps 2 cols; modifier class only, no copy change)"
+    },
+    {
+      "row": "E26-L2 (.why three)",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ".why{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:32px}\n",
+      "after": ".why{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:32px}\n@media (min-width:761px){.why.three{grid-template-columns:repeat(3,minmax(0,1fr))}}\n",
+      "authority": "layout only, empty-container rule, Melan ac441703 (desktop-only rule for the 3-card .why; existing mobile rule untouched)"
+    },
+    {
+      "row": "E26-L3 (.rgrid four)",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3 class=\"rsub\">Why a homeowner needs WetBond</h3>\n<div class=\"rgrid three\">",
+      "after": "<h3 class=\"rsub\">Why a homeowner needs WetBond</h3>\n<div class=\"rgrid four\">",
+      "authority": "layout only, empty-container rule, Melan ac441703 (8 cards after E26-15/16; \"three\" had no CSS rule; modifier class only)"
+    },
+    {
+      "row": "E26-L3 (.rgrid four)",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "@media (max-width:760px){.rgrid{grid-template-columns:1fr}}\n",
+      "after": "@media (max-width:760px){.rgrid{grid-template-columns:1fr}}\n@media (min-width:981px){.rgrid.four{grid-template-columns:repeat(4,minmax(0,1fr))}}\n",
+      "authority": "layout only, empty-container rule, Melan ac441703 (desktop-only rule: 8 cards fill 2 rows of 4; 761-980px keeps 3 cols; mobile untouched)"
     }
   ],
   "allowedMetadataDeltas": [
