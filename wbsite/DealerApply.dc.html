@@ -253,10 +253,8 @@ body{margin:0}
 <div class="fld"><label for="ar">County and state you work in</label><input id="ar" placeholder="e.g. Allegheny County, PA"></div>
 <label class="cons"><input type="checkbox">I agree to receive calls and texts from WetBond Systems LLC about the dealer program at the number above, including automated reminders. Consent isn't a condition of purchase. Msg and data rates may apply; reply STOP to opt out.</label>
 <div class="nav"><button type="button" class="bk" onClick="{{back}}">Back</button><button type="button" class="btn p" onClick="{{finish}}">See my result</button></div></div></sc-if>
-<sc-if value="{{ok}}" hint-placeholder-val="{{false}}"><div class="qcard res"><div class="ic">✓</div><h1>You're a fit. Let's talk about your market.</h1><p class="sub">{{okLine}}</p><p class="sub">Pick a 30-minute call. We'll check whether your county is still open and walk through the opening order, certification and warranty.</p><div class="nav"><a class="btn p" href="DealerSchedule.dc.html">Pick a time</a></div></div></sc-if>
-<sc-if value="{{nf}}" hint-placeholder-val="{{false}}"><div class="qcard res"><div class="ic g">→</div><h1>Start with an Applicator starter kit.</h1><p class="sub">{{nfLine}}</p>
-<div class="kit"><img src="assets/1c0fdc5b6b8a7e1893dca35a9d691098.webp" alt="The WetBond starter kit laid out on a drop cloth." loading="lazy"><ul><li>Material for a job or two</li><li>The written application protocol</li><li>No warranty authority until you certify</li></ul></div>
-<div class="nav" style="flex-wrap:wrap"><a class="btn p" href="mailto:support@wetbond.com?subject=Starter%20kit%20order">Order a starter kit</a><a class="btn ol" href="DealerSchedule.dc.html">Book a call anyway</a></div></div></sc-if>
+<sc-if value="{{ok}}" hint-placeholder-val="{{false}}"><div class="qcard res" data-intake="{{intake}}"><div class="ic">✓</div><h1>You're a fit. Let's talk about your market.</h1><p class="sub">{{okLine}}</p><p class="sub">Pick a 30-minute call. We'll check whether your county is still open and walk through the opening order, certification and warranty.</p><div class="nav"><a class="btn p" href="DealerSchedule.dc.html">Pick a time</a></div></div></sc-if>
+<sc-if value="{{nf}}" hint-placeholder-val="{{false}}"><div class="qcard res" data-intake="{{intake}}"><div class="ic g">→</div><h1>Let's talk about your market.</h1><p class="sub">Pick a 30-minute call. We'll check whether your county is still open and walk through the opening order, certification and warranty.</p><div class="nav"><a class="btn p" href="DealerSchedule.dc.html">Pick a time</a></div></div></sc-if>
 <div class="trust" style="display:flex;border:0;justify-content:center;gap:12px;margin-top:20px;font-size:14px;color:#4A555D"><span>About 2 minutes</span><span>·</span><span>No obligation</span><span>·</span><span>Questions? <a href="tel:+18446526266">(844) 652-6266</a></span></div>
 </div>
 <footer class="ff"><div class="fw"><p>WetBond is a professional-grade product manufactured by WetBond Systems and sold only to trained WetBond applicators and Certified Dealers. The Certified Dealer program is offered by WetBond Systems LLC. Dealers are independently owned and operated businesses under their own names; this is not a franchise or a business opportunity, and no franchise, territory or royalty fee is charged.</p><p>We make no earnings claims and provide no leads. What a dealer earns depends entirely on their own business, market and effort. Program terms, pricing and founding-cohort terms are set out in the written dealer agreement and may change before you sign.</p><p>© 2026 WetBond Systems LLC · <a href="Privacy.dc.html">Privacy policy</a> · <a href="Terms.dc.html">Terms of use</a></p></div></footer>
@@ -286,7 +284,6 @@ class Component extends DCLogic {
     // Purchase answer routes: Yes / payment options continue; start smaller and not now get distinct outcomes.
     // Company size and job volume never route (a 0 volume answer is for setter review only).
     const qualified = (a.order===0 || a.order===1) && a.time!==2;
-    const why = a.order===3 ? 'The opening order is the main commitment, and the timing isn’t right yet.' : a.order===2 ? 'One or two jobs first is the best way to see how it fits your crew.' : a.time===2 ? 'You’re still researching, which is a good reason to try one job first.' : 'One or two jobs first is the best way to see how it fits your crew.';
     const names = sel.slice().sort().map(i=>APPS[i][0].toLowerCase());
     const picked = names.length ? (names.length===1?names[0]:names.slice(0,-1).join(', ')+' and '+names[names.length-1]) : '';
     return {
@@ -300,7 +297,7 @@ class Component extends DCLogic {
       back:()=>this.setState({step:Math.max(1,st-1)}),
       finish:()=>this.setState({step:7}),
       okLine: tr.line + (picked?(' You’re interested in '+picked+'.'):''),
-      nfLine: why
+      intake: qualified ? 'fit' : a.order===3 ? 'not_now' : a.order===2 ? 'start_smaller' : 'researching'
     };
   }
 }

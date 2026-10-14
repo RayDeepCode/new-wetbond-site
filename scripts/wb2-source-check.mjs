@@ -30,7 +30,7 @@ const logic=source.slice(source.indexOf('class Component extends DCLogic'),sourc
 const Component=vm.runInNewContext(logic+';Component',{DCLogic:class {setState(s){Object.assign(this.state,s);}}});
 let cases=0;
 for(let trade=0;trade<7;trade++)for(let crew=0;crew<4;crew++)for(let vol=0;vol<5;vol++)for(let time=0;time<3;time++)for(let order=0;order<4;order++){
- const c=new Component({});c.state={step:7,a:{trade,crew,vol,time,order,a1:0,a2:0},apps:[0]};const v=c.renderVals();assert.equal(v.ok,order<2&&time!==2);assert.equal(v.nf,!v.ok);assert.equal(v.setterReview,vol===0);cases++;
+ const c=new Component({});c.state={step:7,a:{trade,crew,vol,time,order,a1:0,a2:0},apps:[0]};const v=c.renderVals();assert.equal(v.ok,order<2&&time!==2);assert.equal(v.nf,!v.ok);assert.equal(v.setterReview,vol===0);assert.equal(v.intake,v.ok?'fit':order===3?'not_now':order===2?'start_smaller':'researching');assert.equal(v.nfLine,undefined);cases++;
 }
 for(const step of [4,5]){const c=new Component({});c.state={step,a:{crew:0,rev:0,cap:0,time:0},apps:[0]};const v=c.renderVals();v.next();assert.equal(c.state.step,step,'Old revenue/capital state must not satisfy new answers');}
 await mkdir(root+'/reports',{recursive:true});

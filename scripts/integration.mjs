@@ -34,7 +34,7 @@ try{
  await page.locator('.wbh-mp a[href="/find-a-dealer"]').first().click();assert.equal(new URL(page.url()).pathname,'/find-a-dealer');
  // DealerApply (WB-2 B4/B5): smallest company and 0 jobs never block; only the purchase answer and timing route.
  const routing=[];
- for(const [answer,expected] of [['Yes','fit'],['Yes, but I’d want to talk through payment options','fit'],['I’d rather start smaller','start smaller'],['Not right now','not now']]){
+ for(const [answer,expected,timing] of [['Yes','fit','Within 30 days'],['Yes, but I’d want to talk through payment options','fit','Within 30 days'],['I’d rather start smaller','start_smaller','Within 30 days'],['Not right now','not_now','Within 30 days'],['Yes','researching','Just researching for now']]){
   await ready(page,srv.url+'/dealer-apply');
   const pick=async label=>{await page.locator('.qcard button.opt',{hasText:label}).first().click();};
   const next=async()=>{await page.getByRole('button',{name:'Continue'}).click();};
@@ -44,11 +44,15 @@ try{
   await pick('Just me');await page.locator('.qcard .opts').nth(1).locator('button.opt').first().click();
   assert.equal(await page.locator('.qcard .opts').nth(1).locator('button.opt').first().innerText(),'0');await next();
   assert.equal(await page.locator('.qcard h1').innerText(),'Timing.');
-  await pick('Within 30 days');await page.locator('.qcard .opts').nth(1).getByRole('button',{name:answer,exact:true}).click();await next();
+  await pick(timing);await page.locator('.qcard .opts').nth(1).getByRole('button',{name:answer,exact:true}).click();await next();
   await page.getByRole('button',{name:'See my result'}).click();
-  const heading=await page.locator('.qcard.res h1').innerText(),line=await page.locator('.qcard.res p.sub').first().innerText();
-  const outcome=heading.startsWith("You're a fit")?'fit':line.startsWith('The opening order is the main commitment')?'not now':'start smaller';
-  assert.equal(outcome,expected,answer);routing.push(answer+' → '+outcome);
+  // Non-fit display converges on one call panel (Maat 8aa303f9); the original intake outcome stays distinct in data-intake.
+  const res=page.locator('.qcard.res'),heading=await res.locator('h1').innerText(),outcome=await res.getAttribute('data-intake'),card=await res.innerText();
+  assert.equal(outcome,expected,answer);
+  if(expected==='fit')assert(heading.startsWith("You're a fit"),answer);
+  else{assert.equal(heading,"Let's talk about your market.",answer);assert.equal(await res.locator('a.btn',{hasText:'Pick a time'}).getAttribute('href'),'/dealer-schedule',answer);}
+  for(const banned of ['starter kit','Applicator','Order a starter','timing isn’t right','One or two jobs','try one job'])assert(!card.includes(banned),answer+': '+banned);
+  routing.push(answer+' / '+timing+' → '+outcome);
  }
  const html=await (await fetch(srv.url+'/dealer-apply')).text();for(const gone of ['27,405','annual revenue','no training fee','Timing and investment'])assert(!html.includes(gone),gone);
  let socials=0;for(const file of pages){const h=await (await fetch(srv.url+route(file.replace('.dc.html','')))).text();socials+=(h.split('<template data-static-template>')[0].match(/<a [^>]*href="#"[^>]*data-social=/g)||[]).length;}
