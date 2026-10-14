@@ -5401,6 +5401,16 @@
       "before": "<span>Why water can&#8217;t push it off the wall</span>",
       "after": "",
       "authority": "Zola §E r1.18.1 2013e899 row E27-7; Maat one-row check; Melan ae616d42"
+    },
+    {
+      "row": "E27-8",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "Why coatings fail and WetBond doesn't</a>",
+      "after": "Why coatings fail</a>",
+      "authority": "Zola §E r1.18.2 0a416e77 row E27-8; Maat one-row check; Melan 8ea1cefa"
     }
   ],
   "allowedMetadataDeltas": [
