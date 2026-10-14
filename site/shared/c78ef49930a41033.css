@@ -203,15 +203,6 @@ table { border-collapse: collapse; }
 @media (prefers-reduced-motion: reduce) {
   .sp { animation: auto ease 0s 1 normal none running none; }
 }
-.wb-push { animation: 2.4s ease-in-out 0s infinite normal none running wbPush; }
-@keyframes wbPush { 
-  0% { transform: translateX(0px); opacity: 0.55; }
-  50% { transform: translateX(-10px); opacity: 1; }
-  100% { transform: translateX(0px); opacity: 0.55; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .wb-push { animation: auto ease 0s 1 normal none running none; }
-}
 .wbh-aud { position: relative; }
 .wbh-aud summary { list-style: none; cursor: pointer; color: rgb(169, 180, 187); font-size: 15px; min-height: 36px; display: inline-flex; align-items: center; gap: 6px; }
 .wbh-aud summary::-webkit-details-marker { display: none; }

@@ -5144,6 +5144,219 @@
       "before": "<h3 class=\"rsub\">Who sends you work</h3>\n<div class=\"rgrid three\">",
       "after": "<h3 class=\"rsub\">Who sends you work</h3>\n<div class=\"rgrid ten\">",
       "authority": "Layout only, no copy change; Melan 844ac737 item 6 (container rule)"
+    },
+    {
+      "row": "E27-1a",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<g><rect x=\"209.0\" y=\"19\" width=\"163.0\" height=\"22\" rx=\"11\" fill=\"#1B2730\" stroke=\"#2E3B45\"></rect><circle cx=\"221.0\" cy=\"30\" r=\"4\" fill=\"#7FB2EC\"></circle><text x=\"230.0\" y=\"33.6\" font-family=\"Archivo, Helvetica, sans-serif\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\".08em\" fill=\"#E6EAEC\">WATER PUSHED AHEAD</text></g>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-1a; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-1b",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "\n<p style=\"margin: 16px 0 0; font-size: 22px; font-weight: 700; color: #FFFFFF;\">Water finds its way into concrete. So does WetBond.</p>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-1b; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-1c",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "\n<p style=\"margin: 14px 0 0; font-size: 18px; color: #FFFFFF; border-left: 3px solid #7C8389; padding-left: 14px;\">In plain terms: it drives in wherever the water is.</p>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-1c; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "SVG-1 Stage 1 wb-push groups",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<g class=\"wb-push\"><path d=\"M442 118 L402 118\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-linecap=\"round\"></path><path d=\"M409 113 L402 118 L409 123\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><g class=\"wb-push\"><path d=\"M442 160 L402 160\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-linecap=\"round\"></path><path d=\"M409 155 L402 160 L409 165\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g><g class=\"wb-push\"><path d=\"M442 202 L402 202\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-linecap=\"round\"></path><path d=\"M409 197 L402 202 L409 207\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g>",
+      "after": "",
+      "authority": "Melan 49f5fa59 (graphic deletion only); Maat 438bfb04 visual flag"
+    },
+    {
+      "row": "SVG-2 Stage 1 pushed-water band",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<path d=\"M346.1,56.0 L345.1,60.0 L345.2,64.0 L346.4,68.0 L348.5,72.0 L350.9,76.0 L353.1,80.0 L354.8,84.0 L355.8,88.0 L355.9,92.0 L355.6,96.0 L355.2,100.0 L355.2,104.0 L355.7,108.0 L356.9,112.0 L358.6,116.0 L360.4,120.0 L361.8,124.0 L362.4,128.0 L361.9,132.0 L360.4,136.0 L358.0,140.0 L355.2,144.0 L352.6,148.0 L350.6,152.0 L349.5,156.0 L349.3,160.0 L349.8,164.0 L350.5,168.0 L351.1,172.0 L351.2,176.0 L350.6,180.0 L349.6,184.0 L348.4,188.0 L347.4,192.0 L347.2,196.0 L347.9,200.0 L349.6,204.0 L352.1,208.0 L355.0,212.0 L357.7,216.0 L359.8,220.0 L360.9,224.0 L360.9,228.0 L360.2,232.0 L358.9,236.0 L357.7,240.0 L356.9,244.0 L356.7,248.0 L357.1,252.0 L357.8,256.0 L358.4,260.0 L358.4,264.0 L404.4,264.0 L404.4,260.0 L403.8,256.0 L403.1,252.0 L402.7,248.0 L402.9,244.0 L403.7,240.0 L404.9,236.0 L406.2,232.0 L406.9,228.0 L406.9,224.0 L405.8,220.0 L403.7,216.0 L401.0,212.0 L398.1,208.0 L395.6,204.0 L393.9,200.0 L393.2,196.0 L393.4,192.0 L394.4,188.0 L395.6,184.0 L396.6,180.0 L397.2,176.0 L397.1,172.0 L396.5,168.0 L395.8,164.0 L395.3,160.0 L395.5,156.0 L396.6,152.0 L398.6,148.0 L401.2,144.0 L404.0,140.0 L406.4,136.0 L407.9,132.0 L408.4,128.0 L407.8,124.0 L406.4,120.0 L404.6,116.0 L402.9,112.0 L401.7,108.0 L401.2,104.0 L401.2,100.0 L401.6,96.0 L401.9,92.0 L401.8,88.0 L400.8,84.0 L399.1,80.0 L396.9,76.0 L394.5,72.0 L392.4,68.0 L391.2,64.0 L391.1,60.0 L392.1,56.0 Z\" fill=\"#2E3236\" fill-opacity=\".38\" filter=\"url(#k1glow)\"></path>",
+      "after": "",
+      "authority": "Melan 49f5fa59 (graphic deletion only); Maat 438bfb04 visual flag"
+    },
+    {
+      "row": "SVG-3 Stage 1 unused k1push gradient",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "<linearGradient id=\"k1push\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#3D7FD0\" stop-opacity=\"0\"></stop><stop offset=\"1\" stop-color=\"#3D7FD0\" stop-opacity=\".34\"></stop></linearGradient>",
+      "after": "",
+      "authority": "Melan 49f5fa59 (graphic deletion only); Maat 438bfb04 visual flag; unreferenced push-band gradient def, no render change"
+    },
+    {
+      "row": "SVG-4 wb-push CSS/animation",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": ".wb-push{animation:wbPush 2.4s ease-in-out infinite}@keyframes wbPush{0%{transform:translateX(0);opacity:.55}50%{transform:translateX(-10px);opacity:1}100%{transform:translateX(0);opacity:.55}}@media (prefers-reduced-motion: reduce){.wb-push{animation:none}}\n",
+      "after": "",
+      "authority": "Melan 49f5fa59 (graphic deletion only); Maat 438bfb04 visual flag; rule and keyframes only drive the removed wb-push groups"
+    },
+    {
+      "row": "ARIA-1 Stage 1 aria-label",
+      "section": "§E",
+      "pages": [
+        "Main"
+      ],
+      "before": "aria-label=\"Magnified concrete. Water fills the pores. WetBond drives in from the room side and pushes the water deeper ahead of it.\"",
+      "after": "aria-label=\"Magnified concrete. Water fills the pores. WetBond drives in from the room side.\"",
+      "authority": "Kaya defec112; Melan 4b8ab31d (E3 twin of E3-8/E27-1a); Maat to confirm with Kaya result"
+    },
+    {
+      "row": "E27-1b",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "\n<p class=\"lead\"><strong>Water finds its way into concrete. So does WetBond.</strong></p>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-1b; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-1c",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "\n<p class=\"plain\"><em>In plain terms: it drives in wherever the water is.</em></p>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-1c; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-2a",
+      "section": "§E",
+      "pages": [
+        "HowItWorks"
+      ],
+      "before": "content=\"How WetBond works: reactive penetration, covalent bonding and substrate conversion turn the inside of your basement wall into the waterproofing.\"",
+      "after": "content=\"How WetBond works: reactive penetration and covalent bonding.\"",
+      "authority": "Zola §E r1.18 c0a56289 row E27-2a; Maat SHIP 438bfb04; Melan dbecbfe5 (RET \"and\")"
+    },
+    {
+      "row": "E27-2b",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " We call it <b>substrate conversion</b>.",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-2b; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-4d",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": " · <a href=\"Technical.dc.html\" style=\"font-weight:700\">Published data</a>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-4d; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-5",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "\n<div><b>If you remodel, finish basements or pour concrete</b></div>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-5; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-2c",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "\n<h3>Substrate conversion</h3>\n<p>When the reaction is complete, the pores are filled and bonded closed.</p>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-2c; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-2d",
+      "section": "§E",
+      "pages": [
+        "Technical",
+        "ForArchitects",
+        "Science"
+      ],
+      "before": "Reactive penetration, covalent bonding, substrate conversion.",
+      "after": "Reactive penetration, covalent bonding.",
+      "authority": "Zola §E r1.18 c0a56289 row E27-2d; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-3",
+      "section": "§E",
+      "pages": [
+        "FAQ",
+        "Science"
+      ],
+      "before": "<span>The three stages in plain English.</span>",
+      "after": "<span>The stages in plain English.</span>",
+      "authority": "Zola §E r1.18 c0a56289 row E27-3; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-4a",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "content=\"Negative-side, water-reactive waterproofing for below-grade concrete and masonry: published performance, fit and limits, submittals and specification support.\"",
+      "after": "content=\"Negative-side, water-reactive waterproofing for below-grade concrete and masonry: fit and limits, submittals and specification support.\"",
+      "authority": "Zola §E r1.18 c0a56289 row E27-4a; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-4b",
+      "section": "§E",
+      "pages": [
+        "ForArchitects"
+      ],
+      "before": "<span>The full product line and published performance.</span>",
+      "after": "<span>The full product line.</span>",
+      "authority": "Zola §E r1.18 c0a56289 row E27-4b; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-4c",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "<span>Products, published performance and documents.</span>",
+      "after": "<span>Products and documents.</span>",
+      "authority": "Zola §E r1.18 c0a56289 row E27-4c; Maat SHIP 438bfb04; Melan dbecbfe5"
+    },
+    {
+      "row": "E27-6",
+      "section": "§E",
+      "pages": [
+        "Science"
+      ],
+      "before": "\n<figure style=\"margin:28px 0 0\"><img src=\"assets/b2c4f8365ccfec37dedfbd5923c12072.webp\" width=\"1344\" height=\"752\" loading=\"lazy\" alt=\"Three sawn concrete samples on a lab bench: white paint only on the surface and peeling, a thin amber epoxy layer, and a gray WetBond zone reaching into the concrete.\" style=\"width:100%;height:auto;display:block;border-radius:12px\"><figcaption style=\"margin-top:8px;font-size:14px;color:#4A555D\">Penetration depth compared on sawn samples: paint, epoxy, WetBond. Illustration.</figcaption></figure>",
+      "after": "",
+      "authority": "Zola §E r1.18 c0a56289 row E27-6; Maat SHIP 438bfb04; Melan dbecbfe5"
     }
   ],
   "allowedMetadataDeltas": [
