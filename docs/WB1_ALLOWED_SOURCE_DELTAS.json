@@ -5114,6 +5114,36 @@
       "before": "@media (max-width:760px){.rgrid{grid-template-columns:1fr}}\n",
       "after": "@media (max-width:760px){.rgrid{grid-template-columns:1fr}}\n@media (min-width:981px){.rgrid.four{grid-template-columns:repeat(4,minmax(0,1fr))}}\n",
       "authority": "layout only, empty-container rule, Melan ac441703 (desktop-only rule: 8 cards fill 2 rows of 4; 761-980px keeps 3 cols; mobile untouched)"
+    },
+    {
+      "row": "L4 risk card style",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": ".rk p{margin:8px 0 0;font-size:15px;color:#33414B}\n",
+      "after": ".rk p{margin:8px 0 0;font-size:15px;color:#33414B}\n.risk .rk{display:block;font-size:inherit;font-weight:inherit;letter-spacing:normal;text-transform:none;color:inherit;background:#FFFFFF;padding:20px}\n",
+      "authority": "Layout only, no copy change; Melan 844ac737 item 6 (container rule)"
+    },
+    {
+      "row": "L5 senders grid rules",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "@media (min-width:981px){.rgrid.four{grid-template-columns:repeat(4,minmax(0,1fr))}}",
+      "after": "@media (min-width:981px){.rgrid.four{grid-template-columns:repeat(4,minmax(0,1fr))}}\n@media (min-width:761px){.rgrid.ten{grid-template-columns:repeat(2,minmax(0,1fr))}}\n@media (min-width:1200px){.rgrid.ten{grid-template-columns:repeat(5,minmax(0,1fr))}}",
+      "authority": "Layout only, no copy change; Melan 844ac737 item 6 (container rule)"
+    },
+    {
+      "row": "L5 senders grid class",
+      "section": "§E",
+      "pages": [
+        "DealerVSL"
+      ],
+      "before": "<h3 class=\"rsub\">Who sends you work</h3>\n<div class=\"rgrid three\">",
+      "after": "<h3 class=\"rsub\">Who sends you work</h3>\n<div class=\"rgrid ten\">",
+      "authority": "Layout only, no copy change; Melan 844ac737 item 6 (container rule)"
     }
   ],
   "allowedMetadataDeltas": [
