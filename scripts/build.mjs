@@ -55,13 +55,14 @@ try{
   if((head.match(/<title>/g)||[]).length!==1)throw Error(file+': title count');
   head=head.replace(/<title>[\s\S]*?<\/title>/,'<title>'+escapeText(title)+'</title>');
   let description=head.match(/<meta name="description" content="([^"]*)">/)?.[1];
-  if(!description){const copy=await page.locator('main p').first().innerText();description=escapeAttr(copy.trim().replace(/\s+/g,' ').slice(0,160));head+='\n<meta name="description" content="'+description+'">';}
+  if(!description&&name!=='Warranty'){const copy=await page.locator('main p').first().innerText();description=escapeAttr(copy.trim().replace(/\s+/g,' ').slice(0,160));head+='\n<meta name="description" content="'+description+'">';}
   if(!/name="viewport"/.test(head))head=head.replace(/<meta charset="utf-8">/,'$&\n<meta name="viewport" content="width=device-width, initial-scale=1">');
   if(!/name="viewport"/.test(head))throw Error(file+': viewport not added');
   const image=landmark.image&&/^(?:\.\/)?assets\/[0-9a-f]+\.(?:webp|jpg|png)$/.test(landmark.image)?origin+'/'+landmark.image.replace(/^\.\//,''):origin+'/brand-mark.png';
   // Zola/Nova metadata ruling: omit held claims from share descriptions.
   const heldDescription=new Set(['ProductsPenetrating','Technical','Contractors','Warranty']).has(name);
-  if(name==='ProductsPenetrating'){description=null;head=head.replace(/<meta name="description" content="[^"]*">/,'');}
+  // SITES-PUBLIC-HOTFIX (Maat c40f4a8e item 5): Warranty's description promised a manufacturer-issued 10-year warranty; omit it like ProductsPenetrating.
+  if(name==='ProductsPenetrating'||name==='Warranty'){description=null;head=head.replace(/<meta name="description" content="[^"]*">/,'');}
   if(name==='ProductsRepair'){description='Cracks, joints and holes are where most basements leak first.';head=head.replace(/(<meta name="description" content=")[^"]*(">)/,'$1'+description+'$2');}
   head=head.replace(/<meta (?:property|name)="(?:og|twitter):description"[^>]*>/g,'');
   const og=[['og:type','website'],['og:site_name','WetBond'],['og:title',title],...(!heldDescription?[['og:description',description]]:[]),['og:url',url],...(image?[['og:image',image]]:[])]
@@ -77,9 +78,11 @@ try{
  }
  // /main is no longer a page: it points at / (301 on Vercel; static fallback for other hosts and the local preview).
  await writeFile(out+'/'+output(slug(home)),'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<link rel="canonical" href="'+origin+'/">\n<meta http-equiv="refresh" content="0; url=/">\n<title>WetBond</title>\n<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n</head>\n<body><a href="/">WetBond.com</a></body>\n</html>\n');
- await writeFile(out+'/sitemap.xml','<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+manifest.map(p=>'<url><loc>'+origin+p.route+'</loc></url>').join('\n')+'\n</urlset>\n');
- await writeFile(out+'/robots.txt','User-agent: *\nAllow: /\nSitemap: https://wetbond.com/sitemap.xml\n');
+ // SITES-PUBLIC-HOTFIX item 6 (Maat c40f4a8e): no indexing. robots disallows everything with no sitemap line, no sitemap is
+ // published, and every response carries X-Robots-Tag: noindex (Cloudflare Pages _headers; Vercel headers in vercel.json).
+ await writeFile(out+'/robots.txt','User-agent: *\nDisallow: /\n');
+ await writeFile(out+'/_headers','/*\n  X-Robots-Tag: noindex\n');
  await writeFile(out+'/routes.json',JSON.stringify(manifest,null,2)+'\n');
  await writeFile(out+'/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><title>Not found</title><h1>Page not found</h1><a href="/">WetBond</a></html>\n');
- await writeFile(out+'/vercel.json',JSON.stringify({cleanUrls:true,trailingSlash:false,redirects:[{source:slug(home),destination:'/',permanent:true}]},null,2)+'\n');
+ await writeFile(out+'/vercel.json',JSON.stringify({cleanUrls:true,trailingSlash:false,headers:[{source:'/(.*)',headers:[{key:'X-Robots-Tag',value:'noindex'}]}],redirects:[{source:slug(home),destination:'/',permanent:true}]},null,2)+'\n');
 }finally{await browser.close();await srv.close();}

@@ -21,13 +21,6 @@
     "ogImage": "https://wetbond.com/assets/a6e7556f3971ad98839a119134eb4e32.webp"
   },
   {
-    "name": "Book",
-    "source": "Book.dc.html",
-    "route": "/book",
-    "css": "2edf2e0e1b013dd9.css",
-    "ogImage": "https://wetbond.com/assets/9f0811586bc6e0113b5079d20eaa58aa.webp"
-  },
-  {
     "name": "CityPittsburgh",
     "source": "CityPittsburgh.dc.html",
     "route": "/city-pittsburgh",
@@ -56,34 +49,6 @@
     "ogImage": "https://wetbond.com/assets/ae221dd242244e7d8e0071cc22f4db83.webp"
   },
   {
-    "name": "DealerApply",
-    "source": "DealerApply.dc.html",
-    "route": "/dealer-apply",
-    "css": "b7f7753c3fc40d81.css",
-    "ogImage": "https://wetbond.com/brand-mark.png"
-  },
-  {
-    "name": "DealerConfirmed",
-    "source": "DealerConfirmed.dc.html",
-    "route": "/dealer-confirmed",
-    "css": "2ccf9f6abf0835e8.css",
-    "ogImage": "https://wetbond.com/assets/46049f6f5a3cb968d3ed5cb219d74556.webp"
-  },
-  {
-    "name": "DealerSchedule",
-    "source": "DealerSchedule.dc.html",
-    "route": "/dealer-schedule",
-    "css": "b7f7753c3fc40d81.css",
-    "ogImage": "https://wetbond.com/brand-mark.png"
-  },
-  {
-    "name": "DealerVSL",
-    "source": "DealerVSL.dc.html",
-    "route": "/dealer-vsl",
-    "css": "f97d427bc157867c.css",
-    "ogImage": "https://wetbond.com/assets/89e08742a1dfad608602c3d6764715de.webp"
-  },
-  {
     "name": "Exterior",
     "source": "Exterior.dc.html",
     "route": "/exterior",
@@ -103,13 +68,6 @@
     "route": "/field-data",
     "css": "f53a69b26635b109.css",
     "ogImage": "https://wetbond.com/assets/b71bcc68da26ddecb3e7cf31c3e24411.webp"
-  },
-  {
-    "name": "FindADealer",
-    "source": "FindADealer.dc.html",
-    "route": "/find-a-dealer",
-    "css": "d5eb455b258c961d.css",
-    "ogImage": "https://wetbond.com/assets/eb7ec32d531314a08ab59fa05bb658fc.webp"
   },
   {
     "name": "Floors",

@@ -19,10 +19,16 @@ try{
  }
  assert.equal((await fetch(srv.url+'/missing-page')).status,404);
  const text=async path=>{const r=await fetch(srv.url+path);assert.equal(r.status,200,path);return r.text();};
- const sitemap=await text('/sitemap.xml');assert.equal((sitemap.match(/<loc>https:\/\/wetbond\.com\/<\/loc>/g)||[]).length,1);assert(!sitemap.includes('wetbond.com/main<'));assert.equal((sitemap.match(/<loc>/g)||[]).length,40);
+ // SITES-PUBLIC-HOTFIX item 6: no sitemap, robots disallows everything, every response is marked noindex by the host.
+ assert.equal((await fetch(srv.url+'/sitemap.xml')).status,404);assert.equal(await text('/robots.txt'),'User-agent: *\nDisallow: /\n');
+ assert.equal(await readFile(root+'/site/_headers','utf8'),'/*\n  X-Robots-Tag: noindex\n');
+ // Items 1/3/4: removed intake and funnel routes are a true 404, and no served page carries intake controls or the banned line.
+ for(const gone of ['/book','/find-a-dealer','/dealer-apply','/dealer-schedule','/dealer-confirmed','/dealer-vsl'])assert.equal((await fetch(srv.url+gone)).status,404,gone);
+ for(const file of pages){const h=await (await fetch(srv.url+route(file.replace('.dc.html','')))).text();
+  for(const banned of [/<(?:form|input|textarea|select)\b/,/not a franchise or a business opportunity/,/WetBond Systems/,/createObjectURL/,/\/(?:book|find-a-dealer|dealer-apply|dealer-schedule|dealer-confirmed|dealer-vsl)\b/])assert(!banned.test(h),file+': '+banned);}
  const legacy=await fetch(srv.url+'/main',{redirect:'manual'});assert.equal(legacy.status,301);assert.equal(legacy.headers.get('location'),'/');
  assert((await text('/')).includes('data-page="Main"'));
- const vercel=JSON.parse(await text('/vercel.json'));assert.deepEqual(vercel.redirects,[{source:'/main',destination:'/',permanent:true}]);
+ const vercel=JSON.parse(await text('/vercel.json'));assert.deepEqual(vercel.redirects,[{source:'/main',destination:'/',permanent:true}]);assert.deepEqual(vercel.headers,[{source:'/(.*)',headers:[{key:'X-Robots-Tag',value:'noindex'}]}]);
  const routes=JSON.parse(await text('/routes.json'));assert.equal(routes.find(r=>r.name==='Main').route,'/');assert.deepEqual(routes.find(r=>r.name==='Main').redirectFrom,['/main']);
  for(const icon of ['/favicon.svg','/favicon.ico'])await text(icon);
  const page=await browser.newPage({viewport:{width:375,height:900},isMobile:true,hasTouch:true});await prepare(page);await ready(page,srv.url+'/warranty');
@@ -31,33 +37,10 @@ try{
  await ready(page,srv.url+'/');
  const stage=page.getByRole('button',{name:'2 Bonding',exact:false});await stage.scrollIntoViewIfNeeded();await page.waitForTimeout(500);await stage.click();await expectAttribute(stage,'aria-pressed','true');
  const menu=page.locator('.wbh-m > summary');await menu.click();assert.equal(await page.locator('.wbh-m').getAttribute('open'),'');
- await page.locator('.wbh-mp a[href="/find-a-dealer"]').first().click();assert.equal(new URL(page.url()).pathname,'/find-a-dealer');
- // DealerApply (WB-2 B4/B5): smallest company and 0 jobs never block; only the purchase answer and timing route.
- const routing=[];
- for(const [answer,expected,timing] of [['Yes','fit','Within 30 days'],['Yes, but I’d want to talk through payment options','fit','Within 30 days'],['I’d rather start smaller','start_smaller','Within 30 days'],['Not right now','not_now','Within 30 days'],['Yes','researching','Just researching for now']]){
-  await ready(page,srv.url+'/dealer-apply');
-  const pick=async label=>{await page.locator('.qcard button.opt',{hasText:label}).first().click();};
-  const next=async()=>{await page.getByRole('button',{name:'Continue'}).click();};
-  await pick('Basement waterproofing');await next();
-  await page.locator('.qcard .opts').nth(0).locator('button.opt').first().click();await page.locator('.qcard .opts').nth(1).locator('button.opt').first().click();await next();
-  await page.locator('.qcard button.msel').first().click();await next();
-  await pick('Just me');await page.locator('.qcard .opts').nth(1).locator('button.opt').first().click();
-  assert.equal(await page.locator('.qcard .opts').nth(1).locator('button.opt').first().innerText(),'0');await next();
-  assert.equal(await page.locator('.qcard h1').innerText(),'Timing.');
-  await pick(timing);await page.locator('.qcard .opts').nth(1).getByRole('button',{name:answer,exact:true}).click();await next();
-  await page.getByRole('button',{name:'See my result'}).click();
-  // Non-fit display converges on one call panel (Maat 8aa303f9); the original intake outcome stays distinct in data-intake.
-  const res=page.locator('.qcard.res'),heading=await res.locator('h1').innerText(),outcome=await res.getAttribute('data-intake'),card=await res.innerText();
-  assert.equal(outcome,expected,answer);
-  if(expected==='fit')assert(heading.startsWith("You're a fit"),answer);
-  else{assert.equal(heading,"Let's talk about your market.",answer);assert.equal(await res.locator('a.btn',{hasText:'Pick a time'}).getAttribute('href'),'/dealer-schedule',answer);}
-  for(const banned of ['starter kit','Applicator','Order a starter','timing isn’t right','One or two jobs','try one job'])assert(!card.includes(banned),answer+': '+banned);
-  routing.push(answer+' / '+timing+' → '+outcome);
- }
- const html=await (await fetch(srv.url+'/dealer-apply')).text();for(const gone of ['27,405','annual revenue','no training fee','Timing and investment'])assert(!html.includes(gone),gone);
+ await page.locator('.wbh-mp a[href="/warranty"]').first().click();assert.equal(new URL(page.url()).pathname,'/warranty');
  let socials=0;for(const file of pages){const h=await (await fetch(srv.url+route(file.replace('.dc.html','')))).text();socials+=(h.split('<template data-static-template>')[0].match(/<a [^>]*href="#"[^>]*data-social=/g)||[]).length;}
  assert.equal(socials,0,'Footer social placeholders must be absent');
- console.log({dealerApply:routing,socialHashLinksInStaticHtml:socials});
- await mkdir(root+'/reports',{recursive:true});await writeFile(root+'/reports/INTEGRATION.md',`# Integration checks\n\n40 clean routes return 200 (Main at /, /main redirects to / with canonical /); sitemap lists / once and 40 URLs; favicon.svg/.ico return 200; ${links} local references return 200; ${assets} assets retain baseline SHA-256; unknown route returns 404.\n\nAt 375 pixels in a mobile-device context: Warranty expand/collapse, Main bonding-stage selection, mobile menu and navigation to FindADealer pass. DealerApply: with "Just me" and 0 jobs, ${routing.join('; ')}. Footer social links with href="#" in static HTML: ${socials} (hidden until Ray provides profile URLs). Exported form attributes and fields are compared by the full parity suite. No submissions sent.\n`);
+ console.log({socialHashLinksInStaticHtml:socials});
+ await mkdir(root+'/reports',{recursive:true});await writeFile(root+'/reports/INTEGRATION.md',`# Integration checks\n\n${pages.length} clean routes return 200 (Main at /, /main redirects to / with canonical /); 6 removed routes return 404; no sitemap, robots disallows all, _headers marks every response noindex; favicon.svg/.ico return 200; ${links} local references return 200; ${assets} assets retain baseline SHA-256; unknown route returns 404.\n\nAt 375 pixels in a mobile-device context: Warranty expand/collapse, Main bonding-stage selection, mobile menu and navigation to Warranty pass. Footer social links with href="#" in static HTML: ${socials} (hidden until Ray provides profile URLs). No served page has a form, input, textarea or select. No submissions sent.\n`);
  console.log({pages:pages.length,links,assets,interactions:'pass'});
 }finally{await browser.close();await srv.close();}

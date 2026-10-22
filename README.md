@@ -37,3 +37,17 @@ All build-time changes live in `scripts/build.mjs`, `scripts/transform.mjs` and 
 Approved transfer-copy rows WB-12c/d/e are applied verbatim from routing-copy r3 in a separate commit. `node scripts/wb2-source-check.mjs` checks all 39 non-DealerApply sources byte-for-byte against WB-1 after only enumerated approved changes; its report lists every row and mirror. DealerApply carries approved B4/B5 volume, purchase acknowledgment and timing changes; the same check exercises all 1,680 trade/crew/volume/timing/purchase routing combinations and rejects stale revenue/capital answers. No answers are submitted or persisted.
 
 Review artifacts committed under `docs/`: enumerated WB-1 allowed source deltas, the 40-page title/description sheet, and simulated mobile Lighthouse before/after results. Run `node scripts/wb2-review-artifacts.mjs` and `node scripts/wb2-lighthouse.mjs` to recreate them. The latter is one localhost lab run per homepage, not production evidence. WB-2 performance remains limited by existing media and client runtime; those optimizations belong to WB-3.
+
+## SITES-PUBLIC-HOTFIX: public-release strip
+
+Maat's public release check (`RESEARCH/MAAT_PUBLIC_RELEASE_CHECK_2026_10_22.md`, items 1–6) with Melan's defaults and Nova's rulings. Every source change is a counted, exact row in `docs/WB_PUBLIC_HOTFIX_DELTAS.json`, and `node scripts/wb2-source-check.mjs` replays them against the WB-1 baseline.
+
+- **Routes removed** (source deleted; the host serves `404.html` with HTTP 404): `/book`, `/find-a-dealer`, `/dealer-apply`, `/dealer-schedule`, `/dealer-confirmed`, `/dealer-vsl`. Every link to them is gone. The DealerVSL testimonial (Ray's override) is unchanged in source history; the route is simply not served.
+- **Intake removed:** the Main photo check (file input, local object URL, mailto summary, and its runtime handlers), the Main book request and ZIP lookup, the Contractors market questions and call booking, the Field Data notify form, the warranty-lookup and property-assessment mailtos, and the copy that promised them.
+- **Lookup, coverage and verification promises removed:** CityPittsburgh coverage, "check any contractor’s certification", and dealer-lookup copy on Contractors.
+- **Entity:** no sentence or JSON-LD node names WetBond Systems (LLC) as manufacturer, issuer or operator. Brand name only; no replacement entity.
+- **Documents:** the non-working TDS/SDS/warranty/spec downloads on Technical and the "available on request" rows on For architects are removed. No files were added.
+- **Warranty metadata:** the description is omitted (as on ProductsPenetrating).
+- **No indexing:** `robots.txt` is `Disallow: /` with no sitemap, no `sitemap.xml` is published, `_headers` sets `X-Robots-Tag: noindex` on `/*`, and `vercel.json` sets the same header on every path.
+
+Phone and support email links remain. Their ownership is not verified by this change.

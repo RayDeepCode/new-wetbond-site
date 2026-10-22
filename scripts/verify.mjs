@@ -7,7 +7,7 @@ import {root,pages,route,output,server,prepare,ready} from './common.mjs';
 import {titles} from './transform.mjs';
 const report=root+'/reports';await mkdir(report+'/screenshots',{recursive:true});
 const srv=await server(), browser=await chromium.launch();const results=[],textDiff=[],mobile=[];
-const examples=new Set(['Main','Warranty','FindADealer']);
+const examples=new Set(['Main','Warranty','Technical']);
 // Console errors, page errors and failed or 4xx/5xx requests while a site page loads.
 function watch(page){const problems=[];page.on('console',m=>{if(m.type()==='error')problems.push('console: '+m.text());});page.on('pageerror',e=>problems.push('pageerror: '+e.message));page.on('requestfailed',r=>problems.push('failed: '+r.url()));page.on('response',r=>{if(r.status()>=400)problems.push(r.status()+': '+r.url());});return problems;}
 async function settle(page){await page.evaluate(async()=>{await document.fonts.ready;document.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});}
@@ -22,7 +22,7 @@ try{
   for(const key of ['og:title','og:url','og:type','og:site_name','og:image'])assert.equal((html.match(new RegExp('property="'+key+'"','g'))||[]).length,1,name+' '+key);
   const held=new Set(['ProductsPenetrating','Technical','Contractors','Warranty']).has(name);
   assert.equal((html.match(/(?:property|name)="(?:og|twitter):description"/g)||[]).length,held?0:1,name+' share description');
-  assert.equal((html.match(/name="description"/g)||[]).length,name==='ProductsPenetrating'?0:1,name+' ordinary description');
+  assert.equal((html.match(/name="description"/g)||[]).length,name==='ProductsPenetrating'||name==='Warranty'?0:1,name+' ordinary description');
   assert(html.includes('<meta property="og:url" content="https://wetbond.com'+pathname+'">'),name+' og:url');
   assert.equal((body.match(/<main\b/g)||[]).length,1,name+' main');
   assert(!/<a\b[^>]*href="#"[^>]*data-social=/.test(html),name+' social placeholder in live or inert markup');
@@ -82,11 +82,11 @@ try{
  const failures=results.filter(r=>r.changedPixels!==0||r.errors.length||r.problems.length);
  const mobileFailures=mobile.filter(r=>r.innerWidth!==375||r.scrollWidth>375||r.bodyWidth>375||r.errors.length||r.problems.length);
  const lines=['# WetBond static rendering checks','', 'Baseline: `wbsite/*.dc.html`. Chromium via Playwright 1.64.0.','',
-  '## 1440: pixel parity','','All 40 pages at desktop 1440 × 900, full-page screenshots, compared with the exported page. Initial state, reduced motion, videos paused on their exported poster with 3.5 seconds for font rasterization, clock initialized to 2026-10-13 12:00 UTC. Pixelmatch threshold 0.1, anti-alias differences excluded. Static mode disables JavaScript; interactive mode retains the exported runtime. Console errors, page errors and failed or 4xx/5xx requests on the built page also fail a row.','',
+  '## 1440: pixel parity','',`All ${pages.length} pages at desktop 1440 × 900, full-page screenshots, compared with the exported page. Initial state, reduced motion, videos paused on their exported poster with 3.5 seconds for font rasterization, clock initialized to 2026-10-13 12:00 UTC. Pixelmatch threshold 0.1, anti-alias differences excluded. Static mode disables JavaScript; interactive mode retains the exported runtime. Console errors, page errors and failed or 4xx/5xx requests on the built page also fail a row.`,'',
   '| Page | Mode | Changed pixels | Percent | Load problems |','|---|---|---:|---:|---|',...results.map(r=>`| ${r.page} | ${r.mode} | ${r.changedPixels??'DIMENSION MISMATCH'} | ${r.percent?.toFixed(6)??'—'} | ${[...r.errors,...r.problems].join('; ')||'none'} |`),'',
   '## 375: phone layout','','WB-2 adds the viewport meta and a shared responsive layer, so the exported 375 raster is no longer the reference. Each page is loaded in a 375 × 900 mobile-device context (touch, device viewport) with and without JavaScript and must have innerWidth 375, no horizontal overflow (document and body scrollWidth ≤ 375), no console errors, no page errors and no failed or 4xx/5xx requests.','',
   '| Page | Mode | innerWidth | scrollWidth | Load problems |','|---|---|---:|---:|---|',...mobile.map(r=>`| ${r.page} | ${r.mode} | ${r.innerWidth} | ${r.scrollWidth} | ${[...r.errors,...r.problems].join('; ')||'none'} |`),'',
-  `Visible-text differences against the source pages: ${textDiff.length}. 1440 failures: ${failures.length}. 375 failures: ${mobileFailures.length}.`,'','Screenshots: `screenshots/{Main,Warranty,FindADealer}-1440-{before,after,interactive}.png` and `-375-{after,interactive}.png`.','',
+  `Visible-text differences against the source pages: ${textDiff.length}. 1440 failures: ${failures.length}. 375 failures: ${mobileFailures.length}.`,'','Screenshots: `screenshots/{Main,Warranty,Technical}-1440-{before,after,interactive}.png` and `-375-{after,interactive}.png`.','',
   'Limits: compares initial states, not every interaction. External Google Fonts requires connectivity. Exported dynamic dates use build time for static first paint and current time after runtime mounts. No form submission is sent.'];
  await writeFile(report+'/PIXEL_PARITY.md',lines.join('\n')+'\n');
  assert.equal(textDiff.length,0,'Visible text differs');assert.equal(failures.length,0,'1440 pixel parity or load problems');assert.equal(mobileFailures.length,0,'375 layout or load problems');
