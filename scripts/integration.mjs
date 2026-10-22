@@ -19,8 +19,8 @@ try{
  }
  assert.equal((await fetch(srv.url+'/missing-page')).status,404);
  const text=async path=>{const r=await fetch(srv.url+path);assert.equal(r.status,200,path);return r.text();};
- // SITES-PUBLIC-HOTFIX item 6: no sitemap, robots disallows everything, every response is marked noindex by the host.
- assert.equal((await fetch(srv.url+'/sitemap.xml')).status,404);assert.equal(await text('/robots.txt'),'User-agent: *\nDisallow: /\n');
+ // SITES-PUBLIC-HOTFIX item 6: no sitemap; robots allows crawling (Maat 6c16a602: a Disallow would hide the noindex meta from crawlers); every response is marked noindex by the host.
+ assert.equal((await fetch(srv.url+'/sitemap.xml')).status,404);assert.equal(await text('/robots.txt'),'User-agent: *\nAllow: /\n');
  assert.equal(await readFile(root+'/site/_headers','utf8'),'/*\n  X-Robots-Tag: noindex\n');
  // Items 1/3/4: removed intake and funnel routes are a true 404, and no served page carries intake controls or the banned line.
  // Item 6 on hosts that ignore _headers (GitHub Pages; Nova 806fe73f): every page, main.html and 404.html carry exactly one robots noindex meta.
@@ -43,6 +43,6 @@ try{
  let socials=0;for(const file of pages){const h=await (await fetch(srv.url+route(file.replace('.dc.html','')))).text();socials+=(h.split('<template data-static-template>')[0].match(/<a [^>]*href="#"[^>]*data-social=/g)||[]).length;}
  assert.equal(socials,0,'Footer social placeholders must be absent');
  console.log({socialHashLinksInStaticHtml:socials});
- await mkdir(root+'/reports',{recursive:true});await writeFile(root+'/reports/INTEGRATION.md',`# Integration checks\n\n${pages.length} clean routes return 200 (Main at /, /main redirects to / with canonical /); 6 removed routes return 404; no sitemap, robots disallows all, _headers marks every response noindex; favicon.svg/.ico return 200; ${links} local references return 200; ${assets} assets retain baseline SHA-256; unknown route returns 404.\n\nAt 375 pixels in a mobile-device context: Warranty expand/collapse, Main bonding-stage selection, mobile menu and navigation to Warranty pass. Footer social links with href="#" in static HTML: ${socials} (hidden until Ray provides profile URLs). No served page has a form, input, textarea or select. No submissions sent.\n`);
+ await mkdir(root+'/reports',{recursive:true});await writeFile(root+'/reports/INTEGRATION.md',`# Integration checks\n\n${pages.length} clean routes return 200 (Main at /, /main redirects to / with canonical /); 6 removed routes return 404; no sitemap, robots allows crawling (each page carries a noindex meta), _headers marks every response noindex; favicon.svg/.ico return 200; ${links} local references return 200; ${assets} assets retain baseline SHA-256; unknown route returns 404.\n\nAt 375 pixels in a mobile-device context: Warranty expand/collapse, Main bonding-stage selection, mobile menu and navigation to Warranty pass. Footer social links with href="#" in static HTML: ${socials} (hidden until Ray provides profile URLs). No served page has a form, input, textarea or select. No submissions sent.\n`);
  console.log({pages:pages.length,links,assets,interactions:'pass'});
 }finally{await browser.close();await srv.close();}

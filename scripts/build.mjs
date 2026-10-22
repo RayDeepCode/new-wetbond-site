@@ -80,9 +80,9 @@ try{
  }
  // /main is no longer a page: it points at / (301 on Vercel; static fallback for other hosts and the local preview).
  await writeFile(out+'/'+output(slug(home)),'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<link rel="canonical" href="'+origin+'/">\n<meta http-equiv="refresh" content="0; url=/">\n<title>WetBond</title>\n<link rel="icon" href="/favicon.svg" type="image/svg+xml">\n</head>\n<body><a href="/">WetBond.com</a></body>\n</html>\n');
- // SITES-PUBLIC-HOTFIX item 6 (Maat c40f4a8e): no indexing. robots disallows everything with no sitemap line, no sitemap is
+ // SITES-PUBLIC-HOTFIX item 6 (Maat c40f4a8e): no indexing. robots allows crawling (so the noindex meta is seen; Maat 6c16a602) with no sitemap line, no sitemap is
  // published, and every response carries X-Robots-Tag: noindex (Cloudflare Pages _headers; Vercel headers in vercel.json).
- await writeFile(out+'/robots.txt','User-agent: *\nDisallow: /\n');
+ await writeFile(out+'/robots.txt','User-agent: *\nAllow: /\n');
  await writeFile(out+'/_headers','/*\n  X-Robots-Tag: noindex\n');
  await writeFile(out+'/routes.json',JSON.stringify(manifest,null,2)+'\n');
  await writeFile(out+'/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><title>Not found</title><h1>Page not found</h1><a href="/">WetBond</a></html>\n');

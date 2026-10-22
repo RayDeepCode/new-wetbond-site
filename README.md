@@ -48,6 +48,6 @@ Maat's public release check (`RESEARCH/MAAT_PUBLIC_RELEASE_CHECK_2026_10_22.md`,
 - **Entity:** no sentence or JSON-LD node names WetBond Systems (LLC) as manufacturer, issuer or operator. Brand name only; no replacement entity.
 - **Documents:** the non-working TDS/SDS/warranty/spec downloads on Technical and the "available on request" rows on For architects are removed. No files were added.
 - **Warranty metadata:** the description is omitted (as on ProductsPenetrating).
-- **No indexing:** `robots.txt` is `Disallow: /` with no sitemap, no `sitemap.xml` is published, `_headers` sets `X-Robots-Tag: noindex` on `/*`, and `vercel.json` sets the same header on every path. GitHub Pages ignores `_headers` and `vercel.json`, so every page, `main.html` and `404.html` also carry `<meta name="robots" content="noindex">`; on Pages, assets get no noindex header.
+- **No indexing:** `robots.txt` is `Allow: /` with no sitemap, so crawlers can fetch pages and see their noindex meta (a Disallow would hide it), no `sitemap.xml` is published, `_headers` sets `X-Robots-Tag: noindex` on `/*`, and `vercel.json` sets the same header on every path. GitHub Pages ignores `_headers` and `vercel.json`, so every page, `main.html` and `404.html` also carry `<meta name="robots" content="noindex">`; on Pages, assets get no noindex header.
 
 Phone and support email links remain. Their ownership is not verified by this change.
