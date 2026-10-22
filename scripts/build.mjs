@@ -58,6 +58,8 @@ try{
   if(!description&&name!=='Warranty'){const copy=await page.locator('main p').first().innerText();description=escapeAttr(copy.trim().replace(/\s+/g,' ').slice(0,160));head+='\n<meta name="description" content="'+description+'">';}
   if(!/name="viewport"/.test(head))head=head.replace(/<meta charset="utf-8">/,'$&\n<meta name="viewport" content="width=device-width, initial-scale=1">');
   if(!/name="viewport"/.test(head))throw Error(file+': viewport not added');
+  // SITES-PUBLIC-HOTFIX item 6 (Nova 806fe73f): GitHub Pages ignores _headers, so every page also carries a robots noindex meta.
+  head=head.replace(/<meta name="robots"[^>]*>\n?/g,'').replace(/<meta name="viewport"[^>]*>/,'$&\n<meta name="robots" content="noindex">');
   const image=landmark.image&&/^(?:\.\/)?assets\/[0-9a-f]+\.(?:webp|jpg|png)$/.test(landmark.image)?origin+'/'+landmark.image.replace(/^\.\//,''):origin+'/brand-mark.png';
   // Zola/Nova metadata ruling: omit held claims from share descriptions.
   const heldDescription=new Set(['ProductsPenetrating','Technical','Contractors','Warranty']).has(name);
@@ -83,6 +85,6 @@ try{
  await writeFile(out+'/robots.txt','User-agent: *\nDisallow: /\n');
  await writeFile(out+'/_headers','/*\n  X-Robots-Tag: noindex\n');
  await writeFile(out+'/routes.json',JSON.stringify(manifest,null,2)+'\n');
- await writeFile(out+'/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><title>Not found</title><h1>Page not found</h1><a href="/">WetBond</a></html>\n');
+ await writeFile(out+'/404.html','<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><title>Not found</title><h1>Page not found</h1><a href="/">WetBond</a></html>\n');
  await writeFile(out+'/vercel.json',JSON.stringify({cleanUrls:true,trailingSlash:false,headers:[{source:'/(.*)',headers:[{key:'X-Robots-Tag',value:'noindex'}]}],redirects:[{source:slug(home),destination:'/',permanent:true}]},null,2)+'\n');
 }finally{await browser.close();await srv.close();}

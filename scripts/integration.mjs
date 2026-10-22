@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile,writeFile,readdir,mkdir} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {chromium} from 'playwright';
-import {root,pages,route,server,prepare,ready} from './common.mjs';
+import {root,pages,route,output,server,prepare,ready} from './common.mjs';
 async function expectAttribute(locator,key,value){for(let i=0;i<100;i++){if(await locator.getAttribute(key)===value)return;await new Promise(r=>setTimeout(r,50));}assert.equal(await locator.getAttribute(key),value);}
 const srv=await server(),browser=await chromium.launch();let links=0,assets=0;
 try{
@@ -23,6 +23,8 @@ try{
  assert.equal((await fetch(srv.url+'/sitemap.xml')).status,404);assert.equal(await text('/robots.txt'),'User-agent: *\nDisallow: /\n');
  assert.equal(await readFile(root+'/site/_headers','utf8'),'/*\n  X-Robots-Tag: noindex\n');
  // Items 1/3/4: removed intake and funnel routes are a true 404, and no served page carries intake controls or the banned line.
+ // Item 6 on hosts that ignore _headers (GitHub Pages; Nova 806fe73f): every page, main.html and 404.html carry exactly one robots noindex meta.
+ for(const file of [...pages.map(f=>output(route(f.replace('.dc.html','')))),'main.html','404.html']){const h=await readFile(root+'/site/'+file,'utf8');assert.equal((h.match(/<meta name="robots"[^>]*>/g)||[]).join(),'<meta name="robots" content="noindex">',file+' robots meta');}
  for(const gone of ['/book','/find-a-dealer','/dealer-apply','/dealer-schedule','/dealer-confirmed','/dealer-vsl'])assert.equal((await fetch(srv.url+gone)).status,404,gone);
  for(const file of pages){const h=await (await fetch(srv.url+route(file.replace('.dc.html','')))).text();
   for(const banned of [/<(?:form|input|textarea|select)\b/,/not a franchise or a business opportunity/,/WetBond Systems/,/createObjectURL/,/\/(?:book|find-a-dealer|dealer-apply|dealer-schedule|dealer-confirmed|dealer-vsl)\b/])assert(!banned.test(h),file+': '+banned);}
