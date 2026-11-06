@@ -1,0 +1,8 @@
+{
+  "brand": "wetbond",
+  "output": "site",
+  "media": "wbsite/assets",
+  "holds": [
+    "city-pittsburgh"
+  ]
+}

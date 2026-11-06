@@ -1,0 +1,744 @@
+{
+  "brand": "wetbond",
+  "matched": [
+    "404.html",
+    "about.html",
+    "accessibility.html",
+    "basements.html",
+    "compare.html",
+    "contractors.html",
+    "crawl-spaces.html",
+    "exterior.html",
+    "faq.html",
+    "field-data.html",
+    "floors.html",
+    "for-architects.html",
+    "for-homeowners.html",
+    "for-property-managers.html",
+    "how-it-works.html",
+    "index.html",
+    "learn-choosing-contractor.html",
+    "learn-sump-pumps.html",
+    "learn-why-basements-leak.html",
+    "learn.html",
+    "main.html",
+    "patents.html",
+    "privacy.html",
+    "products-color.html",
+    "products-floor.html",
+    "products-penetrating.html",
+    "products-repair.html",
+    "repairs.html",
+    "science.html",
+    "shared/2235c8f300574809.css",
+    "shared/3e93b3532f617f10.css",
+    "shared/4125d60ab3e7a6f7.css",
+    "shared/4efa8d92e3e239b8.css",
+    "shared/5e1cef57884888b2.css",
+    "shared/6215a18ed1056fff.css",
+    "shared/6fd6dd90628d1020.css",
+    "shared/7e0d610adbc2ed6d.css",
+    "shared/7edde9150c934a66.css",
+    "shared/88fd410390654142.css",
+    "shared/a496452ace0f000a.css",
+    "shared/a87126f35d828c92.css",
+    "shared/c1003c4cfe80d5dc.css",
+    "shared/c2ebb6e35ba82ab8.css",
+    "shared/c78ef49930a41033.css",
+    "shared/cab22d1777ed8ffa.css",
+    "shared/caee34e74965a9da.css",
+    "shared/d5eb455b258c961d.css",
+    "shared/e1ad42dc5374df77.css",
+    "shared/ebae4564de028a49.css",
+    "shared/f53a69b26635b109.css",
+    "shared/fc806e0661b5b397.css",
+    "shared/fe17b14647eafd0b.css",
+    "shared/responsive.css",
+    "shared/support.js",
+    "sump-pits.html",
+    "sustainability.html",
+    "technical.html",
+    "terms.html",
+    "warranty.html",
+    "wet-spaces.html"
+  ],
+  "differences": [
+    {
+      "file": "city-pittsburgh.html",
+      "reason": "Omitted: standing spec requires actual HTTP 404 for held route."
+    }
+  ],
+  "extras": [
+    {
+      "file": "_headers",
+      "sha256": "1798f78f5e48ce125506274988d5555f052d762afcb096ab9e4b8b15c766269a",
+      "reason": "Preserved existing host/noindex configuration or brand icon (not included in archive)."
+    },
+    {
+      "file": "assets/002c87248782dff566a9b7a38777192e.jpg",
+      "sha256": "87b6ec2e7636487bb4cbd60079f7bd83bf9b6e673c07c5f114770b48a687d8c0",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/00c46658055dae132356f9fa70e13717.webp",
+      "sha256": "6f0befd1ea8d088be6afdf6d7d366804e44b222c1b734736369ed11234f69bd5",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/00dc1eb44c99a09b170516fb40e10e92.webp",
+      "sha256": "e8c36f42a07df03e5e27a18e0cdac40197563545707ebb71ac43bba54f8a14c6",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/0154891c2bbec6d2de1c4105ea4840e0.webp",
+      "sha256": "618ab24942816f53de0f5867cfc8156d66581d882834307f15bbd3418b3f571b",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/083195e6803119cdf36fb56e4f463793.webp",
+      "sha256": "c5bca3d20e9300029e31c4b634ac2484efd75289c250e7cb3ab47383e19c49df",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/0cd415a5f21f3d195a5c7eb22f2c7ff2.webp",
+      "sha256": "7fb2cbb6e45449396f0f130de5f338beca8ae718f1cb2141a7cb14b4f46b0f21",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/0d8297f3be794d75eaaa71c5cf7512a0.webp",
+      "sha256": "6bcb02a4e4c210a1cfd50730e2065ef46a494fb14442b78a257942ffd549265a",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/0fb0e10fdfb7808259d5ef650badc901.webp",
+      "sha256": "10bf087ddf9fc0984f4da102cd69e73d8953276ee8dd41fc6e4d52c8e978f2cf",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/1182b6e902d9b2174b3f726763d2f2ee.webp",
+      "sha256": "88d2cef0e53647d00e7d064aee018f6ce324b9f28047d2f39294ffbc4472bd4c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/13fb875e15c74a17fa1f7e2b844b8b7f.webp",
+      "sha256": "d26cff9236dd198e967c981063749fc02c2051a7f7ddaea43bcfa3c2da09fd81",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/1b9a0661c45b636bd3c544a7e472cdb2.webp",
+      "sha256": "053ab417fcd8adb0b924be2d1a4e799747779438fbb8e1c6c78fed9746e13037",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/1c0fdc5b6b8a7e1893dca35a9d691098.webp",
+      "sha256": "0c5405c196c44b88e1b4408eb2700d638d32294049e4314ffa2ddc47d8d94fa4",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/224d0e915560a7d83a8a7425f3de06e2.webp",
+      "sha256": "534ee3176a0b20e2a1561e140f36ed9de6c88de9e3dada5af650a87accccbed5",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/271d589558a8a283785899fdedf6531d.webp",
+      "sha256": "4cad15f5d323a986db4f2fdd15f312fe228e6e34f86337b1820d6f050e6a1bc7",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/2ac705f4a33fb44104fa6803c6eaff82.webp",
+      "sha256": "543388f1b5afdcbc96ac11b21e0f4f6f2d6c47531b119697221f7af2d28c9ed9",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/2cc18ccc1a647f2ca440ed71798c1bb5.webp",
+      "sha256": "dc6b8d35536293c2c2d075e766a012c4e40e605ca384907c6556e9de3c82923e",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/30c013b742110017e588963b837e485a.webp",
+      "sha256": "b086b7da782b138bc31ccbd78e76d2bfaf069dfdc63156e36c1eb14a436bd34c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/32cdfe3dd7c81b922f194e2af0448dc6.webp",
+      "sha256": "2f0334821cdd8af307f883025647d29b692ea78b498cd485cc854581f3f1266b",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/347beade88e633f5a0915c09706ccee8.webp",
+      "sha256": "f3d6a700b71e639ebac90f8e4a7b406c4e497959a027e4ac763278957701f21c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/3702f11ce83beb63783675fe6cdca5f4.webp",
+      "sha256": "7acfe1224411d255d2f9465f7c67de3c2fc25ecbcde702c2e15f95faea6e20fa",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/3a2157f9694b94b571e1e80af471af83.jpg",
+      "sha256": "3b73326571ee7544c9e5221fa693e1212d90c89944755a5ae3f09b5cc79280da",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/3a8c3d3fefd76ddf3817bc8e3b7bb5ff.webp",
+      "sha256": "6110e769f9b2b8e641aa2b4314da3c93f1efa48f90b9ad033c6b7cf7c44820ba",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/3a923e4473ab44767e8f58a8a6c613a5.webp",
+      "sha256": "cbb4c65e056507b855c1501e66abf4e87d222ba2f985c717adef950e982a930b",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/3b273a4cac94a8deedd52885784e0bab.webp",
+      "sha256": "5e007f5c7774396e51049c8c3ad266be88cbd56556d78bf8673c63e12f577e1a",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/3e06e36c21ee3795a5fd2e4562275748.webp",
+      "sha256": "fb141ebc083a60aaffec17909b56aca4da4865e17b0096e64a22c303b726a0ac",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/40c36a3ba08aa5a83d819e0de37d0607.webp",
+      "sha256": "969f75176be8983c62e22d4061751ca1a914ef8da8e28af0bc14e9f93e13f571",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/42ad4156d152ef9635ffb1ffe472a292.webp",
+      "sha256": "cfa4a305347fced97c93dcb43f5cc8405eed78cca2369275d1530d857f9a637f",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/46049f6f5a3cb968d3ed5cb219d74556.webp",
+      "sha256": "85f9d01f658688694cb4300d5f00646b7fdc4156c9e5b6e40ac8d2dac5104d5c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/4d30262865d395b48554054f734ed8a7.webp",
+      "sha256": "ffabf4133b3eb78bf964c8f77612159574fb7d124d194f51b15b2cc558582131",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/4e3cbaa1ac21dfecc3b90737f8d93458.webp",
+      "sha256": "facd183d9739762ada6b7fc3de670d3ffe4f1c6da52fd797d7a24ee5f8ae205d",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/4f4a942233026356438ec89dc62ea120.webp",
+      "sha256": "514c94b1c4f7ef11acb7c4ac743ae9b041115fd32da17581c71917c515d92dd2",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/50fab51e0e3ede1710e172969a23846d.webp",
+      "sha256": "b7781fcf8857b165d0611e31cce00fe4f735986e98f7456e5a379e48d9cee256",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/519ff24b919379c6ab907ef077500f75.webp",
+      "sha256": "ba43a781c533d6719b6a5387d5fda8f1f2b97edebb80a7c8d95bde911ef1635e",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/59735533e00260b4929163571fdab824.webp",
+      "sha256": "527fb66373d6e08fc5fe91714899cbf308460efe42e8d7f9424da991b9c06609",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/5cec89ccf8240a10a93c3816bc6625f6.webp",
+      "sha256": "5f98a7eb0182486ef72cb8d3cfdc5716270ee8736af2e068f37541d0a5e71f08",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/5e3b6ef148a30c77054821a6c8596f17.webp",
+      "sha256": "805b6066b8206fc8a522cc29fa4f55dd35f3795482fbdced3ccdc3f1d9c153c0",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/60097e53508e253562e2d631bdb173b4.webp",
+      "sha256": "34675a18a57a38d08cdcd29f5e9f34b928a25ca08a77b1fa5fb82b4eee78728d",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/600c06c5b0a408916455ef046e15c77d.webp",
+      "sha256": "a4abba14d39ceb85be4944d6c50270151c7447bf14a63dc914340bbfb5f47e5e",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/60f513a806b7b55ec9e78dd00e431de6.webp",
+      "sha256": "4c95d0c2d8a3151dd055521a8830208c676c042197519fbe1e40131f4ec8434d",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/61dbff73a2e4b308d87456dd973fd64f.mp4",
+      "sha256": "91e08eaedb211e4e9fd9b8f08e61773633949ddd61ab1b0c9003a0b7d3a60a0f",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/632ed70a038eb777027608978a029570.webp",
+      "sha256": "59173d8e4ae6c2c607186e4541e016f6e307f320490c0bca2ae16b771cf81f3b",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/638962894f94ecee35290df1a619080b.webp",
+      "sha256": "75287884606fb2817b9c821ad0d91dab615a4b71a822130ebbd86b9b4d121239",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/68dc0f9987b9c957cc0c3441311e7d6e.webp",
+      "sha256": "c08c85f1dd24017aab0bba16238b5caed74a7e10660bf5d2716a90d97b58bdea",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/69851b72dadb54953d67f8862419b1e8.jpg",
+      "sha256": "cb997b479b19461c1226f64861c3449e4c52182b20ab180cf717f25f60a56257",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/6a62b1320b06154335dd710d03ddd852.jpg",
+      "sha256": "0724ccaa236844b0e77d8f5b2d4e622ade6647b166e755147fe11352fa113321",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/6b2495f45a8d99270bc994b850ce8e09.webp",
+      "sha256": "09da3e5ae9f716962a522f2d8a24536f2d5fbbc3e471072d87d788f514e51cfb",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/6e866f7e1c715fc239e59234aa901faa.webp",
+      "sha256": "89dd35789c2d4ae68dd9eedb35d8e62cf2f41406289777f3a2f3dcd40aac182b",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/733c12ad6de9704a9936724401458b65.webp",
+      "sha256": "5942da51e41ee0629bf389ba45127702809386f79f06081a420d9a0bd6d663f8",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/77ff9faf80aead78dc469b9e35289901.webp",
+      "sha256": "992f563e3c6704675f563ffe1c9cb88126197f44fe05d58de13617bba4cc9e8c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/78240cd99b7fd413e0a327916e002d5a.webp",
+      "sha256": "d5dba2e7f4b6c7cdce2fae926b134d8a0fec3f6cbc818fbdd5267e9b95a26dac",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/785a7c76e4988b6c1a63aea4089127c4.webp",
+      "sha256": "d6123c4d68f814985a171c7111f76692d438a82fa8a8c862af39a6e0bdb252a6",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/79354395eabe557df3b5507f3a130afb.webp",
+      "sha256": "ecb00035021c309b5db20145188c49a9f5dabe2b7afd3dfe3d0f34ac57efb846",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/7a4725e6ae123f231bb90c154186475d.webp",
+      "sha256": "64e919e0080291d73803a9db3d4dd2cd526c9035e2d720e51f379e8d2d292cec",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/7c65722b40571d0acd717d041ffb9915.webp",
+      "sha256": "86f5c96e0495d39f7dd6248573610b6ccbefee9ec272ea4bbfcbc8c85ea9a457",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/7dcf852ee388f60201f74bfc1162cf1f.webp",
+      "sha256": "396ce32081767639c24a34ad514270b740ac471963706e1f2f3e63553c7d72b9",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/80c4261cb5540d124101aaaf5e76b93b.webp",
+      "sha256": "53fe958012c9dda97ac321e7f5fcb9cd491b7f2e0df984d019d979c2b168545c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/82d82995b889cc8a128be9fe6ae7c65c.webp",
+      "sha256": "74ade32a99356bc9018c24ccc0de2cf7d95fc36570a1115fa96f75ec0bf122fa",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8633925bd9546afc6aba92664bf7c0f2.webp",
+      "sha256": "d570bae453ddd0e8dfa289396544e85d3948c5f6ac8397a0bed422b0ed640ae7",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/86ddb24a1c369ea470d081d2ab75750f.webp",
+      "sha256": "a9ff3502e425caec01fee3b8b0062acd19adf128da269eeb1c089cf0fda0baed",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/89e08742a1dfad608602c3d6764715de.webp",
+      "sha256": "25e4cb73d8ee7fff388b37e0db04e8e3e34e94ee7ef3e9b0fe460393664e8f00",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8a44128610dc9d8becc13139aefa822f.webp",
+      "sha256": "f57f3889440cc2aefa6af1c9e7c113d86120fc04acbd1f1cffc45e4c7d887b06",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8ba4e422826fbc12344851b6afe4aa50.webp",
+      "sha256": "d8fb41368041b7fc0642f05f24b274d13e980748308198323c3d482ee8fc4a3c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8bbcff7452758639b8ba86f56a7485ed.jpg",
+      "sha256": "1c7f9e900066a421069afa523ad5f24c604dc197a79b4dadb3dc808218504c08",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8c2afb7ae8f5c022d82a4c252a437780.webp",
+      "sha256": "76583d925992e9e0ce92191f1dadd5b5401c59869af2df4bbea54a306b5fdb40",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8c85d5f104eecf022475324422e0e5fc.webp",
+      "sha256": "7f8d1a5884e1efbf5b3071573903aba772929649742c8c065153683b19125c3f",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8cc46fc4fe5baf9731ec936d48f0b7a6.webp",
+      "sha256": "6b526cad3386a1d84b767b8898668c1d4be6553243e6c1d93be7710911371531",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/8ffd20d359d7c69c088f486239ac9e08.webp",
+      "sha256": "d13b5d2ef0a6773338c3c560325bf38f2dfaf7d0fcee5defcf85a85688c1bcdc",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/91a88403853bee4f142c598c0c368059.webp",
+      "sha256": "ee0ec85e638cb4e60503ebcd9bf9d23818cfa3b49e69ccfdba0c0dabf2516087",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/91fbf167a6cf53588218003700f0b439.webp",
+      "sha256": "4bc3b53d1e4b0a83e275d5a857e05bf33df4d87bea162a5eab572a11db6b34cf",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/931cd08353e84a283ef0b0f802f4f76f.webp",
+      "sha256": "a3526851a7d4acfb90e97148f5162d86bd08658ef115b9a5200e62edc1f37f02",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/94aab9f9b8b7489d95d0e9af63ec315a.webp",
+      "sha256": "5ee645a51124d18642a2674cfa6850257cf08d3e615048b43dd8543712066b26",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/96d1510d70a4d4e87a1b437a35c2f4e5.webp",
+      "sha256": "f997765e7fe9428580561c14e0791f9dc4a4fb937c3a665742c9c9d93463d7ca",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9a3387abfcff961ffb9ee523d950c8f2.webp",
+      "sha256": "0e4ada8984eb43be8113794403481f431b332f8626395c1e01a5a484f6082677",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9b5da4b406c8df668bfac681b31e1b1a.webp",
+      "sha256": "a242ae084d0fee6f5c24a006bc80a1be966e5b6a4ba0991e188db6c2b486a316",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9cc7c464bf681931266d45eae353eeba.webp",
+      "sha256": "4683caa7715d382d7107abcca1280a190a4228de95a75d67a11a42d94eebd852",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9cd77ff98673ef4fd860c9496ca86ea3.webp",
+      "sha256": "48f0ea4a10037f95db21c8a0aec6643fb7ee930c69ffa229e88c1f7531bf6586",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9df84611f9b8c86b093f464eb9cc1d8a.webp",
+      "sha256": "8dce2bdba79abe57a20ff0e553c8b8cbfc3cf72582d3b59d7da4b37ea79a82fb",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9f0811586bc6e0113b5079d20eaa58aa.webp",
+      "sha256": "258d986d879cc22ce58dfa3bdb809cab53deb65a49795d753b437556a533e52c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/9fdc8cd3347102119736769e4200430a.webp",
+      "sha256": "387bbd94d240337dc5b66911c0871181edf42b8e21d52184faa615d2cece88bc",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a2a07ac3438597b3eb70aa3b016a025e.webp",
+      "sha256": "d14ee7c3e1d11481f57ee79765a16ae253d4f3e7902c5ce0b347f67523e6d5a3",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a30dfdba1e1187ed1aa545c4d3a302a0.jpg",
+      "sha256": "b0ccce2bece4d1943166e430fae32260c50ed8b59a6f7779a70e38b6931a8463",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a3ea15fa0d5452d5ba787eb3e2a070f8.webp",
+      "sha256": "cbb64ec70c42d231259521d7357d27d22a09e063afe54172d861778251734f4d",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a684eeab5b093f62021d72160aceb410.webp",
+      "sha256": "c7d8c43d60b401927ca370803bb5b5aca42d7dfe0adde77a4ac4fbcdd8d136e9",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a6e7556f3971ad98839a119134eb4e32.webp",
+      "sha256": "72bfd36ec9b9c8d25c5283669f63d7cb713e0828bf3ad48da14f037bd229964f",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a723ea0787a71ad478601b8af5cde72f.webp",
+      "sha256": "241174b5c79324bc7f89fb6103a72cca69e5d1dda01070f64afd59b84487caaa",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/a7455fbfea79e227b74d16c4f061bbd6.webp",
+      "sha256": "287251e557f662b653b5ab801365baa28e0ba9bc2160b027004054d36c9cfbee",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/aa7b4e3e8bf6a54bf45585b9fd2ba1a5.webp",
+      "sha256": "86d703d92a58b4966c4b1cf70e77e3ac400f644a803661b559cb2b004e549943",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/aa7fc6e916260a04a540e0017f4abd3e.webp",
+      "sha256": "a65489625e79d14db559ba3e122ba5597efb54446d1911ad6f75a7eeaa64807c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ac27303f471ad1b582749a4951e8a751.webp",
+      "sha256": "232492f66e0629776dc7584c862eeb7cb8ac9ca37bf81479ee374e5ab48ad6e6",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ae221dd242244e7d8e0071cc22f4db83.webp",
+      "sha256": "44d1a10974e018050b3b112c9f6285193f6ce9647364240dd099fdadf7426184",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/b2d62e738b06f1455d898b5963f27159.webp",
+      "sha256": "3c9d569e0397feceaf5f1aa2660baba10325d781029fa52c544de77f58d6852f",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/b5ca46d0c44cf49125e11953371509bb.webp",
+      "sha256": "9b3324c45a4f29b4c0ad0ab1853303b1d5e75adabf07fb6ba3221272eecfe23a",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/b71bcc68da26ddecb3e7cf31c3e24411.webp",
+      "sha256": "ff9cd56f10730c99df33d6de34707503e7d178464997c5a2c166d53e8500e397",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/bbf36dd1c3b16915afc509a9ffd5a879.jpg",
+      "sha256": "0de89e22dfbf0349e1896723d08983cc07942114b8675c3e09b0073b4bb98942",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/bc7d9784139991fbef59d06d380e0e84.webp",
+      "sha256": "0c4656e0f403623ddd20d46f17e60626d37212943710b1974edd1e1c13ebd3da",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/c2c05fd61aebce60836d56442a49b6cf.webp",
+      "sha256": "2ac9eb2f5ee7a399729bda6542ea0c11ad3a7fd64077f8163199ea85a8bfced8",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/c3b0502c7a8011deabd0dec54e6127e7.webp",
+      "sha256": "e8752fd1cd2cda0a9fbd62c77ba6ac609f5ad985e3d4e0725855bbf1d7e8741e",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/c444d14fdd75c87304f08dea0cb81058.webp",
+      "sha256": "68eda272f230d02a28900b1e98a4c528b23767138115a352b1a77cb642bc024b",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/c6820b7754181c316b3c2d453b487695.webp",
+      "sha256": "9f0ddd65f070750faa5f3ab0ede3e7c50d99106cb09dc9dd788e9d37e0d34199",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ca9743e5898b5df5f1fa95ebe7f0ed27.webp",
+      "sha256": "c7f2745df97f4f6d5b3373515b5a59f52f96790b9b7f19372e05320f086398ad",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/cc030bfa799aeba0f62b3a0e89db4d57.webp",
+      "sha256": "4a94a4ccf35c128f685be6602279aa3b9a7860efc67cec73f33a96f63ec49653",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/d37d146b7b4c720a6f9bfb0e6071a774.webp",
+      "sha256": "b86268f8a3474c74371146ec23d6dbc999b3b75e5b0edf79c50886b75a9810b1",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/d3a4da657e38d23c155ebfd0a206fc24.webp",
+      "sha256": "3ff2c0a8a00f5d22d9794e9e19dd9d3ed99c313ca269bfa2ceb293c799765cb2",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/d609110c52a1398e9cd52155f8678252.webp",
+      "sha256": "d2a0267050163dfea3e613ec827f016dd412521cf63c1158b35e4e4ac9930d56",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/d63b977245e43b2b170b3278f3278da3.webp",
+      "sha256": "0908edf5ceac09e2d0b7d5bd77907f4656ea00222a6bb5d0d2bc7c6d21f3a3e8",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/d7209bde45bc7a9eb26049f6683cbb9b.webp",
+      "sha256": "c3b3d941212daa6f046ea39ebb97f0791b7718037e76097573da453b3791219d",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/d7d5a2b3989f21398e5374745fe6f295.webp",
+      "sha256": "c64bf4aebb1f59b9b5b6dbfd7edaeae88fa9e17375395f1c1876724898afdd7f",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/dab03207e58c626d1f6d93864c825c70.webp",
+      "sha256": "753ff9efc31cd623c1b3aba88c2ac916311232d19679002d954b6ad7fa717411",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/dcf427265dbd8e0fa36cef35d0767665.webp",
+      "sha256": "ff28ba1ad46f356baa090eeb203c03af6e22059c0db84ccc025b4cfdb325e9a5",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/e199a2d58f901cbe143dff0a70c84441.jpg",
+      "sha256": "9d32c43dcdc21cb9d71e8c70891d3f001a9594dcbec0b06cccf3db0d9be474e0",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/e44d9ef12e415ee19ccc835c99493424.webp",
+      "sha256": "324d1a1e0e6ead8eb111026ec2c9169646ee6e3e0d29ef83c2020ad9d404dfc8",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/e55d3d93af75015ba03c2de4e8c97e8f.webp",
+      "sha256": "e6d9ceec9de005add2ce0cd4960b942b324364660ca8f266c03c3f9a18484f7c",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/e8288e4401cde716a56fd7590fc9a7be.webp",
+      "sha256": "6c05784d7d25001982594afb723f78e6cc2ad370cfa93734f069c2c84f8e66da",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/e843343a83f72d56b6a964b9e198c985.webp",
+      "sha256": "4e3ac6b2802b3ff4720b832eb7543c68482a0dc3aca7344b38c165146b6db080",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/eb117398948f9455bcfd443253303075.webp",
+      "sha256": "1bcb217645425b10877ed9580061d2ec3a95b78937141888ae59c7a904dc7845",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/eb7ec32d531314a08ab59fa05bb658fc.webp",
+      "sha256": "8dac967e7c15b131d0b891601ebd02f78fab0a7321637cc5534f4d6a91594229",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ec09be44a47598d0f384e29ae898ba31.webp",
+      "sha256": "738182fd94361f19be6afaf0a9faf92a0e7392a985268f5ade4ce28ff63627c0",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ec8a086646dfef58d78617625bf38bf6.webp",
+      "sha256": "99a08766a1038965f0ea8bc6b3017dff37244fd2f717dd00813d82a3e2e92f33",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ede64ca0c98cfff228c861e81e7e4371.webp",
+      "sha256": "bead9bb60be700c5f48bdba8042d83b56375eb7e80850699b5c92f75448a95f4",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ee43306324c03d033588062ef11f6fb4.webp",
+      "sha256": "66ec8ab399b9e90883a4faf6c35ea1766f880370cce42c2001c950fd9a577011",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/ee9e504da5e7517f69bbd8836c9bd503.webp",
+      "sha256": "f2337055856d50800d26dc7a70c8fcbdc9bd5c0bf7fa3049e727f0ebda3f9f01",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/f00b6ce5080781e434283e731a73c79a.webp",
+      "sha256": "14a36f7780bb99413471f34ba249a0ed2b0ad9888810e15f0f41d0159ad7d5fe",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/f181c54a1f4082a5a22cb4254faf6bbe.webp",
+      "sha256": "f7d383c4b402cf755a20a15d2e723d8ee846cf7be277f104e73342c9532aff98",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/f274fd01865640efd5d2c68920cc07f5.webp",
+      "sha256": "5799740f6a7dca119165eb50af7f4d3ea6d825fc9db0417593cc4f762d5e80b9",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/f5efbc16e77ef7090136df9f2e88ef66.webp",
+      "sha256": "feddbc7fb2d6c22c136dc449b97296636e94a245dfafe31c6af2fded9afb0250",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/fb64f393ae54e050d74a88f5265d03bd.webp",
+      "sha256": "66b11616675dfa1b139b0c8ebd66fad5b0d7a6c5a71c2b50ab1240b7ef2893a6",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/fd1f5d4034572138f0906df0c22612d5.webp",
+      "sha256": "0fc6b40c4f8916f1bc6b05870f271069f8c2f300f844365b18e00da0f5d4e2e1",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "assets/fd3e7480065e4129e093bdb03a07eda7.webp",
+      "sha256": "2e435140660166903c3169e270acee5b54bf18a145c961b31bff89f23d212ab2",
+      "reason": "Preserved existing media bytes (not included in archive)."
+    },
+    {
+      "file": "brand-mark.png",
+      "sha256": "bafb6aa2dc6fe8a825085251a9ddea0df6310532606cbfe38e0f1b4b7304779b",
+      "reason": "Preserved existing host/noindex configuration or brand icon (not included in archive)."
+    },
+    {
+      "file": "favicon.ico",
+      "sha256": "c9fc2be9d2960b4a2533c55546f9856cd3809474f53c2cf0d46e4131ef5cec90",
+      "reason": "Preserved existing host/noindex configuration or brand icon (not included in archive)."
+    },
+    {
+      "file": "favicon.svg",
+      "sha256": "319ad712758ada2e3a324d2a709aaabd0e3348e6243a21fe53f2550a93dbccb7",
+      "reason": "Preserved existing host/noindex configuration or brand icon (not included in archive)."
+    },
+    {
+      "file": "robots.txt",
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+      "reason": "Preserved existing host/noindex configuration or brand icon (not included in archive)."
+    },
+    {
+      "file": "vercel.json",
+      "sha256": "ac27870cbce3d952fec7954580c7627fa0ce547cc43dd4200a0526e0d51cedba",
+      "reason": "Preserved existing host/noindex configuration or brand icon (not included in archive)."
+    }
+  ],
+  "linkChanges": []
+}

@@ -51,3 +51,13 @@ Maat's public release check (`RESEARCH/MAAT_PUBLIC_RELEASE_CHECK_2026_10_22.md`,
 - **No indexing:** `robots.txt` is `Allow: /` with no sitemap, so crawlers can fetch pages and see their noindex meta (a Disallow would hide it), no `sitemap.xml` is published, `_headers` sets `X-Robots-Tag: noindex` on `/*`, and `vercel.json` sets the same header on every path. GitHub Pages ignores `_headers` and `vercel.json`, so every page, `main.html` and `404.html` also carry `<meta name="robots" content="noindex">`; on Pages, assets get no noindex header.
 
 Phone and support email links remain. Their ownership is not verified by this change.
+
+## Approved v7.6 source port (2026-11-06)
+
+`site-source/` is the maintained static authoring tree from the approved full v7.6 archive (SHA256 `66bfd3c62109fa43d197ff226b68fb0cb0a9b765d3fc2eb7e76c1248faa374da`). It supersedes the historical renderer/prototype described above. Edit these HTML, CSS and runtime files for subsequent work; editing only the deploy output will be lost on rebuild. The earlier sources and verification remain available for historical comparison (`npm run test:legacy`; WetBond also has `npm run build:legacy`). They target the prior layout and do not validate v7.6.
+
+Run `npm run build`, `npm test`, and `npm run preview`. Build settings and media input location are in `scripts/v76-config.json`; only the configured output directory is replaced. Existing media bytes are copied before the approved text/CSS/runtime overlay. NANOROOF media are now explicit inputs under `nanoroof-site/media/`. Serve only the configured output directory; source and docs are not public content.
+
+The standing spec holds WB `/city-pittsburgh` and NR `/commercial` and `/polyurea` as real 404s. Those files remain in the unmodified archive source for traceability but are excluded from output; build removes any links to them and records changes. Preview verifies extensionless, slash and `.html` held-route variants. The archive has no links requiring removal. Host settings and noindex remain; no deployment is authorized.
+
+`docs/V76_MANIFEST.sha256` records the full upstream manifest. `reports/v76-manifest.json` lists each byte match, each held-route omission and every extra media/config/icon file with SHA256. `reports/v76-browser.json` covers every served content page at 390 and 1440, local failed responses, JavaScript exceptions, decoded images, noindex, JSON-LD parsing and horizontal overflow. Kaya's requested audit snippet and comparison to v7.5 remain separate review gates; this script does not replace them. The unchanged legacy suites fail on the deliberately omitted WB city route and NR's new flat HTML layout.
