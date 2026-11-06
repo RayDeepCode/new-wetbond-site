@@ -1,0 +1,35 @@
+{
+  "archive_sha256": "b7297c25c4232eb0c0dce77508b5523935eb5a754c0691aa0b7d5ab7290131f4",
+  "files": {
+    "floors.html": {
+      "v76": "042d89c0865b4558f22c5edc7d0b6e30f71bec5a5b61e4bb062b0d196455bd74",
+      "v77": "7476001e93f8dc2597fd8192ff96f718a5c7c42fb213c6adaa593835bfc36bd6",
+      "changed": true
+    },
+    "warranty.html": {
+      "v76": "53b8fd98931b4ec532f668d77c46960f464fe38696f632d960c4d644529ff400",
+      "v77": "ccb6c256ef3bedb719f0351781c696c8179e3675bd23de54e972145cca9ba6ea",
+      "changed": true
+    },
+    "field-data.html": {
+      "v76": "f868fde386fb2aad0d43b8bc368a252de92f824dd17b4127b8d3ffcc05c1e256",
+      "v77": "f868fde386fb2aad0d43b8bc368a252de92f824dd17b4127b8d3ffcc05c1e256",
+      "changed": false
+    },
+    "basements.html": {
+      "v76": "2f630dbba12041fa0e19833eabd6249f02aeb7341f9f4ec761d1a9955539380e",
+      "v77": "cf1c468437ca1877b316fd403857182f7eb58f1431869fe3a2b6aaa6930cec78",
+      "changed": true
+    },
+    "crawl-spaces.html": {
+      "v76": "faf7b6fdaf4fb3c6e5fcb966afadc4fe4b23d96068aa39f1812e9bec49f52a88",
+      "v77": "faf7b6fdaf4fb3c6e5fcb966afadc4fe4b23d96068aa39f1812e9bec49f52a88",
+      "changed": false
+    },
+    "city-pittsburgh.html": {
+      "v76": "5ebfe5994a6a300af0696f55a8818e8387255744bdd1d8597798490984702d89",
+      "v77": "cf79a33f6d393bb768658c56f59a10d9198852620dc3406a814f671dc76cecd5",
+      "changed": true
+    }
+  }
+}

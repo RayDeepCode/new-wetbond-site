@@ -24,7 +24,7 @@ for(const rel of await files(out)){
  if(after!==before){await writeFile(file,after);changes.push(rel);}
  if(!/<meta\s+name="robots"\s+content="noindex"/i.test(after))throw Error(rel+' lost noindex');
 }
-const rows=(await readFile(path.join(root,'docs/V76_MANIFEST.sha256'),'utf8')).trim().split('\n');
+const rows=(await readFile(path.join(root,'docs/V77_MANIFEST.sha256'),'utf8')).trim().split('\n');
 const report={brand:config.brand,matched:[],differences:[],extras:[],linkChanges:changes};const expected=new Set();
 for(const row of rows){const [digest,full]=row.trim().split(/\s+/);const prefix='./'+config.brand+'/';if(!full.startsWith(prefix))continue;const rel=full.slice(prefix.length);expected.add(rel);
  if(config.holds.includes(rel.replace(/\.html$/,''))){report.differences.push({file:rel,reason:'Omitted: standing spec requires actual HTTP 404 for held route.'});continue;}
