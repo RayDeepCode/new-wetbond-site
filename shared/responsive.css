@@ -23,3 +23,11 @@
  /* Main "How it works" stage buttons: let the third button wrap instead of overflowing. */
  html body #how div:has(> button[aria-pressed]){flex-wrap:wrap!important}
 }
+
+/* WB v7.10 tap targets: links and buttons reach 44px on phones (same standard as NANOROOF v7.8). */
+@media (max-width:760px){
+html body .wbf-fine a,html body p.crumb a,html body p.call a,html body main p a,html body td a{padding-top:14px!important;padding-bottom:14px!important}
+html body footer li a,html body nav > a,html body .wbf-id a.wbf-brand{display:inline-flex!important;align-items:center!important;min-height:44px!important;box-sizing:border-box!important}
+html body .ap-dot{width:44px!important;height:44px!important}
+html body footer nav ul{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:16px!important;row-gap:0!important}
+}
