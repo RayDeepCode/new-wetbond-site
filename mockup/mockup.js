@@ -74,9 +74,20 @@ window.MK={"brand": "wb", "name": "WetBond", "phone": "(844) 652-6266", "tel": "
     var head = list.length === 1 ? M.tools[list[0]][0] : "Tools for this step";
     anchor.insertAdjacentHTML("afterend", '<section class="mk-sec mk" id="mk-slot"><div class="in"><h2>' + esc(head) + '</h2><p class="l">' + esc(list.length === 1 ? M.tools[list[0]][1] : "Use these free tools right here on the page.") + '</p><div class="mk-slot' + (list.length > 1 ? " two" : "") + '">' + list.map(toolCard).join("") + '</div></div></section>');
   }
+  // When hosted under a base path, page scripts still build root links ("/basements"); point them at the packed files.
+  var BASED = ROOT !== location.origin + "/";
+  function fixLinks() {
+    if (!BASED) return;
+    var as = document.querySelectorAll('a[href^="/"]:not([href^="//"])');
+    for (var i = 0; i < as.length; i++) {
+      var h = as[i].getAttribute("href"), m = h.match(/^([^?#]*)(.*)$/), p = m[1].replace(/^\/+|\/+$/g, "");
+      var f = !p ? "index.html" : /\.[a-z0-9]{2,5}$/i.test(p) ? p : (nr ? p + "/index.html" : p + ".html");
+      as[i].setAttribute("href", ROOT + f + m[2]);
+    }
+  }
   function apply() {
     if (!document.body) return;
-    try { flag(); hideOldBars(); bar(); hero(); homeTools(); slots(); } catch (e) { if (window.console) console.warn("mockup", e); }
+    try { fixLinks(); flag(); hideOldBars(); bar(); hero(); homeTools(); slots(); } catch (e) { if (window.console) console.warn("mockup", e); }
   }
   var t; function soon() { clearTimeout(t); t = setTimeout(apply, 120); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", apply); else apply();
