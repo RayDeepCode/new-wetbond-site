@@ -287,7 +287,39 @@ window.MK_ICONS={"arrow-down-to-line": "<svg xmlns=\"http://www.w3.org/2000/svg\
     }
   }
 
-  function run() { try { faq(); icons(); measure(); toc(); backTop(); sticky(); } catch (e) { if (window.console) console.warn("uplift", e); } }
+
+  // ---------- 6) Phones: long sections collapse to a preview with "Show more" (nothing removed)
+  function collapse() {
+    if (innerWidth > 760 || document.body.scrollHeight < innerHeight * 12) return;
+    var secs = [].filter.call(mainEl().querySelectorAll("section"), function (s) {
+      return !s.closest(".mk") && !s.parentElement.closest("section") && vis(s) && !s.querySelector("form, iframe, details.mk-faq, .mk-zip");
+    });
+    secs.forEach(function (s, i) {
+      if (i < 3 || s.dataset.mkCol) return;
+      var h = s.getBoundingClientRect().height;
+      if (h < innerHeight * 1.6) return;
+      s.dataset.mkCol = "1";
+      var bgEl = s, bg = "rgba(0, 0, 0, 0)";
+      while (bgEl && (bg = getComputedStyle(bgEl).backgroundColor) === "rgba(0, 0, 0, 0)") bgEl = bgEl.parentElement;
+      s.style.setProperty("--mk-fade", bg === "rgba(0, 0, 0, 0)" ? "#fff" : bg);
+      s.classList.add("mk-col");
+      s.style.maxHeight = Math.round(innerHeight * 1.05) + "px";
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "mk mk-more"; b.setAttribute("aria-expanded", "false");
+      b.innerHTML = "<span>Show the rest of this section</span>" + svg("chevron-down", 18);
+      b.addEventListener("click", function () { open(s, b); });
+      s.after(b);
+    });
+  }
+  function open(s, b) { s.classList.remove("mk-col"); s.style.maxHeight = ""; if (b) b.remove(); }
+  function openFor(id) {
+    var t = id && document.getElementById(id); if (!t) return;
+    var s = t.closest(".mk-col"); if (s) open(s, s.nextElementSibling && s.nextElementSibling.classList.contains("mk-more") ? s.nextElementSibling : null);
+  }
+  document.addEventListener("click", function (e) { var a = e.target.closest && e.target.closest('a[href^="#"]'); if (a) openFor(a.getAttribute("href").slice(1)); }, true);
+  addEventListener("hashchange", function () { openFor(location.hash.slice(1)); });
+
+  function run() { try { faq(); icons(); measure(); toc(); backTop(); sticky(); collapse(); } catch (e) { if (window.console) console.warn("uplift", e); } document.documentElement.classList.remove("mk-wait"); }
   var t; function soon() { clearTimeout(t); t = setTimeout(run, 200); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
   addEventListener("load", function () { run(); setTimeout(run, 600); });

@@ -59,3 +59,7 @@ details.mk-faq summary svg{flex:0 0 auto;transition:transform .2s}
 details.mk-faq[open] summary svg{transform:rotate(180deg)}
 details.mk-faq .a{padding:0 0 16px} details.mk-faq .a p{margin:0 0 10px}
 @media (prefers-reduced-motion:reduce){.mk-top,details.mk-faq summary svg{transition:none}}
+html.mk-wait body{visibility:hidden}
+section.mk-col{overflow:hidden;position:relative}
+section.mk-col:after{content:"";position:absolute;left:0;right:0;bottom:0;height:140px;background:linear-gradient(rgba(255,255,255,0),var(--mk-fade,#fff));pointer-events:none}
+.mk-more{display:flex;align-items:center;justify-content:center;gap:8px;width:calc(100% - 32px);margin:-8px 16px 24px;min-height:48px;border-radius:10px;border:1.5px solid var(--mk-line);background:var(--mk-card);color:var(--mk-ink);font:700 15px/1 system-ui,-apple-system,sans-serif;cursor:pointer;position:relative;z-index:2}
