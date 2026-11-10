@@ -96,3 +96,201 @@ window.MK={"brand": "wb", "name": "WetBond", "phone": "(844) 652-6266", "tel": "
   new MutationObserver(soon).observe(document.documentElement, { childList: true, subtree: true });
   setTimeout(function () { /* stop watching after hydration settles */ }, 8000);
 })();
+
+/* Lucide icons (ISC license) */
+window.MK_ICONS={"arrow-down-to-line": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M12 17V3\" /> <path d=\"m6 11 6 6 6-6\" /> <path d=\"M19 21H5\" /> </svg>", "arrow-up": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m5 12 7-7 7 7\" /> <path d=\"M12 19V5\" /> </svg>", "badge-check": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\" /> <path d=\"m9 12 2 2 4-4\" /> </svg>", "book-open": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M12 7v14\" /> <path d=\"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z\" /> </svg>", "brick-wall": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <rect x=\"3\" y=\"3\" rx=\"2\" /> <path d=\"M12 9v6\" /> <path d=\"M16 15v6\" /> <path d=\"M16 3v6\" /> <path d=\"M3 15h18\" /> <path d=\"M3 9h18\" /> <path d=\"M8 15v6\" /> <path d=\"M8 3v6\" /> </svg>", "building-2": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z\" /> <path d=\"M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2\" /> <path d=\"M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2\" /> <path d=\"M10 6h4\" /> <path d=\"M10 10h4\" /> <path d=\"M10 14h4\" /> <path d=\"M10 18h4\" /> </svg>", "calculator": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <rect x=\"4\" y=\"2\" rx=\"2\" /> <line x1=\"8\" x2=\"16\" y1=\"6\" y2=\"6\" /> <line x1=\"16\" x2=\"16\" y1=\"14\" y2=\"18\" /> <path d=\"M16 10h.01\" /> <path d=\"M12 10h.01\" /> <path d=\"M8 10h.01\" /> <path d=\"M12 14h.01\" /> <path d=\"M8 14h.01\" /> <path d=\"M12 18h.01\" /> <path d=\"M8 18h.01\" /> </svg>", "calendar-check": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M8 2v4\" /> <path d=\"M16 2v4\" /> <rect x=\"3\" y=\"4\" rx=\"2\" /> <path d=\"M3 10h18\" /> <path d=\"m9 16 2 2 4-4\" /> </svg>", "camera": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z\" /> <circle cx=\"12\" cy=\"13\" r=\"3\" /> </svg>", "chevron-down": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m6 9 6 6 6-6\" /> </svg>", "circle-check": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"m9 12 2 2 4-4\" /> </svg>", "circle-x": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"m15 9-6 6\" /> <path d=\"m9 9 6 6\" /> </svg>", "clipboard-check": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <rect x=\"8\" y=\"2\" rx=\"1\" ry=\"1\" /> <path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" /> <path d=\"m9 14 2 2 4-4\" /> </svg>", "cloud-rain": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242\" /> <path d=\"M16 14v6\" /> <path d=\"M8 14v6\" /> <path d=\"M12 16v6\" /> </svg>", "cog": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z\" /> <path d=\"M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z\" /> <path d=\"M12 2v2\" /> <path d=\"M12 22v-2\" /> <path d=\"m17 20.66-1-1.73\" /> <path d=\"M11 10.27 7 3.34\" /> <path d=\"m20.66 17-1.73-1\" /> <path d=\"m3.34 7 1.73 1\" /> <path d=\"M14 12h8\" /> <path d=\"M2 12h2\" /> <path d=\"m20.66 7-1.73 1\" /> <path d=\"m3.34 17 1.73-1\" /> <path d=\"m17 3.34-1 1.73\" /> <path d=\"m11 13.73-4 6.93\" /> </svg>", "drafting-compass": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m12.99 6.74 1.93 3.44\" /> <path d=\"M19.136 12a10 10 0 0 1-14.271 0\" /> <path d=\"m21 21-2.16-3.84\" /> <path d=\"m3 21 8.02-14.26\" /> <circle cx=\"12\" cy=\"5\" r=\"2\" /> </svg>", "droplets": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z\" /> <path d=\"M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97\" /> </svg>", "file-chart-column": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\" /> <path d=\"M14 2v4a2 2 0 0 0 2 2h4\" /> <path d=\"M8 18v-1\" /> <path d=\"M12 18v-6\" /> <path d=\"M16 18v-3\" /> </svg>", "file-text": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\" /> <path d=\"M14 2v4a2 2 0 0 0 2 2h4\" /> <path d=\"M10 9H8\" /> <path d=\"M16 13H8\" /> <path d=\"M16 17H8\" /> </svg>", "flag": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z\" /> <line x1=\"4\" x2=\"4\" y1=\"22\" y2=\"15\" /> </svg>", "flask-conical": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2\" /> <path d=\"M8.5 2h7\" /> <path d=\"M7 16h10\" /> </svg>", "gauge": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m12 14 4-4\" /> <path d=\"M3.34 19a10 10 0 1 1 17.32 0\" /> </svg>", "graduation-cap": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z\" /> <path d=\"M22 10v6\" /> <path d=\"M6 12.5V16a6 3 0 0 0 12 0v-3.5\" /> </svg>", "handshake": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m11 17 2 2a1 1 0 1 0 3-3\" /> <path d=\"m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4\" /> <path d=\"m21 3 1 11h-2\" /> <path d=\"M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3\" /> <path d=\"M3 4h8\" /> </svg>", "hard-hat": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M10 10V5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5\" /> <path d=\"M14 6a6 6 0 0 1 6 6v3\" /> <path d=\"M4 15v-3a6 6 0 0 1 6-6\" /> <rect x=\"2\" y=\"15\" rx=\"1\" /> </svg>", "hourglass": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M5 22h14\" /> <path d=\"M5 2h14\" /> <path d=\"M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22\" /> <path d=\"M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2\" /> </svg>", "house": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\" /> <path d=\"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\" /> </svg>", "landmark": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <line x1=\"3\" x2=\"21\" y1=\"22\" y2=\"22\" /> <line x1=\"6\" x2=\"6\" y1=\"18\" y2=\"11\" /> <line x1=\"10\" x2=\"10\" y1=\"18\" y2=\"11\" /> <line x1=\"14\" x2=\"14\" y1=\"18\" y2=\"11\" /> <line x1=\"18\" x2=\"18\" y1=\"18\" y2=\"11\" /> <polygon points=\"12 2 20 7 4 7\" /> </svg>", "layers": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\" /> <path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\" /> <path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\" /> </svg>", "leaf": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\" /> <path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\" /> </svg>", "life-buoy": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"10\" /> <path d=\"m4.93 4.93 4.24 4.24\" /> <path d=\"m14.83 9.17 4.24-4.24\" /> <path d=\"m14.83 14.83 4.24 4.24\" /> <path d=\"m9.17 14.83-4.24 4.24\" /> <circle cx=\"12\" cy=\"12\" r=\"4\" /> </svg>", "lightbulb": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5\" /> <path d=\"M9 18h6\" /> <path d=\"M10 22h4\" /> </svg>", "list": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M3 12h.01\" /> <path d=\"M3 18h.01\" /> <path d=\"M3 6h.01\" /> <path d=\"M8 12h13\" /> <path d=\"M8 18h13\" /> <path d=\"M8 6h13\" /> </svg>", "mail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <rect x=\"2\" y=\"4\" rx=\"2\" /> <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\" /> </svg>", "map-pin": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\" /> <circle cx=\"12\" cy=\"10\" r=\"3\" /> </svg>", "megaphone": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m3 11 18-5v12L3 14v-3z\" /> <path d=\"M11.6 16.8a3 3 0 1 1-5.8-1.6\" /> </svg>", "message-circle-question": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\" /> <path d=\"M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3\" /> <path d=\"M12 17h.01\" /> </svg>", "monitor-smartphone": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8\" /> <path d=\"M10 19v-3.96 3.15\" /> <path d=\"M7 19h5\" /> <rect x=\"16\" y=\"12\" rx=\"2\" /> </svg>", "package": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z\" /> <path d=\"M12 22V12\" /> <path d=\"m3.3 7 7.703 4.734a2 2 0 0 0 1.994 0L20.7 7\" /> <path d=\"m7.5 4.27 9 5.15\" /> </svg>", "paintbrush": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m14.622 17.897-10.68-2.913\" /> <path d=\"M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z\" /> <path d=\"M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15\" /> </svg>", "palette": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"13.5\" cy=\"6.5\" r=\".5\" fill=\"currentColor\" /> <circle cx=\"17.5\" cy=\"10.5\" r=\".5\" fill=\"currentColor\" /> <circle cx=\"8.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\" /> <circle cx=\"6.5\" cy=\"12.5\" r=\".5\" fill=\"currentColor\" /> <path d=\"M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z\" /> </svg>", "phone": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\" /> </svg>", "receipt": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z\" /> <path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\" /> <path d=\"M12 17.5v-11\" /> </svg>", "recycle": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5\" /> <path d=\"M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12\" /> <path d=\"m14 16-3 3 3 3\" /> <path d=\"M8.293 13.596 7.196 9.5 3.1 10.598\" /> <path d=\"m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843\" /> <path d=\"m13.378 9.633 4.096 1.098 1.097-4.096\" /> </svg>", "scale": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\" /> <path d=\"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\" /> <path d=\"M7 21h10\" /> <path d=\"M12 3v18\" /> <path d=\"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2\" /> </svg>", "shield-check": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" /> <path d=\"m9 12 2 2 4-4\" /> </svg>", "sparkles": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\" /> <path d=\"M20 3v4\" /> <path d=\"M22 5h-4\" /> <path d=\"M4 17v2\" /> <path d=\"M5 18H3\" /> </svg>", "spray-can": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M3 3h.01\" /> <path d=\"M7 5h.01\" /> <path d=\"M11 7h.01\" /> <path d=\"M3 7h.01\" /> <path d=\"M7 9h.01\" /> <path d=\"M3 11h.01\" /> <rect x=\"15\" y=\"5\" /> <path d=\"m19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2\" /> <path d=\"m13 14 8-2\" /> <path d=\"m13 19 8-2\" /> </svg>", "square-stack": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M4 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2\" /> <path d=\"M10 16c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2\" /> <rect x=\"14\" y=\"14\" rx=\"2\" /> </svg>", "sun": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <circle cx=\"12\" cy=\"12\" r=\"4\" /> <path d=\"M12 2v2\" /> <path d=\"M12 20v2\" /> <path d=\"m4.93 4.93 1.41 1.41\" /> <path d=\"m17.66 17.66 1.41 1.41\" /> <path d=\"M2 12h2\" /> <path d=\"M20 12h2\" /> <path d=\"m6.34 17.66-1.41 1.41\" /> <path d=\"m19.07 4.93-1.41 1.41\" /> </svg>", "wind": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M12.8 19.6A2 2 0 1 0 14 16H2\" /> <path d=\"M17.5 8a2.5 2.5 0 1 1 2 4H2\" /> <path d=\"M9.8 4.4A2 2 0 1 1 11 8H2\" /> </svg>", "wrench": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\" /> </svg>", "zap": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" > <path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\" /> </svg>"};
+/* Visual uplift v2 (mockup only). Runs after mockup.js. Uses window.MK and window.MK_ICONS.
+   1) Icons: one outline set (Lucide, ISC), added only where a card's title maps to a clear meaning,
+      and only when every card in that group gets one (no half-decorated grids).
+   2) Measure: running text capped at ~68 characters per line.
+   3) Desktop two-column sections: the heading column stays in view (sticky) instead of leaving a void.
+   4) Long pages: an "On this page" jump list after the hero; a back-to-top button on phones.
+   5) WetBond FAQ: questions collapse into tap-to-open rows on phones and desktop. */
+(function () {
+  var M = window.MK, I = window.MK_ICONS || {};
+  if (!M || /noup/.test(location.search)) return;
+  var nr = M.brand === "nr";
+
+  // keyword -> icon. Order matters: first match wins. Lowercase match on the card title.
+  var MAP = [
+    [/warrant/, "shield-check"], [/inspection|assessment|check-?up|audit/, "clipboard-check"],
+    [/reading|meter|measur|gauge|recorded|underwrit/, "gauge"], [/photo|camera|visuali/, "camera"],
+    [/cost|price|quote|\$|upsold|invest/, "receipt"], [/certif|badge|professional-grade|legit/, "badge-check"],
+    [/training|academy|course|learn the|certify/, "graduation-cap"], [/playbook|manual|guide|book/, "book-open"],
+    [/crm|software|app\b/, "monitor-smartphone"], [/marketing|material pack/, "megaphone"],
+    [/architect|engineer|spec/, "drafting-compass"], [/property manager|hoa|portfolio|multifamily|building/, "building-2"],
+    [/agent|insur|underwriter/, "landmark"], [/homeowner|your home|my house|tear my house/, "house"],
+    [/contractor|dealer|you replace roofs|your company/, "hard-hat"], [/phone|call/, "phone"], [/email|mail/, "mail"],
+    [/address|location|map|territor|market/, "map-pin"], [/disappear|leave|gone/, "life-buoy"],
+    [/sump|pump|drain/, "arrow-down-to-line"], [/crack|joint|tie-rod/, "zap"], [/mold|mildew|musty|smell/, "wind"],
+    [/leak|water|wet|damp|seep|moisture|flood/, "droplets"], [/stain|chalky|efflores|white/, "sparkles"],
+    [/rust|appliance/, "cog"], [/peel|paint|coating|bubbl/, "paintbrush"],
+    [/uv|sun|solar|heat/, "sun"], [/algae|moss|streak|lichen/, "leaf"], [/granule|gutter/, "cloud-rain"],
+    [/curl|crack|brittle|aging|age/, "hourglass"], [/repair|tune|maintenance|fix|caulk|flashing/, "wrench"],
+    [/soft wash|clean|wash|rinse/, "spray-can"], [/spray|application|apply|treat/, "spray-can"],
+    [/sample|test|science|chemistry|silicone|physics|lab/, "flask-conical"], [/data|record|report|field/, "file-chart-column"],
+    [/sheet|document|safety|template|registration|register|agreement/, "file-text"],
+    [/sustain|landfill|green|recycl/, "recycle"], [/color|finish|graphite|slate|walnut|black|sandstone|cedar/, "palette"],
+    [/compare|vs\.?|versus|option|alternativ/, "scale"], [/system|layer|how it works|inside and on top|envelope/, "layers"],
+    [/tote|order|product|material|package|caulk/, "package"], [/calculat/, "calculator"], [/time|day|schedule|first jobs|independent jobs/, "calendar-check"],
+    [/floor|slab|garage/, "square-stack"], [/basement|wall|crawl|foundation/, "brick-wall"], [/roof|shingle/, "house"],
+    [/integrity|accountab/, "scale"], [/leadership/, "flag"], [/creativ|innovation/, "lightbulb"], [/loyal|partner|referr|introduce/, "handshake"],
+    [/faith|question|\?|“/, "message-circle-question"], [/good fit|good candidate|yes\b|checked/, "circle-check"],
+    [/tell you no|won.t|can.t|not a fit|bond through|bond to a new|fix a failed/, "circle-x"]
+  ];
+  function iconFor(title) {
+    var t = (title || "").toLowerCase();
+    if (/^[“"]|\?$/.test(t.trim())) return "message-circle-question";
+    for (var i = 0; i < MAP.length; i++) if (MAP[i][0].test(t)) return MAP[i][1];
+    return null;
+  }
+  function svg(name, size) {
+    var s = I[name]; if (!s) return "";
+    return s.replace("<svg", '<svg width="' + size + '" height="' + size + '" aria-hidden="true" focusable="false"');
+  }
+  function lum(rgb) { var m = (rgb || "").match(/\d+(\.\d+)?/g); if (!m) return 1; return (0.2126 * m[0] + 0.7152 * m[1] + 0.0722 * m[2]) / 255; }
+  function vis(e) { var r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; }
+  function mainEl() { return document.querySelector("main") || document.getElementById("dc-root") || document.body; }
+
+  // ---------- 1) Icons on card groups
+  function icons() {
+    var main = mainEl();
+    var all = main.querySelectorAll("*");
+    for (var i = 0; i < all.length; i++) {
+      var g = all[i];
+      if (g.dataset.mkIc || g.closest(".mk,nav,header,footer,table,.wbh,.wbf")) continue;
+      var cs = getComputedStyle(g);
+      if (cs.display !== "grid" && cs.display !== "flex") continue;
+      var kids = [].filter.call(g.children, function (k) { return vis(k) && k.getBoundingClientRect().height > 56; });
+      if (kids.length < 2 || kids.length > 12) continue;
+      if (/sw|swatch|viz|price|calc/.test(String(g.className))) continue;
+      var plan = [], ok = true;
+      for (var k = 0; k < kids.length; k++) {
+        var kid = kids[k];
+        if (kid.querySelector("svg, img, picture, video, .ic, [class*='phimg'], [class*='media'], [role=img]")) { ok = false; break; }
+        // skip cards that already show a picture (CSS background photos count)
+        if ([kid].concat([].slice.call(kid.querySelectorAll("div,span,figure,a"))).some(function (e) { return /url\(/.test(getComputedStyle(e).backgroundImage); })) { ok = false; break; }
+        // skip cards that already carry a marker tile (letter/number badge) or a list bullet
+        var fc = kid.firstElementChild, fr = fc && fc.getBoundingClientRect();
+        if (fc && fr.width <= 64 && fr.height <= 64 && getComputedStyle(fc).backgroundColor !== "rgba(0, 0, 0, 0)") { ok = false; break; }
+        if (kid.tagName === "LI" && getComputedStyle(kid, "::before").content !== "none") { ok = false; break; }
+        var title = kid.querySelector("h3, h4, b, strong");
+        // the title must be its own line (a heading or a block-level label), not bold words inside a sentence
+        if (title && !/^H[34]$/.test(title.tagName) && getComputedStyle(title).display === "inline" && title.parentElement && title.parentElement.textContent.trim().length > title.textContent.trim().length + 2) { ok = false; break; }
+        if (!title || title.closest("p") && title.closest("p").textContent.trim().length > title.textContent.trim().length + 140) { ok = false; break; }
+        var name = iconFor(title.textContent);
+        if (!name && /rel-card|kl|keep|learn/.test((g.className || "") + " " + (g.closest("section") || {}).className)) name = "book-open";
+        if (!name || !I[name]) { ok = false; break; }
+        plan.push([kid, title, name]);
+      }
+      if (!ok) continue;
+      g.dataset.mkIc = "1";
+      plan.forEach(function (p) {
+        var kid = p[0], title = p[1];
+        var dark = lum(getComputedStyle(kid).color) > 0.6;
+        var span = document.createElement("span");
+        span.className = "mk-ic" + (dark ? " mk-ic-d" : "");
+        span.innerHTML = svg(p[2], 22);
+        // place above the title, inside the card
+        var host = title.parentElement === kid || kid.tagName === "LI" ? kid : title.parentElement;
+        host.insertBefore(span, host === kid ? kid.firstChild : title);
+        kid.classList.add("mk-has-ic");
+      });
+    }
+  }
+
+  // ---------- 2) Measure
+  function measure() {
+    var ps = mainEl().querySelectorAll("p, li");
+    for (var i = 0; i < ps.length; i++) {
+      var p = ps[i];
+      if (p.closest(".mk, table, nav, header, footer") || p.dataset.mkMeasure) continue;
+      var w = p.getBoundingClientRect().width, fs = parseFloat(getComputedStyle(p).fontSize) || 16;
+      if (w / (fs * 0.5) > 82 && p.textContent.trim().length > 90) {
+        p.dataset.mkMeasure = "1";
+        p.style.maxWidth = "68ch";
+        if (getComputedStyle(p).textAlign === "center") { p.style.marginLeft = "auto"; p.style.marginRight = "auto"; }
+      }
+    }
+  }
+
+  // ---------- 3) Sticky heading columns (desktop)
+  function sticky() {
+    if (innerWidth < 1024) return;
+    var hs = mainEl().querySelectorAll("h2");
+    var head = document.querySelector("header, .wbh, .site-head"), top = 24 + (head && getComputedStyle(head).position.match(/fixed|sticky/) ? head.getBoundingClientRect().height : 0);
+    for (var i = 0; i < hs.length; i++) {
+      var h = hs[i]; if (h.closest(".mk")) continue;
+      if (h.dataset.mkSticky) continue;
+      // Case A: the heading itself is a grid item in a 2-column grid (WetBond sections)
+      var par = h.parentElement, pcs = par && getComputedStyle(par);
+      if (pcs && pcs.display === "grid" && pcs.gridTemplateColumns.split(" ").length >= 2) {
+        var others = [].filter.call(par.children, function (c) { return c !== h && vis(c); });
+        var hb = h.getBoundingClientRect(), pb = par.getBoundingClientRect();
+        if (others.length && others.every(function (c) { return c.getBoundingClientRect().left > hb.right - 4; }) && pb.height > hb.height * 2.2 && pb.height > 600) {
+          h.dataset.mkSticky = "1"; h.style.position = "sticky"; h.style.top = top + "px"; h.style.alignSelf = "start";
+        }
+        continue;
+      }
+      var col = h.parentElement, row = col && col.parentElement;
+      if (!row || col.dataset.mkSticky) continue;
+      var rs = getComputedStyle(row);
+      if (!(rs.display === "grid" || rs.display === "flex") || rs.flexDirection === "column") continue;
+      var sib = [].filter.call(row.children, function (c) { return c !== col && vis(c); })[0];
+      if (!sib) continue;
+      var a = col.getBoundingClientRect(), b = sib.getBoundingClientRect();
+      if (b.left <= a.left || b.height < a.height * 1.8 || b.height < 500 || a.height > innerHeight * 0.6) continue;
+      col.dataset.mkSticky = "1"; col.style.position = "sticky"; col.style.top = top + "px"; col.style.alignSelf = "start";
+    }
+  }
+
+  // ---------- 4a) On this page
+  function toc() {
+    if (document.getElementById("mk-toc") || document.querySelector(".on-page, [aria-label='On this page']")) return;
+    var main = mainEl();
+    var hs = [].filter.call(main.querySelectorAll("h2"), function (h) { return vis(h) && !h.closest(".mk, footer, header") && h.textContent.trim().length < 70; });
+    if (hs.length < 6 || document.body.scrollHeight < innerHeight * 7) return;
+    var first = hs[0].closest("section"); if (!first) return;
+    var links = hs.map(function (h, i) {
+      if (!h.id) h.id = "mk-s" + i;
+      return '<a href="#' + h.id + '">' + h.textContent.trim().replace(/[<>&]/g, "") + "</a>";
+    }).join("");
+    first.insertAdjacentHTML("beforebegin", '<nav class="mk mk-toc" id="mk-toc" aria-label="On this page"><div class="in"><span>' + svg("list", 16) + ' On this page</span><div class="l">' + links + "</div></div></nav>");
+  }
+  // ---------- 4b) Back to top (phones, long pages)
+  function backTop() {
+    if (document.getElementById("mk-top") || document.body.scrollHeight < innerHeight * 5) return;
+    var b = document.createElement("a");
+    b.id = "mk-top"; b.className = "mk mk-top"; b.href = "#"; b.setAttribute("aria-label", "Back to top"); b.innerHTML = svg("arrow-up", 20);
+    b.addEventListener("click", function (e) { e.preventDefault(); scrollTo({ top: 0, behavior: "smooth" }); });
+    document.body.appendChild(b);
+    var on = false;
+    addEventListener("scroll", function () { var s = scrollY > innerHeight * 2; if (s !== on) { on = s; b.classList.toggle("on", s); } }, { passive: true });
+  }
+
+  // ---------- 5) WetBond FAQ accordion
+  function faq() {
+    if (nr || !/\/faq(\.html)?$/.test(location.pathname)) return;
+    var ps = mainEl().querySelectorAll("section p");
+    for (var i = 0; i < ps.length; i++) {
+      var p = ps[i], q = p.firstElementChild;
+      if (p.dataset.mkFaq || !q || q.tagName !== "STRONG" || !/\?$/.test(q.textContent.trim())) continue;
+      p.dataset.mkFaq = "1";
+      var d = document.createElement("details"); d.className = "mk-faq";
+      var s = document.createElement("summary"); s.innerHTML = '<span>' + q.innerHTML + '</span>' + svg("chevron-down", 20);
+      q.remove();
+      // answers that continue into following plain paragraphs stay together
+      var body = document.createElement("div"); body.className = "a"; body.appendChild(p.cloneNode(true));
+      var n = p.nextElementSibling;
+      while (n && n.tagName === "P" && !(n.firstElementChild && n.firstElementChild.tagName === "STRONG")) { var nx = n.nextElementSibling; body.appendChild(n); n = nx; }
+      d.appendChild(s); d.appendChild(body); p.replaceWith(d);
+    }
+  }
+
+  function run() { try { faq(); icons(); measure(); toc(); backTop(); sticky(); } catch (e) { if (window.console) console.warn("uplift", e); } }
+  var t; function soon() { clearTimeout(t); t = setTimeout(run, 200); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+  addEventListener("load", function () { run(); setTimeout(run, 600); });
+  new MutationObserver(soon).observe(document.documentElement, { childList: true, subtree: true });
+  addEventListener("resize", soon);
+})();

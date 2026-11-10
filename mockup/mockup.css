@@ -35,3 +35,27 @@
 .mk-tool p{margin:0 0 12px;font-size:14.5px;color:var(--mk-body);line-height:1.45}
 .mk-tool .go{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:10px;background:var(--mk-pri);color:var(--mk-on);font-weight:700;text-decoration:none}
 .mk-note{font-size:12.5px;color:var(--mk-body);margin-top:10px}
+
+/* ---- Visual uplift v2: icon tiles, jump list, back-to-top, FAQ rows ---- */
+.mk-ic{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:10px;margin:0 0 12px;flex:0 0 auto;background:#E8EEF6;color:#1E63B5}
+.mk-ic svg{display:block}
+.mk-ic-d{background:rgba(255,255,255,.08);color:#8FB8EE}
+.mk-toc{position:relative;z-index:5;background:var(--mk-bg);border-bottom:1px solid var(--mk-line)}
+.mk-toc .in{max-width:1180px;margin:0 auto;padding:12px max(16px,env(safe-area-inset-left));display:flex;align-items:center;gap:14px}
+.mk-toc .in>span{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--mk-ink);white-space:nowrap}
+.mk-toc .l{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent)}
+.mk-toc .l::-webkit-scrollbar{display:none}
+.mk-toc a{flex:0 0 auto;font-size:13.5px;line-height:1;padding:9px 12px;border-radius:999px;border:1px solid var(--mk-line);color:var(--mk-ink);text-decoration:none;background:var(--mk-card);min-height:36px;display:inline-flex;align-items:center}
+.mk-toc a:hover{border-color:var(--mk-link)}
+@media(max-width:760px){.mk-toc .in{flex-direction:column;align-items:flex-start;gap:8px}.mk-toc .l{width:100%}}
+.mk-top{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:24px;z-index:9998;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#e8ece9;color:#0f171d;box-shadow:0 6px 18px rgba(0,0,0,.22);opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .2s,transform .2s}
+.mk-top.on{opacity:1;pointer-events:auto;transform:none}
+@media(max-width:760px){.mk-top{bottom:calc(88px + env(safe-area-inset-bottom))}}
+@media(min-width:761px){.mk-top{display:none}}
+details.mk-faq{border-bottom:1px solid rgba(127,140,150,.3)}
+details.mk-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 0;font-weight:700;min-height:44px}
+details.mk-faq summary::-webkit-details-marker{display:none}
+details.mk-faq summary svg{flex:0 0 auto;transition:transform .2s}
+details.mk-faq[open] summary svg{transform:rotate(180deg)}
+details.mk-faq .a{padding:0 0 16px} details.mk-faq .a p{margin:0 0 10px}
+@media (prefers-reduced-motion:reduce){.mk-top,details.mk-faq summary svg{transition:none}}
