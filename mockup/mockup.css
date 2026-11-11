@@ -70,6 +70,11 @@ html.mk-wait body{visibility:hidden}
 @media(max-width:760px){.mk-hcta a{flex:1 1 100%}}
 .mk-trust{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px auto 20px;padding:0;max-width:680px;justify-content:center;font-size:14px;color:#16212a}
 .mk-trust.d{color:#e6edf5}
+.mk-co{background:#EEF1EF;border-top:1px solid #D9DEDA}
+.mk-co .in{max-width:1180px;margin:0 auto;padding:28px max(20px,env(safe-area-inset-left));display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.mk-co .in>div{display:flex;gap:12px;align-items:flex-start} .mk-co .mk-ic{margin:0;background:#fff}
+.mk-co p{margin:0;font-size:14px;line-height:1.4;color:#4b5961} .mk-co b{display:block;color:#16212a;font-size:15px} .mk-co p span{display:block}
+@media(max-width:900px){.mk-co .in{grid-template-columns:1fr 1fr}} @media(max-width:520px){.mk-co .in{grid-template-columns:1fr}}
 main h1,main h2,#dc-root h1,#dc-root h2{hyphens:manual!important;-webkit-hyphens:manual!important}
 #mk-zipwrap .mk-zip{margin:0} #mk-zipwrap .mk-trust{max-width:none}
 .mk-trust li{display:inline-flex;align-items:center;gap:6px;margin:0;padding:0} .mk-trust li:before{content:none!important}
