@@ -1,5 +1,5 @@
 /* Design mockup v1. Injects the approved changes at runtime so the page source stays identical to the site. */
-window.MK={"brand": "wb", "name": "WetBond", "phone": "(844) 652-6266", "tel": "+18446526266", "ask": "Moisture Inspection", "cta": "Get my free inspection", "ziplabel": "Find a Certified Contractor and a free inspection", "host": "tools.wetbond.com", "tools": {"request": ["Request a Free Moisture Inspection", "Pick a time, tell us about the concrete. A Certified Contractor confirms."], "booking": ["Book a time", "Step 2 after a request: choose a slot on the calendar."], "estimator": ["Estimator", "Damp wall, floor or slab? Start with what you see; get the likely fix and price drivers."], "dealer-application": ["Contractor application", "Apply to become a WetBond contractor, with the overview video and a call booking."], "quiz": ["Fit check", "Is WetBond right for your wall, floor or slab? A few quick questions."], "photo-quote": ["Photo quote", "Send photos of your concrete, get a pre-assessment."], "checklist": ["Moisture checklist", "Check walls, floors, slabs and crawl spaces for moisture."], "comparison": ["Compare your options", "Drains, membranes, sealers and WetBond, side by side."], "visualizer": ["Visualizer", "See a finish on your concrete. Every image is labeled Visualization."], "care-plan": ["Care plan", "A year-round care plan for your concrete."], "material-calculator": ["Material calculator", "Product quantities for a job, from the data sheet coverage rates."], "referral": ["Referral", "Know someone whose concrete needs attention? Refer them."], "locator": ["Contractor locator", "Find a Certified Contractor by ZIP."], "portfolio": ["Project portfolio", "Real, dated jobs from Certified Contractors."], "training": ["Contractor training", "Certification training for signed-in contractors."]}, "img": ["care-plan", "checklist", "comparison", "dealer-application", "estimator", "locator", "material-calculator", "photo-quote", "portfolio", "quiz", "referral", "request", "training", "visualizer"], "home": ["quiz", "estimator", "photo-quote", "checklist", "comparison", "visualizer"], "pages": {"/for-homeowners": ["request", "quiz"], "/cost": ["estimator", "request"], "/how-it-works": ["quiz"], "/basements": ["estimator", "photo-quote"], "/crawl-spaces": ["estimator", "checklist"], "/floors": ["estimator", "visualizer"], "/repairs": ["photo-quote", "care-plan"], "/learn-why-basements-leak": ["checklist"], "/sump-pits": ["checklist"], "/compare": ["comparison"], "/products-color": ["visualizer"], "/warranty": ["care-plan"], "/technical": ["material-calculator"], "/contractors": ["dealer-application", "material-calculator", "training"], "/for-property-managers": ["referral"], "/field-data": ["portfolio"]}};
+window.MK={"live": [], "brand": "wb", "name": "WetBond", "phone": "(844) 652-6266", "tel": "+18446526266", "ask": "Moisture Inspection", "cta": "Get my free inspection", "ziplabel": "Find a Certified Contractor and a free inspection", "host": "tools.wetbond.com", "tools": {"request": ["Request a Free Moisture Inspection", "Pick a time, tell us about the concrete. A Certified Contractor confirms."], "booking": ["Book a time", "Step 2 after a request: choose a slot on the calendar."], "estimator": ["Estimator", "Damp wall, floor or slab? Start with what you see; get the likely fix and price drivers."], "dealer-application": ["Contractor application", "Apply to become a WetBond contractor, with the overview video and a call booking."], "quiz": ["Fit check", "Is WetBond right for your wall, floor or slab? A few quick questions."], "photo-quote": ["Photo quote", "Send photos of your concrete, get a pre-assessment."], "checklist": ["Moisture checklist", "Check walls, floors, slabs and crawl spaces for moisture."], "comparison": ["Compare your options", "Drains, membranes, sealers and WetBond, side by side."], "visualizer": ["Visualizer", "See a finish on your concrete. Every image is labeled Visualization."], "care-plan": ["Care plan", "A year-round care plan for your concrete."], "material-calculator": ["Material calculator", "Product quantities for a job, from the data sheet coverage rates."], "referral": ["Referral", "Know someone whose concrete needs attention? Refer them."], "locator": ["Contractor locator", "Find a Certified Contractor by ZIP."], "portfolio": ["Project portfolio", "Real, dated jobs from Certified Contractors."], "training": ["Contractor training", "Certification training for signed-in contractors."]}, "img": ["care-plan", "checklist", "comparison", "dealer-application", "estimator", "locator", "material-calculator", "photo-quote", "portfolio", "quiz", "referral", "request", "training", "visualizer"], "home": ["quiz", "estimator", "photo-quote", "checklist", "comparison", "visualizer"], "pages": {"/for-homeowners": ["request", "quiz"], "/cost": ["estimator", "request"], "/how-it-works": ["quiz"], "/basements": ["estimator", "photo-quote"], "/crawl-spaces": ["estimator", "checklist"], "/floors": ["estimator", "visualizer"], "/repairs": ["photo-quote", "care-plan"], "/learn-why-basements-leak": ["checklist"], "/sump-pits": ["checklist"], "/compare": ["comparison"], "/products-color": ["visualizer"], "/warranty": ["care-plan"], "/technical": ["material-calculator"], "/contractors": ["dealer-application", "material-calculator", "training"], "/for-property-managers": ["referral"], "/field-data": ["portfolio"]}};
 (function () {
   var M = window.MK, nr = M.brand === "nr";
   // Site root = folder above /mockup/, so the mockup works at / or under any base path.
@@ -12,7 +12,18 @@ window.MK={"brand": "wb", "name": "WetBond", "phone": "(844) 652-6266", "tel": "
     return p || "/";
   }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
-  function toolUrl(k) { return ROOT + "mockup/tools/" + k + "/index.html"; }
+  // Tools listed in MK.live are embedded for real from the tools host (docs/website-embed.md in substrate-tools).
+  // Everything else shows its preview card. Going live = add the tool id to the list in mockup.js; no page edits.
+  function live(k) { return (M.live || []).indexOf(k) >= 0; }
+  function toolUrl(k) { return live(k) ? "https://" + M.host + "/" + k : ROOT + "mockup/tools/" + k + "/index.html"; }
+  function loader() {
+    if (document.getElementById("mk-embed-loader")) return;
+    var s = document.createElement("script"); s.id = "mk-embed-loader"; s.async = true; s.src = "https://" + M.host + "/embed/v1.js";
+    s.onerror = function () { [].forEach.call(document.querySelectorAll(".mk-live"), function (c) { c.classList.add("mk-failed"); }); };
+    document.head.appendChild(s);
+    // if a mount is still empty after 6s (tool gate off, origin not allowlisted), show the call-us fallback
+    setTimeout(function () { [].forEach.call(document.querySelectorAll(".mk-live"), function (c) { if (!c.querySelector("iframe")) c.classList.add("mk-failed"); }); }, 6000);
+  }
   function el(h) { var t = document.createElement("template"); t.innerHTML = h.trim(); return t.content.firstChild; }
 
   function flag() {
@@ -62,6 +73,11 @@ window.MK={"brand": "wb", "name": "WetBond", "phone": "(844) 652-6266", "tel": "
     first.insertAdjacentHTML("afterend", '<section class="mk-sec mk" id="mk-tools"><div class="in"><h2>Plan it yourself, in minutes</h2><p class="l">Free tools. No contact details until you ask for an inspection.</p><div class="mk-grid">' + cards + '</div></div></section>');
   }
   function toolCard(k) {
+    if (live(k)) {
+      setTimeout(loader, 0);
+      return '<div class="mk-tool mk-live"><div data-substrate-tool="' + k + '" data-brand="' + M.brand.toUpperCase() + '" data-substrate-title="' + esc(M.name + " " + M.tools[k][0].toLowerCase()) + '" data-substrate-pixels="forward"></div>' +
+        '<div class="mk-fallback tx"><h3>' + esc(M.tools[k][0]) + '</h3><p>' + esc(M.tools[k][1]) + '</p><a class="go" href="tel:' + M.tel + '">Call ' + esc(M.phone) + '</a></div></div>';
+    }
     var t = M.tools[k], img = M.img.indexOf(k) >= 0 ? '<div class="shot"><img src="' + ROOT + 'mockup/img/' + k + '.jpg" alt="' + esc(t[0]) + ' preview" loading="lazy"></div>' : "";
     return '<div class="mk-tool">' + img + '<div class="tx"><h3>' + esc(t[0]) + '</h3><p>' + esc(t[1]) + '</p><a class="go" href="' + toolUrl(k) + '">Open ' + esc(t[0].toLowerCase()) + '</a>' +
       '<p class="mk-note">Mockup: the live tool loads here from ' + M.host + '. If it can\'t load, a "Call ' + esc(M.phone) + '" link shows instead.</p></div></div>';
@@ -325,4 +341,114 @@ window.MK_ICONS={"arrow-down-to-line": "<svg xmlns=\"http://www.w3.org/2000/svg\
   addEventListener("load", function () { run(); setTimeout(run, 600); });
   new MutationObserver(soon).observe(document.documentElement, { childList: true, subtree: true });
   addEventListener("resize", soon);
+})();
+
+/* Conversion + density layer v3 (mockup only). Runs after uplift.js.
+   - Section padding capped (less dead space), hero pulled up so the ZIP box sits above the fold
+   - Every homeowner page gets a call to action in its hero; trust strip under the homepage ZIP box
+   - Desktop: a floating offer button after the first screen
+   - Phones: minimum 13px text, 44px tap targets, no orphan card cells */
+(function () {
+  var M = window.MK, I = window.MK_ICONS || {};
+  if (!M || /noup/.test(location.search)) return;
+  var nr = M.brand === "nr", ROOT = window.MK_ROOT || (location.origin + "/");
+  function svg(n, s) { return (I[n] || "").replace("<svg", '<svg width="' + s + '" height="' + s + '" aria-hidden="true"'); }
+  function vis(e) { var r = e.getBoundingClientRect(); return r.width > 0 && r.height > 0; }
+  function mainEl() { return document.querySelector("main") || document.getElementById("dc-root") || document.body; }
+  function path() { var h = location.href.split(/[?#]/)[0]; var p = h.indexOf(ROOT) === 0 ? "/" + h.slice(ROOT.length) : location.pathname; p = p.replace(/\/index\.html$/, "/").replace(/\.html$/, ""); if (p.length > 1) p = p.replace(/\/$/, ""); return p || "/"; }
+  function live(k) { return (M.live || []).indexOf(k) >= 0; }
+  function toolUrl(k) { return live(k) ? "https://" + M.host + "/" + k : ROOT + "mockup/tools/" + k + "/index.html"; }
+  var costUrl = ROOT + (nr ? "cost/index.html" : "cost.html");
+  var offer = "Free " + M.ask, PRO = /contractors|architects|privacy|terms|accessibility|patents|documents|training|technical|products|404|referral|main$/;
+  function tops() { return [].filter.call(mainEl().querySelectorAll("section"), function (s) { return !s.closest(".mk") && !s.parentElement.closest("section") && vis(s); }); }
+
+  function density() {
+    var cap = innerWidth >= 900 ? 72 : 44, s = tops();
+    s.forEach(function (x, i) {
+      if (x.dataset.mkPad === String(cap)) return; x.dataset.mkPad = String(cap);
+      var c = getComputedStyle(x), pt = parseFloat(c.paddingTop), pb = parseFloat(c.paddingBottom);
+      if (i === 0) { var hc = innerWidth >= 900 ? 56 : 28; if (pt > hc) x.style.paddingTop = hc + "px"; if (pb > cap) x.style.paddingBottom = cap + "px"; return; }
+      if (pt > cap) x.style.paddingTop = cap + "px";
+      if (pb > cap) x.style.paddingBottom = cap + "px";
+    });
+    // inner wrappers that carry the padding instead of the section (WetBond home)
+    s.forEach(function (x) { [].forEach.call(x.children, function (k) { if (k.dataset.mkPad) return; k.dataset.mkPad = "1"; var c = getComputedStyle(k), pt = parseFloat(c.paddingTop), pb = parseFloat(c.paddingBottom), cap2 = innerWidth >= 900 ? 80 : 48; if (pt > cap2 + 8) k.style.paddingTop = cap2 + "px"; if (pb > cap2 + 8) k.style.paddingBottom = cap2 + "px"; }); });
+  }
+
+  function heroCta() {
+    if (document.getElementById("mk-hcta") || path() === "/" || PRO.test(path())) return;
+    var hero = tops()[0], h1 = hero && hero.querySelector("h1"); if (!h1) return;
+    if ([].some.call(hero.querySelectorAll("a,button"), function (a) { return /assessment|inspection|estimate/i.test(a.textContent) && vis(a); })) return;
+    var box = h1.parentElement, ps = [].filter.call(box.querySelectorAll("p"), function (p) { return !p.closest("nav") && !/crumb/.test(p.className) && vis(p); });
+    var after = ps.length ? ps[ps.length - 1] : h1;
+    if (after.parentElement !== box && after.parentElement.parentElement === box) after = after.parentElement;
+    var dark = (function () { var m = getComputedStyle(h1).color.match(/\d+/g); return m && (+m[0] + +m[1] + +m[2]) / 3 > 150; })();
+    after.insertAdjacentHTML("afterend", '<div class="mk mk-hcta' + (dark ? " d" : "") + '" id="mk-hcta"><a class="p" href="' + toolUrl("request") + '">Get my ' + offer + '</a><a class="s" href="' + costUrl + '">See typical costs</a></div>');
+  }
+
+  function trust() {
+    var z = document.getElementById("mk-zip"); if (!z || document.getElementById("mk-trust")) return;
+    var items = nr ? [["clipboard-check", "Free assessment, in writing"], ["shield-check", "Registered warranty"], ["circle-check", "An honest no if it won't help"]]
+                   : [["clipboard-check", "Free inspection"], ["shield-check", "Written limited warranty"], ["badge-check", "Certified Contractors only"]];
+    var dark = (function () { var e = z.parentElement, bg; while (e && (bg = getComputedStyle(e).backgroundColor) === "rgba(0, 0, 0, 0)") e = e.parentElement; var m = (bg || "").match(/\d+/g); return !m || (+m[0] + +m[1] + +m[2]) / 3 < 110 || nr; })();
+    z.insertAdjacentHTML("afterend", '<ul class="mk mk-trust' + (dark ? " d" : "") + '" id="mk-trust">' + items.map(function (i) { return "<li>" + svg(i[0], 18) + "<span>" + i[1] + "</span></li>"; }).join("") + "</ul>");
+  }
+
+  // WetBond home: the ZIP box moves into the empty right side of the headline on desktop,
+  // and directly under the headline on phones, so the offer is on the first screen.
+  function wbHero() {
+    if (nr || path() !== "/") return;
+    var z = document.getElementById("mk-zip"), h1 = document.querySelector("main h1, #dc-root h1"); if (!z || !h1) return;
+    var mode = innerWidth >= 1100 ? "d" : "m"; if (z.dataset.mkPos === mode) return; z.dataset.mkPos = mode;
+    var t = document.getElementById("mk-trust"), wrap = document.getElementById("mk-zipwrap");
+    if (!wrap) { wrap = document.createElement("div"); wrap.id = "mk-zipwrap"; wrap.className = "mk"; }
+    wrap.appendChild(z); if (t) wrap.appendChild(t);
+    var box = h1.parentElement;
+    if (mode === "d") {
+      box.style.position = "relative"; box.appendChild(wrap);
+      wrap.style.cssText = "position:absolute;right:0;top:" + (h1.offsetTop + 24) + "px;width:400px";
+    } else {
+      wrap.style.cssText = "margin:8px 0 20px";
+      var after = h1; while (after.nextElementSibling && after.nextElementSibling.querySelector && /pause/i.test(after.nextElementSibling.textContent) && after.nextElementSibling.textContent.trim().length < 12) after = after.nextElementSibling;
+      after.after(wrap);
+    }
+  }
+
+  function fab() {
+    if (document.getElementById("mk-fab") || PRO.test(path())) return;
+    var a = document.createElement("a"); a.id = "mk-fab"; a.className = "mk mk-fab"; a.href = toolUrl("request");
+    a.innerHTML = svg("clipboard-check", 18) + "<span>" + offer + "</span>"; document.body.appendChild(a);
+    var on = false; addEventListener("scroll", function () { var s = scrollY > innerHeight * 0.9; if (s !== on) { on = s; a.classList.toggle("on", s); } }, { passive: true });
+  }
+
+  function phone() {
+    if (innerWidth > 760) return;
+    var main = mainEl();
+    [].forEach.call(main.querySelectorAll("p,li,a,span,td,th,small,figcaption,label,button,dt,dd"), function (e) {
+      if (e.dataset.mkFs || e.closest(".mk, svg, [role=img]") || !vis(e)) return;
+      if (![].some.call(e.childNodes, function (n) { return n.nodeType === 3 && n.textContent.trim().length > 2; })) return;
+      if (parseFloat(getComputedStyle(e).fontSize) < 13) { e.dataset.mkFs = "1"; e.style.fontSize = "13px"; }
+    });
+    [].forEach.call(document.querySelectorAll("main a, main button, main summary, footer a, .wbf a"), function (e) {
+      if (e.dataset.mkTap || e.closest(".mk") || e.closest("p, td, h1, h2, h3, figcaption") || !vis(e)) return;
+      var r = e.getBoundingClientRect(); if (r.height >= 44 || r.height < 8) return;
+      e.dataset.mkTap = "1"; var d = getComputedStyle(e).display;
+      if (d === "inline") e.style.display = "inline-flex";
+      e.style.alignItems = e.style.alignItems || "center"; e.style.minHeight = "44px";
+    });
+    [].forEach.call(main.querySelectorAll("*"), function (g) {
+      if (g.dataset.mkOrph || g.closest(".mk, table")) return; var c = getComputedStyle(g);
+      if (c.display !== "grid" || c.gridTemplateColumns.split(" ").length !== 2) return;
+      var k = [].filter.call(g.children, vis); if (k.length < 3 || k.length % 2 === 0) return;
+      var a = k[0].getBoundingClientRect(), b = k[1].getBoundingClientRect(); if (Math.abs(a.top - b.top) > 4 || Math.abs(a.width - b.width) > 8) return;
+      g.dataset.mkOrph = "1"; k[k.length - 1].style.gridColumn = "1 / -1";
+    });
+  }
+
+  function run() { try { density(); heroCta(); trust(); wbHero(); fab(); phone(); } catch (e) { if (window.console) console.warn("convert", e); } }
+  var t; function soon() { clearTimeout(t); t = setTimeout(run, 220); }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
+  addEventListener("load", function () { run(); setTimeout(run, 500); });
+  new MutationObserver(soon).observe(document.documentElement, { childList: true, subtree: true });
+  addEventListener("resize", function () { var zz = document.getElementById("mk-zip"); if (zz) delete zz.dataset.mkPos; [].forEach.call(document.querySelectorAll("[data-mk-pad]"), function (e) { delete e.dataset.mkPad; }); soon(); });
 })();

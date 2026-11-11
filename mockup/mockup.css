@@ -60,6 +60,24 @@ details.mk-faq[open] summary svg{transform:rotate(180deg)}
 details.mk-faq .a{padding:0 0 16px} details.mk-faq .a p{margin:0 0 10px}
 @media (prefers-reduced-motion:reduce){.mk-top,details.mk-faq summary svg{transition:none}}
 html.mk-wait body{visibility:hidden}
+.mk-live .mk-fallback{display:none} .mk-live.mk-failed .mk-fallback{display:block} .mk-live.mk-failed>[data-substrate-tool]{display:none}
+.mk-live iframe{display:block;width:100%;border:0}
+.mk-hcta{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 4px}
+.mk-hcta a{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:10px;font-weight:700;font-size:16px;text-decoration:none}
+.mk-hcta .p{background:#1E63B5;color:#fff}
+.mk-hcta .s{border:1.5px solid #c5ccd2;color:#16212a}
+.mk-hcta.d .s{border-color:rgba(255,255,255,.35);color:#fff}
+@media(max-width:760px){.mk-hcta a{flex:1 1 100%}}
+.mk-trust{list-style:none;display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px auto 20px;padding:0;max-width:680px;justify-content:center;font-size:14px;color:#16212a}
+.mk-trust.d{color:#e6edf5}
+main h1,main h2,#dc-root h1,#dc-root h2{hyphens:manual!important;-webkit-hyphens:manual!important}
+#mk-zipwrap .mk-zip{margin:0} #mk-zipwrap .mk-trust{max-width:none}
+.mk-trust li{display:inline-flex;align-items:center;gap:6px;margin:0;padding:0} .mk-trust li:before{content:none!important}
+.mk-trust svg{flex:0 0 auto;color:#8FB8EE}
+.mk-fab{position:fixed;right:24px;bottom:24px;z-index:9997;display:none;align-items:center;gap:8px;min-height:48px;padding:0 20px;border-radius:999px;background:#1E63B5;color:#fff;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 10px 28px rgba(0,0,0,.28);opacity:0;transform:translateY(10px);pointer-events:none;transition:opacity .2s,transform .2s}
+@media(min-width:761px){.mk-fab{display:inline-flex}}
+.mk-fab.on{opacity:1;transform:none;pointer-events:auto}
+@media (prefers-reduced-motion:reduce){.mk-fab{transition:none}}
 section.mk-col{overflow:hidden;position:relative}
 section.mk-col:after{content:"";position:absolute;left:0;right:0;bottom:0;height:140px;background:linear-gradient(rgba(255,255,255,0),var(--mk-fade,#fff));pointer-events:none}
 .mk-more{display:flex;align-items:center;justify-content:center;gap:8px;width:calc(100% - 32px);margin:-8px 16px 24px;min-height:48px;border-radius:10px;border:1.5px solid var(--mk-line);background:var(--mk-card);color:var(--mk-ink);font:700 15px/1 system-ui,-apple-system,sans-serif;cursor:pointer;position:relative;z-index:2}
