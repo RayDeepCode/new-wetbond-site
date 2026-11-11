@@ -26,6 +26,7 @@ window.MK={"live": [], "brand": "wb", "name": "WetBond", "phone": "(844) 652-626
   }
   function el(h) { var t = document.createElement("template"); t.innerHTML = h.trim(); return t.content.firstChild; }
 
+  window.MK_READY = function () { return nr || path() !== "/" || !!document.getElementById("mk-zipwrap"); };
   function flag() {
     if (document.getElementById("mk-flag")) return;
     document.body.insertBefore(el('<div class="mk-flag mk" id="mk-flag">MOCKUP of ' + esc(M.name) + ' with the approved design changes. Not the live site.</div>'), document.body.firstChild);
@@ -335,7 +336,7 @@ window.MK_ICONS={"arrow-down-to-line": "<svg xmlns=\"http://www.w3.org/2000/svg\
   document.addEventListener("click", function (e) { var a = e.target.closest && e.target.closest('a[href^="#"]'); if (a) openFor(a.getAttribute("href").slice(1)); }, true);
   addEventListener("hashchange", function () { openFor(location.hash.slice(1)); });
 
-  function run() { try { faq(); icons(); measure(); toc(); backTop(); sticky(); collapse(); } catch (e) { if (window.console) console.warn("uplift", e); } document.documentElement.classList.remove("mk-wait"); }
+  function run() { try { faq(); icons(); measure(); toc(); backTop(); sticky(); collapse(); } catch (e) { if (window.console) console.warn("uplift", e); } if (!window.MK_READY || window.MK_READY()) document.documentElement.classList.remove("mk-wait"); }
   var t; function soon() { clearTimeout(t); t = setTimeout(run, 200); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
   addEventListener("load", function () { run(); setTimeout(run, 600); });
@@ -445,7 +446,7 @@ window.MK_ICONS={"arrow-down-to-line": "<svg xmlns=\"http://www.w3.org/2000/svg\
     });
   }
 
-  function run() { try { density(); heroCta(); trust(); wbHero(); fab(); phone(); } catch (e) { if (window.console) console.warn("convert", e); } }
+  function run() { try { density(); heroCta(); trust(); wbHero(); fab(); phone(); } catch (e) { if (window.console) console.warn("convert", e); } if (!window.MK_READY || window.MK_READY()) document.documentElement.classList.remove("mk-wait"); }
   var t; function soon() { clearTimeout(t); t = setTimeout(run, 220); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", run); else run();
   addEventListener("load", function () { run(); setTimeout(run, 500); });
